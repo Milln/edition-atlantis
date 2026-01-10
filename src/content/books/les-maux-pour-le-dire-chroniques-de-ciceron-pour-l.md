@@ -1,5 +1,6 @@
 ---
 title: 'Les maux pour le dire. Chroniques de Cicéron pour la défense du français. '
+category: 'Langue française'
 author: jean-brune
 publicationDate: 2000-01-01T00:00:00.000Z
 isbn: 978-3-932711-60-2

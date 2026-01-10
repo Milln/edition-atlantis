@@ -1,5 +1,6 @@
 ---
 title: "Un combat tranquille. Une fille de Harki se souvient. Récit autobiographique"
+category: 'Collection France-Algérie'
 author: hafida-chabi
 publicationDate: 2000-01-01
 isbn: "9783932711794"

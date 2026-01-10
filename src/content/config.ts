@@ -20,7 +20,7 @@ const booksCollection = defineCollection({
         price: z.number().optional(),
         coAuthors: z.array(reference('authors')).optional(),
         language: z.enum(['de', 'en', 'fr']),
-
+        category: z.string().optional(),
     }),
 });
 

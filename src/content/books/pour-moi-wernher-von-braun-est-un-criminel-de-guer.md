@@ -1,5 +1,6 @@
 ---
 title: "« Pour moi, Wernher von Braun est un criminel de guerre. » - Interview d‘André Laroche, rescapé de Dora (Lyon - octobre 2012)"
+category: 'Interviews'
 author: jean-brune
 publicationDate: 2000-01-01
 isbn: "interview"

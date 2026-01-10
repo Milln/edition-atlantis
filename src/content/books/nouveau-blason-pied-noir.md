@@ -1,5 +1,6 @@
 ---
 title: "Nouveau Blason Pied-Noir "
+category: 'Blason Pied-Noir'
 author: jean-brune
 publicationDate: 2000-01-01
 isbn: "autocollant"

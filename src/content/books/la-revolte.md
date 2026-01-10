@@ -1,5 +1,6 @@
 ---
 title: "La Révolte"
+category: 'Collection France-Algérie'
 author: jean-brune
 publicationDate: 2000-01-01
 isbn: "978-3-932711-10-6"

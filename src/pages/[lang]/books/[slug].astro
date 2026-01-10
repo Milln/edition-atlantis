@@ -164,8 +164,14 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
               )}
              {book.data.price && (
                 <div class="flex flex-col">
-                  <dt class="text-gray-500">{t('book.price')}</dt>
-                  <dd class="text-gray-900 font-bold">{book.data.price} €</dd>
+                  <dt class="font-bold text-gray-900">{t('book.price')}</dt>
+                  <dd class="text-gray-700">{book.data.price} €</dd>
+                </div>
+              )}
+              {book.data.category && (
+                <div class="flex flex-col">
+                  <dt class="font-bold text-gray-900">{t('book.category')}</dt>
+                  <dd class="text-gray-700">{book.data.category}</dd>
                 </div>
               )}
            </dl>

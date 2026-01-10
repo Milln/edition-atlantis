@@ -106,7 +106,7 @@ const { placeholder = "Search..." } = Astro.props;
                  <img src="${item.cover}" class="w-10 h-14 object-cover rounded-sm bg-gray-200" onerror="this.src='/images/placeholder-book.jpg'">
                </div>
                <div>
-                 <div class="text-sm font-bold text-gray-900 line-clamp-1">${item.title}</div>
+                 <div class="text-sm font-bold text-gray-900 line-clamp-1" title="${item.title}">${item.title}</div>
                  <div class="text-xs text-gray-600">${item.author}</div>
                  <div class="text-xs text-gray-400 mt-1 uppercase tracking-wide border border-gray-200 inline-block px-1 rounded-sm">${item.lang}</div>
                </div>

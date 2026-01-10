@@ -1,0 +1,141 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { useTranslations } from '../../../i18n/utils';
+import { languages } from '../../../i18n/ui';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'de' } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'fr' } },
+  ];
+}
+
+const { lang } = Astro.params;
+const t = useTranslations(lang as keyof typeof languages);
+
+const isFrench = lang === 'fr';
+---
+
+<Layout title={t('nav.about')}>
+  <!-- Header -->
+  <div class="bg-primary text-white py-12">
+    <div class="container mx-auto px-4">
+      <h1 class="font-serif text-4xl md:text-5xl font-bold">{t('nav.about')}</h1>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-16">
+    <div class="max-w-4xl mx-auto">
+      
+      <!-- Contact Sections -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16 mb-20">
+        <!-- Germany -->
+        <section>
+          <h2 class="font-serif text-2xl font-bold text-primary mb-6 border-b border-gray-100 pb-3">{t('about.contact_de')}</h2>
+          <div class="space-y-4 text-gray-700 leading-relaxed">
+            <div>
+              <p class="font-bold text-gray-900 tracking-tight">EditionAtlantiS</p>
+              <p>Dr. Wolf Albes</p>
+              <p>Geltendorfer Straße 17</p>
+              <p>86316 Friedberg</p>
+            </div>
+            
+            <div class="space-y-1 text-sm">
+              <p><span class="font-semibold text-gray-900 w-12 inline-block">Tel:</span> 00 49 821 267 98 31</p>
+              <p><span class="font-semibold text-gray-900 w-12 inline-block">Fax:</span> 00 49 821 267 99 31</p>
+              <p><span class="font-semibold text-gray-900 w-12 inline-block">Email:</span> <a href="mailto:contact@editionatlantis.de" class="text-accent hover:text-primary transition-colors underline decoration-accent/30 underline-offset-4">contact@editionatlantis.de</a></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- France -->
+        <section>
+          <h2 class="font-serif text-2xl font-bold text-primary mb-6 border-b border-gray-100 pb-3">{t('about.contact_fr')}</h2>
+          <div class="space-y-4 text-gray-700 leading-relaxed">
+            <div>
+              <p class="font-bold text-gray-900 tracking-tight">Éditions Atlantis</p>
+              <p>M. Wolf Albes (PDG)</p>
+              <p>3, rue des Syrah</p>
+              <p>26790 Bouchet</p>
+            </div>
+            
+            <div class="space-y-1 text-sm">
+              <p><span class="font-semibold text-gray-900 w-12 inline-block">Tél:</span> 04 75 92 37 51</p>
+              <p><span class="font-semibold text-gray-900 w-12 inline-block">Port:</span> 06 31 05 70 83</p>
+              <p><span class="font-semibold text-gray-900 w-12 inline-block">Email:</span> <a href="mailto:editions.atlantis@orange.fr" class="text-accent hover:text-primary transition-colors underline decoration-accent/30 underline-offset-4">editions.atlantis@orange.fr</a></p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <hr class="border-gray-100 mb-16" />
+
+      <!-- Payment Section -->
+      <section>
+        <h2 class="font-serif text-3xl font-bold text-primary mb-10">{t('about.payment_info')}</h2>
+        
+        <div class="space-y-12">
+          <!-- PayPal -->
+          <div class="flex flex-col md:flex-row gap-6 items-start">
+            <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center flex-shrink-0 font-bold">1</div>
+            <div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">{t('about.payment_paypal')}</h3>
+              <p class="text-gray-600 mb-4">{t('about.payment_paypal_text')}</p>
+              <div class="inline-block bg-gray-50 border border-gray-200 px-4 py-2 rounded font-mono text-sm text-primary">
+                wolf.albes@kabelmail.de
+              </div>
+              <p class="text-xs font-bold text-accent mt-3 uppercase tracking-wider">{t('about.payment_message')}</p>
+            </div>
+          </div>
+
+          <!-- Bank Transfer -->
+          <div class="flex flex-col md:flex-row gap-6 items-start">
+            <div class="w-12 h-12 bg-green-50 text-green-600 rounded-full flex items-center justify-center flex-shrink-0 font-bold">2</div>
+            <div class="flex-grow">
+              <h3 class="text-xl font-bold text-gray-900 mb-2">{t('about.payment_bank')}</h3>
+              <p class="text-gray-600 mb-6">{t('about.payment_bank_text')}</p>
+              
+              <div class="bg-white border border-gray-200 rounded-sm overflow-hidden max-w-lg">
+                <div class="grid grid-cols-1 divide-y divide-gray-100 text-sm font-mono">
+                  <div class="flex items-center p-3">
+                    <span class="w-20 text-gray-400 text-xs">IBAN</span>
+                    <span class="font-bold text-gray-900 break-all md:break-normal">FR76 1390 6001 4378 9920 4400 054</span>
+                  </div>
+                  <div class="flex items-center p-3">
+                    <span class="w-20 text-gray-400 text-xs">BIC</span>
+                    <span class="font-bold text-gray-900">AGRIFRPP839</span>
+                  </div>
+                  <div class="flex items-center p-3">
+                    <span class="w-20 text-gray-400 text-xs">Nom</span>
+                    <span class="font-bold text-gray-900 uppercase">ALBES, Wolf</span>
+                  </div>
+                </div>
+              </div>
+              <p class="text-xs font-bold text-accent mt-4 uppercase tracking-wider">{t('about.payment_message')}</p>
+            </div>
+          </div>
+
+          <!-- Cheque (FR ONLY) -->
+          {isFrench && (
+            <div class="flex flex-col md:flex-row gap-6 items-start">
+              <div class="w-12 h-12 bg-gray-100 text-gray-600 rounded-full flex items-center justify-center flex-shrink-0 font-bold">3</div>
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">{t('about.payment_cheque')}</h3>
+                <p class="text-gray-600 mb-6">{t('about.payment_cheque_text')}</p>
+                <div class="bg-gray-50 border border-dashed border-gray-300 p-6 rounded-sm text-gray-800 italic max-w-sm mb-4">
+                  <p>Wolf ALBES</p>
+                  <p>3, rue des Syrah</p>
+                  <p>26790 Bouchet</p>
+                  <p>France</p>
+                </div>
+                <p class="text-xs text-gray-500 leading-relaxed italic">{t('about.payment_cheque_note')}</p>
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+
+    </div>
+  </div>
+</Layout>

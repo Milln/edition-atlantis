@@ -1,5 +1,6 @@
 ---
 title: Le rêve assassiné. Roman vrai
+category: 'Collection France-Algérie'
 author: maia-alonso
 publicationDate: 2000-01-01T00:00:00.000Z
 isbn: '9783932711480'

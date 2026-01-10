@@ -1,5 +1,6 @@
 ---
 title: Alger – Bab-el-Oued
+category: 'Collection France-Algérie'
 author: jean-brune
 publicationDate: 2000-01-01T00:00:00.000Z
 isbn: 978-3-932711-03-9

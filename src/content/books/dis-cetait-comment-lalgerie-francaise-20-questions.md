@@ -1,5 +1,6 @@
 ---
 title: "Dis, c’était comment, l’Algérie française ? 20 questions et réponses à l’intention des jeunes Pieds-Noirs"
+category: 'Collection France-Algérie'
 author: maurice-calmein
 publicationDate: 2000-01-01
 isbn: "978-3-932711-25-1"

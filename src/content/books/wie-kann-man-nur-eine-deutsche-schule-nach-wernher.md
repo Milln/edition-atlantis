@@ -1,5 +1,6 @@
 ---
 title: "\\\"Wie kann man nur eine deutsche Schule nach Wernher von Braun benennen?\\\" - Interview mit André Laroche, einem Überlebenden des KZ Mittelbau-Dora"
+category: 'Interviews'
 author: jean-brune
 publicationDate: 2000-01-01
 isbn: "interview2"

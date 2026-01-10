@@ -1,5 +1,6 @@
 ---
 title: "Il était une fois... ma vie. Alger la Blanche"
+category: 'Collection France-Algérie'
 author: jocelyne-mas
 publicationDate: 2000-01-01
 isbn: "978-3-932711-27-5"

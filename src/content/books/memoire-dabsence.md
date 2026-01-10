@@ -1,5 +1,6 @@
 ---
 title: Mémoire d’absence
+category: 'Collection France-Algérie'
 author: jeanine-de-la-hogue
 publicationDate: 2000-01-01T00:00:00.000Z
 isbn: 978-3-932711-22-0

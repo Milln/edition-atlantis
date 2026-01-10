@@ -1,5 +1,6 @@
 ---
 title: "Exode"
+category: 'Collection France-Algérie'
 author: jean-brune
 publicationDate: 2000-01-01
 isbn: "exode"

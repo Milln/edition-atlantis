@@ -25,6 +25,7 @@ description: >
 cover: /images/books/a-mon-fils-a-mon-algerie.jpg
 language: fr
 price: 19
+category: 'Collection France-Algérie'
 back: /images/books/a-mon-fils-a-mon-algerie_back.jpg
 ---
 

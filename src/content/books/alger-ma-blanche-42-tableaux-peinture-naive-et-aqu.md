@@ -1,5 +1,6 @@
 ---
 title: Alger ma Blanche. 42 tableaux. Peinture naïve et aquarelles
+category: 'Collection France-Algérie'
 author: jean-taousson
 publicationDate: 2000-01-01T00:00:00.000Z
 isbn: '978-3-932711-65-7 '
