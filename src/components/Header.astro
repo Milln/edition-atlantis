@@ -1,0 +1,79 @@
+---
+import Search from './Search.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import LanguagePicker from './LanguagePicker.astro';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<header class="sticky top-0 z-40 w-full bg-white/90 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
+  <div class="container mx-auto px-4 h-20 flex items-center justify-between">
+    <!-- Logo -->
+    <a href={`/${lang === 'de' ? '' : lang}`} class="flex items-center group">
+      <img src="/images/logo.jpg" alt="Edition Atlantis" class="h-12 w-auto object-contain" />
+    </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex items-center space-x-8">
+      <a href={`/${lang}/books`} class="text-base font-medium text-gray-700 hover:text-accent transition-colors tracking-wide">
+        {t('nav.books')}
+      </a>
+      <a href={`/${lang}/authors`} class="text-base font-medium text-gray-700 hover:text-accent transition-colors tracking-wide">
+        {t('nav.authors')}
+      </a>
+      <a href={`/${lang}/about`} class="text-base font-medium text-gray-700 hover:text-accent transition-colors tracking-wide">
+        {t('nav.about')}
+      </a>
+    </nav>
+
+    <!-- Actions -->
+    <div class="flex items-center space-x-4">
+      <div class="hidden md:block w-72 lg:w-96">
+        <Search placeholder={t('search.placeholder')} />
+      </div>
+
+      <LanguagePicker />
+      
+      <!-- Mobile Menu Button (Hamburger) -->
+      <button id="mobile-menu-btn" class="md:hidden text-primary focus:outline-none p-2" aria-label="Toggle menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100 absolute w-full bg-white shadow-lg">
+    <div class="container mx-auto px-4 py-4 space-y-4">
+        <!-- Mobile Search -->
+        <div class="pb-4 border-b border-gray-100">
+           <Search placeholder={t('search.placeholder')} />
+        </div>
+
+        <nav class="flex flex-col space-y-3">
+          <a href={`/${lang}/books`} class="text-base font-medium text-gray-700 hover:text-accent transition-colors">
+            {t('nav.books')}
+          </a>
+          <a href={`/${lang}/authors`} class="text-base font-medium text-gray-700 hover:text-accent transition-colors">
+            {t('nav.authors')}
+          </a>
+          <a href={`/${lang}/about`} class="text-base font-medium text-gray-700 hover:text-accent transition-colors">
+            {t('nav.about')}
+          </a>
+        </nav>
+    </div>
+  </div>
+</header>
+
+<script>
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  if (mobileMenuBtn && mobileMenu) {
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  }
+</script>
