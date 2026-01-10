@@ -5,9 +5,15 @@ import LanguagePicker from './LanguagePicker.astro';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const pathname = Astro.url.pathname;
 
 const isActive = (path: string) => {
+  // Get pathname and remove base URL if present
+  let pathname = Astro.url.pathname;
+  const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+  if (baseUrl && pathname.startsWith(baseUrl)) {
+    pathname = pathname.substring(baseUrl.length);
+  }
+  
   // Normalize paths by removing trailing slashes
   const normalizedPathname = pathname.replace(/\/$/, '') || '/';
   const normalizedPath = path.replace(/\/$/, '') || '/';

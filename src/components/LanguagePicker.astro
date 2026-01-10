@@ -1,12 +1,21 @@
 ---
 import { languages } from '../i18n/ui';
-import { getLangFromUrl } from '../i18n/utils';
+import { getLangFromUrl, getPath } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
-// Remove the current language prefix from the pathname
-// e.g., /en/books -> /books, /de/books -> /books
-// If path maps to default lang (root '/'), this results in '/'
-const currentPath = Astro.url.pathname.replace(new RegExp(`^/${lang}`), '') || '/';
+
+// Remove both the base URL and the current language prefix from the pathname
+// e.g., /edition-atlantis/en/books -> /books
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, ''); // Remove trailing slash
+let currentPath = Astro.url.pathname;
+
+// Remove base URL if present
+if (baseUrl && currentPath.startsWith(baseUrl)) {
+  currentPath = currentPath.substring(baseUrl.length);
+}
+
+// Remove language prefix
+currentPath = currentPath.replace(new RegExp(`^/${lang}`), '') || '/';
 ---
 <div class="relative group">
   <button class="flex items-center space-x-1 text-primary hover:text-accent font-medium uppercase">
@@ -18,16 +27,16 @@ const currentPath = Astro.url.pathname.replace(new RegExp(`^/${lang}`), '') || '
   <div class="absolute right-0 top-full pt-2 w-24 hidden group-hover:block z-50">
     <div class="bg-white border border-gray-100 shadow-lg rounded-md overflow-hidden">
       {Object.entries(languages).map(([code, label]) => {
-        // Logic to switch language
+        // Build the new path with the selected language
         let newPath;
-        if (currentPath === '/' && lang === 'de') {
-            // Special case for root
-            newPath = `/${code}`;
+        if (currentPath === '/' && code === 'de') {
+            // Special case for German root
+            newPath = getPath('/');
+        } else if (currentPath === '/') {
+            newPath = getPath(`/${code}`);
         } else {
-           newPath = `/${code}${currentPath}`;
+           newPath = getPath(`/${code}${currentPath}`);
         }
-        // Clean up double slashes if any
-        newPath = newPath.replace(/\/+/g, '/');
   
         return (
         <a
