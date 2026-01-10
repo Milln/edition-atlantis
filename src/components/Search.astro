@@ -49,8 +49,24 @@ const { placeholder = "Search..." } = Astro.props;
       const data = await response.json();
       const options = {
         keys: ['title', 'author', 'isbn'],
-        threshold: 0.3,
-        minMatchCharLength: 2
+        threshold: 0.4,  // More lenient matching (0 = exact, 1 = match anything)
+        distance: 100,   // Maximum distance between characters
+        minMatchCharLength: 2,
+        ignoreLocation: true,  // Don't care where in the string the match is
+        useExtendedSearch: false,
+        // Custom function to normalize text (remove accents, apostrophes, etc.)
+        getFn: (obj, path) => {
+          const value = Fuse.config.getFn(obj, path);
+          if (typeof value === 'string') {
+            // Normalize: remove accents, convert to lowercase, remove apostrophes and special chars
+            return value
+              .normalize('NFD')
+              .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+              .replace(/['']/g, '') // Remove apostrophes
+              .toLowerCase();
+          }
+          return value;
+        }
       };
       fuse = new Fuse(data, options);
       return fuse;

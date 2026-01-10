@@ -133,7 +133,7 @@ description: |
   
   
   
-cover: "/images/books/book-placeholder.jpg"
+cover: "/images/books/placeholder-book.png"
 language: "de"
 ---
 

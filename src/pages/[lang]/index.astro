@@ -1,13 +1,21 @@
 ---
-import Layout from '../../layouts/Layout.astro';
 import { languages } from '../../i18n/ui';
-import { useTranslations, getPath } from '../../i18n/utils';
+import { getPath } from '../../i18n/utils';
 
 export function getStaticPaths() {
   return [
     { params: { lang: 'en' } },
     { params: { lang: 'fr' } },
-    { params: { lang: 'de' } }, // Optional: If we want /de/ explicitly available
+    { params: { lang: 'de' } },
+  ];
+}
+
+const { lang } = Astro.params;
+
+// Redirect to books page for this language
+return Astro.redirect(getPath(`/${lang}/books`));
+---
+
   ];
 }
 

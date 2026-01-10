@@ -196,7 +196,7 @@ publicationDate: 2000-01-01
 isbn: ${safeIsbn}
 description: |
 ${indentDesc}
-cover: "/images/books/book-placeholder.jpg"
+cover: "/images/books/placeholder-book.png"
 language: "${lang}"
 ---
 

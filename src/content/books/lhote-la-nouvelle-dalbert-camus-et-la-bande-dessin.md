@@ -135,7 +135,7 @@ description: |
   
   
   Bitte setzen Sie sich vor einer Bestellung auf unserer Internetseite kurz mit uns in Verbindung, oder bestellen Sie über den deutschen Buchhandel (ohne Versandkosten) bzw. auf amazon.de (Versandkosten 2 € 99).
-cover: "/images/books/book-placeholder.jpg"
+cover: "/images/books/placeholder-book.png"
 language: "fr"
 ---
 
