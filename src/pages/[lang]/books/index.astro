@@ -1,7 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { useTranslations } from '../../../i18n/utils';
+import { useTranslations, getPath } from '../../../i18n/utils';
 import { languages } from '../../../i18n/ui';
 
 export function getStaticPaths() {
@@ -123,7 +123,7 @@ function getAuthorName(authorRef: { id: string }) {
             
             return (
             <a 
-                href={`/${lang}/books/${book.slug}`} 
+                href={getPath(`/${lang}/books/${book.slug}`)} 
                 class="book-item group block bg-white border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
                 data-lang={book.data.language}
                 data-author={allAuthorIds}
@@ -133,10 +133,10 @@ function getAuthorName(authorRef: { id: string }) {
             >
               <div class="aspect-[2/3] overflow-hidden bg-gray-100 relative">
                 <img 
-                  src={book.data.cover} 
+                  src={`${import.meta.env.BASE_URL}/${book.data.cover.replace(/^\//, '')}`}
                   alt={book.data.title}
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  onError="this.onerror=null;this.src='/images/placeholder-book.jpg';"
+                  onError={`this.onerror=null;this.src='${import.meta.env.BASE_URL}/images/placeholder-book.jpg';`}
                 />
                 <div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300"></div>
                 {book.data.price && (

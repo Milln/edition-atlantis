@@ -5,8 +5,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://edition-atlantis.github.io', // Placeholder, update for actual GitHub Pages URL
-  base: '/',
+  site: 'https://edition-atlantis.github.io',
+  base: '/edition-atlantis',
   output: 'static',
   integrations: [
     tailwind(),

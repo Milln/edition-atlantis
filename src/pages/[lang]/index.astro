@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { languages } from '../../i18n/ui';
-import { useTranslations } from '../../i18n/utils';
+import { useTranslations, getPath } from '../../i18n/utils';
 
 export function getStaticPaths() {
   return [
@@ -17,17 +17,17 @@ const t = useTranslations(lang as keyof typeof languages);
 
 <Layout title={t('nav.about')}>
   <div class="relative bg-primary text-white overflow-hidden">
-    <div class="absolute inset-0 bg-[url('/placeholder-hero.jpg')] bg-cover bg-center opacity-20"></div>
+    <div class="absolute inset-0 bg-cover bg-center opacity-20" style={`background-image: url('${import.meta.env.BASE_URL}/placeholder-hero.jpg')`}></div>
     <div class="container mx-auto px-4 py-32 relative z-10 text-center">
       <h1 class="font-serif text-5xl md:text-7xl font-bold mb-6 leading-tight" set:html={t('home.hero.title')} />
       <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10">
         {t('home.hero.subtitle')}
       </p>
       <div class="flex flex-col md:flex-row gap-4 justify-center">
-        <a href={`/${lang}/books`} class="bg-accent hover:bg-red-600 text-white px-8 py-3 rounded-sm font-semibold transition-all">
+        <a href={getPath(`/${lang}/books`)} class="bg-accent hover:bg-red-600 text-white px-8 py-3 rounded-sm font-semibold transition-all">
           {t('home.hero.browse')}
         </a>
-        <a href={`/${lang}/about`} class="border border-white hover:bg-white hover:text-primary text-white px-8 py-3 rounded-sm font-semibold transition-all">
+        <a href={getPath(`/${lang}/about`)} class="border border-white hover:bg-white hover:text-primary text-white px-8 py-3 rounded-sm font-semibold transition-all">
           {t('home.hero.about')}
         </a>
       </div>

@@ -1,6 +1,6 @@
 ---
 import Search from './Search.astro';
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, getPath } from '../i18n/utils';
 import LanguagePicker from './LanguagePicker.astro';
 
 const lang = getLangFromUrl(Astro.url);
@@ -24,25 +24,25 @@ const isActive = (path: string) => {
 <header class="sticky top-0 z-40 w-full bg-white/90 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
   <div class="container mx-auto px-4 h-20 flex items-center justify-between">
     <!-- Logo -->
-    <a href={`/${lang === 'de' ? '' : lang}`} class="flex items-center group">
-      <img src="/images/logo.jpg" alt="Edition Atlantis" class="h-12 w-auto object-contain" />
+    <a href={getPath(`/${lang === 'de' ? '' : lang}`)} class="flex items-center group">
+      <img src={`${import.meta.env.BASE_URL}/images/logo.jpg`} alt="Edition Atlantis" class="h-12 w-auto object-contain" />
     </a>
 
     <!-- Desktop Navigation -->
     <nav class="hidden md:flex items-center space-x-8">
-      <a href={`/${lang}/books`} class:list={[
+      <a href={getPath(`/${lang}/books`)} class:list={[
         "text-base font-medium transition-colors tracking-wide border-b-2 py-1",
         isActive(`/${lang}/books`) ? "text-accent border-accent" : "text-gray-700 hover:text-accent border-transparent"
       ]}>
         {t('nav.books')}
       </a>
-      <a href={`/${lang}/authors`} class:list={[
+      <a href={getPath(`/${lang}/authors`)} class:list={[
         "text-base font-medium transition-colors tracking-wide border-b-2 py-1",
         isActive(`/${lang}/authors`) ? "text-accent border-accent" : "text-gray-700 hover:text-accent border-transparent"
       ]}>
         {t('nav.authors')}
       </a>
-      <a href={`/${lang}/about`} class:list={[
+      <a href={getPath(`/${lang}/about`)} class:list={[
         "text-base font-medium transition-colors tracking-wide border-b-2 py-1",
         isActive(`/${lang}/about`) ? "text-accent border-accent" : "text-gray-700 hover:text-accent border-transparent"
       ]}>
@@ -76,19 +76,19 @@ const isActive = (path: string) => {
         </div>
 
         <nav class="flex flex-col space-y-3">
-          <a href={`/${lang}/books`} class:list={[
+          <a href={getPath(`/${lang}/books`)} class:list={[
             "text-base font-medium transition-colors",
             isActive(`/${lang}/books`) ? "text-accent" : "text-gray-700 hover:text-accent"
           ]}>
             {t('nav.books')}
           </a>
-          <a href={`/${lang}/authors`} class:list={[
+          <a href={getPath(`/${lang}/authors`)} class:list={[
             "text-base font-medium transition-colors",
             isActive(`/${lang}/authors`) ? "text-accent" : "text-gray-700 hover:text-accent"
           ]}>
             {t('nav.authors')}
           </a>
-          <a href={`/${lang}/about`} class:list={[
+          <a href={getPath(`/${lang}/about`)} class:list={[
             "text-base font-medium transition-colors",
             isActive(`/${lang}/about`) ? "text-accent" : "text-gray-700 hover:text-accent"
           ]}>

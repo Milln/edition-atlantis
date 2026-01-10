@@ -1,7 +1,7 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
-import { useTranslations } from '../../../i18n/utils';
+import { useTranslations, getPath } from '../../../i18n/utils';
 import { languages } from '../../../i18n/ui';
 
 export async function getStaticPaths() {
@@ -57,7 +57,7 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
 <Layout title={book.data.title} description={metaDescription}>
   <div class="container mx-auto px-4 py-12">
     <!-- Breadcrumb / Back -->
-    <a href={`/${pageLang}/books`} class="inline-flex items-center text-sm text-gray-500 hover:text-primary mb-8 transition-colors">
+    <a href={getPath(`/${pageLang}/books`)} class="inline-flex items-center text-sm text-gray-500 hover:text-primary mb-8 transition-colors">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
       </svg>
@@ -69,10 +69,10 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
       <div class="md:col-span-4 lg:col-span-3 space-y-8">
         <div class="bg-gray-100 rounded-sm shadow-md overflow-hidden aspect-[2/3] cursor-zoom-in group" onclick="openLightbox(this.querySelector('img').src)">
            <img 
-              src={book.data.cover} 
+              src={`${import.meta.env.BASE_URL}/${book.data.cover.replace(/^\//, '')}`}
               alt={book.data.title}
               class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-              onError="this.onerror=null;this.src='/images/placeholder-book.jpg';"
+              onError={`this.onerror=null;this.src='${import.meta.env.BASE_URL}/images/placeholder-book.jpg';`}
             />
             {book.data.price && (
                 <div class="absolute bottom-4 right-4 bg-black/80 text-white px-3 py-1 rounded text-lg font-bold pointer-events-none">
@@ -84,7 +84,7 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
         {book.data.back && (
             <div class="bg-gray-100 rounded-sm shadow-md overflow-hidden aspect-[2/3] cursor-zoom-in group" onclick="openLightbox(this.querySelector('img').src)">
                 <img 
-                    src={book.data.back} 
+                    src={`${import.meta.env.BASE_URL}/${book.data.back.replace(/^\//, '')}`}
                     alt={`Back cover of ${book.data.title}`}
                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     onError="this.style.display='none';"
@@ -105,9 +105,9 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
 
         <div class="flex flex-wrap items-center mb-8 pb-8 border-b border-gray-100 gap-6">
            {author && (
-            <a href={`/${pageLang}/books?author=${author.id}`} class="flex items-center group">
+            <a href={getPath(`/${pageLang}/books?author=${author.id}`)} class="flex items-center group">
                {author.data.photo && (
-                 <img src={author.data.photo} alt={author.data.name} class="w-10 h-10 rounded-full object-cover mr-3 bg-gray-200" onError="this.style.display='none'"/>
+                 <img src={`${import.meta.env.BASE_URL}/${author.data.photo.replace(/^\//,'')}`} alt={author.data.name} class="w-10 h-10 rounded-full object-cover mr-3 bg-gray-200" onError="this.style.display='none'"/>
                )}
                <span class="text-lg font-medium text-gray-700 group-hover:text-primary transition-colors">
                  {author.data.name}
@@ -115,10 +115,10 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
             </a>
            )}
            {coAuthors.map(ca => (
-               <a href={`/${pageLang}/books?author=${ca.id}`} class="flex items-center group">
+               <a href={getPath(`/${pageLang}/books?author=${ca.id}`)} class="flex items-center group">
                    <span class="text-gray-400 mr-2">&</span>
                    {ca.data.photo && (
-                     <img src={ca.data.photo} alt={ca.data.name} class="w-8 h-8 rounded-full object-cover mr-2 bg-gray-200" onError="this.style.display='none'"/>
+                     <img src={`${import.meta.env.BASE_URL}/${ca.data.photo.replace(/^\//,'')}`} alt={ca.data.name} class="w-8 h-8 rounded-full object-cover mr-2 bg-gray-200" onError="this.style.display='none'"/>
                    )}
                    <span class="text-lg font-medium text-gray-700 group-hover:text-primary transition-colors">
                      {ca.data.name}
@@ -148,14 +148,14 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
                 <div class="flex flex-col">
                    <dt class="text-gray-500">{t('book.author')}</dt>
                    <dd class="text-gray-900">
-                      <a href={`/${pageLang}/books?author=${author.id}`} class="hover:underline hover:text-primary font-medium">
+                      <a href={getPath(`/${pageLang}/books?author=${author.id}`)} class="hover:underline hover:text-primary font-medium">
                          {author.data.name}
                       </a>
                       {coAuthors.length > 0 && (
                          <span>, {coAuthors.map((ca, i) => (
                              <>
                              {i > 0 && ', '}
-                             <a href={`/${pageLang}/books?author=${ca.id}`} class="hover:underline hover:text-primary">{ca.data.name}</a>
+                             <a href={getPath(`/${pageLang}/books?author=${ca.id}`)} class="hover:underline hover:text-primary">{ca.data.name}</a>
                              </>
                          ))}</span>
                       )}
