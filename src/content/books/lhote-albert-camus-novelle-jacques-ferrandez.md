@@ -133,7 +133,8 @@ description: |
   
   
   
-cover: "/images/books/placeholder-book.png"
+cover: "/images/books/lhote-albert-camus-novelle-jacques-ferrandez.jpg"
+back: "/images/books/lhote-albert-camus-novelle-jacques-ferrandez_back.jpg"
 language: "de"
 ---
 

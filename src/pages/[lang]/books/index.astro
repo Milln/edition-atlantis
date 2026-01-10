@@ -79,13 +79,13 @@ function getAuthorName(authorRef: { id: string }) {
           <h4 class="font-semibold text-sm text-gray-900 mb-2">{t('filter.authors')}</h4>
           <ul class="space-y-1 max-h-60 overflow-y-auto text-sm text-gray-600 custom-scrollbar">
             <li>
-                <button class="filter-link w-full text-left pixel-antialiased hover:text-accent transition-colors block py-1 font-bold text-primary" data-filter="author" data-value="all">
+                <button class="filter-link w-full text-left pixel-antialiased hover:text-accent hover:bg-gray-50 transition-colors block py-1 px-2 rounded font-bold text-primary" data-filter="author" data-value="all">
                     {t('filter.all_authors')}
                 </button>
             </li>
             {allAuthors.sort((a,b) => a.data.name.localeCompare(b.data.name)).map(author => (
               <li>
-                <button class="filter-link w-full text-left pixel-antialiased hover:text-accent transition-colors block py-1" data-filter="author" data-value={author.id}>
+                <button class="filter-link w-full text-left pixel-antialiased hover:text-accent hover:bg-gray-50 transition-colors block py-1 px-2 rounded" data-filter="author" data-value={author.id}>
                   {author.data.name}
                 </button>
               </li>
@@ -114,6 +114,15 @@ function getAuthorName(authorRef: { id: string }) {
     <div class="flex-grow">
         <div class="mb-6 flex justify-between items-center h-8">
             <span id="resultsCount" class="text-sm text-gray-500 font-medium" data-template={t('books.results_count')}></span>
+            <div class="flex items-center gap-2">
+                <label for="sortSelect" class="text-sm text-gray-600 font-medium">{t('books.sort_by')}</label>
+                <select id="sortSelect" class="px-3 py-1 border border-gray-300 rounded-sm text-sm focus:outline-none focus:ring-1 focus:ring-primary">
+                    <option value="title-asc">{t('books.sort_title_asc')}</option>
+                    <option value="title-desc">{t('books.sort_title_desc')}</option>
+                    <option value="year-desc">{t('books.sort_year_desc')}</option>
+                    <option value="year-asc">{t('books.sort_year_asc')}</option>
+                </select>
+            </div>
         </div>
         <div id="bookGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {books.map((book) => {
@@ -227,9 +236,15 @@ function getAuthorName(authorRef: { id: string }) {
                  });
              }
              if (currentFilters.author !== 'all') {
-                 document.querySelectorAll('.filter-link').forEach(l => l.classList.remove('text-primary', 'font-bold'));
+                 document.querySelectorAll('.filter-link').forEach(l => {
+                     l.classList.remove('text-primary', 'font-bold', 'bg-primary', 'text-white');
+                 });
                  const link = document.querySelector(`.filter-link[data-value="${currentFilters.author}"]`);
-                 if (link) link.classList.add('text-primary', 'font-bold');
+                 if (link) {
+                     link.classList.add('text-white', 'font-bold', 'bg-primary');
+                     // Scroll the selected author into view
+                     link.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                 }
              }
              if (currentFilters.search && searchInput) {
                  searchInput.value = currentFilters.search;
@@ -252,6 +267,15 @@ function getAuthorName(authorRef: { id: string }) {
         function applyFilters() {
             if (!items) return;
             let visibleCount = 0;
+            
+            // Normalize text for fuzzy matching (same as Search component)
+            const normalizeText = (text: string) => {
+                return text
+                    .normalize('NFD')
+                    .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+                    .replace(/['']/g, '') // Remove apostrophes
+                    .toLowerCase();
+            };
 
             items.forEach(item => {
                 const el = item as HTMLElement;
@@ -265,7 +289,10 @@ function getAuthorName(authorRef: { id: string }) {
                 const matchYear = currentFilters.year === 'all' || year === currentFilters.year;
                 const matchCategory = currentFilters.category === 'all' || category === currentFilters.category;
                 const matchAuthor = currentFilters.author === 'all' || authors.includes(currentFilters.author);
-                const matchSearch = currentFilters.search === '' || title.includes(currentFilters.search.toLowerCase());
+                
+                // Fuzzy search: normalize both search term and title
+                const matchSearch = currentFilters.search === '' || 
+                    normalizeText(title).includes(normalizeText(currentFilters.search));
 
                 if (matchLang && matchYear && matchAuthor && matchSearch && matchCategory) {
                     el.classList.remove('hidden');
@@ -326,8 +353,10 @@ function getAuthorName(authorRef: { id: string }) {
                 const value = target.dataset.value;
                 if(value) {
                      // Reset visual state for links
-                    document.querySelectorAll('.filter-link').forEach(l => l.classList.remove('text-primary', 'font-bold'));
-                    target.classList.add('text-primary', 'font-bold');
+                    document.querySelectorAll('.filter-link').forEach(l => {
+                        l.classList.remove('text-primary', 'font-bold', 'bg-primary', 'text-white');
+                    });
+                    target.classList.add('text-white', 'font-bold', 'bg-primary');
                     
                     currentFilters.author = value;
                     applyFilters();
@@ -363,8 +392,45 @@ function getAuthorName(authorRef: { id: string }) {
              applyFilters();
         });
         
+        // Sort functionality
+        const sortSelect = document.getElementById('sortSelect') as HTMLSelectElement;
+        if (sortSelect) {
+            sortSelect.addEventListener('change', () => {
+                const sortValue = sortSelect.value;
+                const bookGrid = document.getElementById('bookGrid');
+                if (!bookGrid) return;
+                
+                const books = Array.from(bookGrid.querySelectorAll('.book-item'));
+                
+                books.sort((a, b) => {
+                    const aEl = a as HTMLElement;
+                    const bEl = b as HTMLElement;
+                    
+                    switch(sortValue) {
+                        case 'title-asc':
+                            return (aEl.dataset.title || '').localeCompare(bEl.dataset.title || '');
+                        case 'title-desc':
+                            return (bEl.dataset.title || '').localeCompare(aEl.dataset.title || '');
+                        case 'year-desc':
+                            return parseInt(bEl.dataset.year || '0') - parseInt(aEl.dataset.year || '0');
+                        case 'year-asc':
+                            return parseInt(aEl.dataset.year || '0') - parseInt(bEl.dataset.year || '0');
+                        default:
+                            return 0;
+                    }
+                });
+                
+                // Re-append in sorted order
+                books.forEach(book => bookGrid.appendChild(book));
+            });
+            
+            // Trigger initial sort (alphabetical by default)
+            sortSelect.dispatchEvent(new Event('change'));
+        }
+        
         initUI();
     });
+
 </script>
 
 <style>
@@ -382,4 +448,10 @@ function getAuthorName(authorRef: { id: string }) {
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: #999; 
   }
+  
+  /* Prevent hover background on active author */
+  .filter-link.bg-primary:hover {
+    background-color: rgb(var(--color-primary)) !important;
+  }
+
 </style>

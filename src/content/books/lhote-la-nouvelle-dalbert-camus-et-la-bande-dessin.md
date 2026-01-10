@@ -135,7 +135,8 @@ description: |
   
   
   Bitte setzen Sie sich vor einer Bestellung auf unserer Internetseite kurz mit uns in Verbindung, oder bestellen Sie über den deutschen Buchhandel (ohne Versandkosten) bzw. auf amazon.de (Versandkosten 2 € 99).
-cover: "/images/books/placeholder-book.png"
+cover: "/images/books/lhote-la-nouvelle-dalbert-camus-et-la-bande-dessin.jpg"
+back: "/images/books/lhote-la-nouvelle-dalbert-camus-et-la-bande-dessin_back.jpg"
 language: "fr"
 ---
 

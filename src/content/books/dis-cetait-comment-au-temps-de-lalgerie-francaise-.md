@@ -21,7 +21,7 @@ description: |
   134 pages
   
   61 illustrations dont 17 en couleur.
-cover: "/images/books/placeholder-book.png"
+cover: "/images/placeholder-book.png"
 language: "fr"
 ---
 
