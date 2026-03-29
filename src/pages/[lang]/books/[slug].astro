@@ -74,11 +74,7 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
               class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               onError={`this.onerror=null;this.src='${import.meta.env.BASE_URL}/images/placeholder-book.png';`}
             />
-            {book.data.price && (
-                <div class="absolute bottom-4 right-4 bg-black/80 text-white px-3 py-1 rounded text-lg font-bold pointer-events-none">
-                    {book.data.price} €
-                </div>
-            )}
+
         </div>
 
         {book.data.back && (
@@ -103,7 +99,7 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
           {book.data.title}
         </h1>
 
-        <div class="flex flex-wrap items-center mb-8 pb-8 border-b border-gray-100 gap-6">
+        <div class="flex flex-wrap items-center mb-8 pb-8 border-b border-gray-100 gap-4">
            {author && (
             <a href={getPath(`/${pageLang}/books?author=${author.id}`)} class="flex items-center group">
                {author.data.photo && (
@@ -116,7 +112,6 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
            )}
            {coAuthors.map(ca => (
                <a href={getPath(`/${pageLang}/books?author=${ca.id}`)} class="flex items-center group">
-                   <span class="text-gray-400 mr-2">&</span>
                    {ca.data.photo && (
                      <img src={`${import.meta.env.BASE_URL}/${ca.data.photo.replace(/^\//,'')}`} alt={ca.data.name} class="w-8 h-8 rounded-full object-cover mr-2 bg-gray-200" onError="this.style.display='none'"/>
                    )}
@@ -126,6 +121,15 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
                </a>
            ))}
         </div>
+
+        {book.data.price && (
+            <div class="mb-8">
+                <span class="text-3xl font-bold text-primary">
+                    {Number(book.data.price).toFixed(2)} €
+                </span>
+                <span class="text-sm text-gray-500 ml-2">({t('book.invat') || 'incl. VAT'})</span>
+            </div>
+        )}
 
         <div class="prose prose-lg prose-headings:font-serif prose-headings:text-primary prose-a:text-accent max-w-none mb-12">
           <Content />
@@ -165,7 +169,7 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
              {book.data.price && (
                 <div class="flex flex-col">
                   <dt class="font-bold text-gray-900">{t('book.price')}</dt>
-                  <dd class="text-gray-700">{book.data.price} €</dd>
+                  <dd class="text-gray-700">{Number(book.data.price).toFixed(2)} €</dd>
                 </div>
               )}
               {book.data.category && (
