@@ -3,7 +3,7 @@ title: >-
   Mythos Légion étrangère. Mai avere paura. Erinnerungen eines italienischen
   Legionärs
 author: danilo-pagliaro
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2022-01-01T00:00:00.000Z
 isbn: '9783932711787'
 description: >
   1995 erhält Danilo Pagliaro das begehrte Képi blanc und kommt unter seinem

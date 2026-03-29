@@ -3,7 +3,7 @@ title: >-
   Algérie 1962. Journal de l'Apocalypse / Tagebuch der Apokalypse. Préface de
   Boualem Sansal / Vorwort von Boualem Sansal
 author: jean-brune
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2013-01-01T00:00:00.000Z
 isbn: 978-3-932711-36-7
 description: >
   Nicole Guiraud est née en 1946 aux Vergers, dans le Sahel algérois,

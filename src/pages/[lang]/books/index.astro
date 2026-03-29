@@ -22,10 +22,14 @@ const allAuthors = await getCollection('authors');
 const authorMap = new Map(allAuthors.map(a => [a.id, a.data.name]));
 
 // Get all books, sorted by date
-const books = allBooks.sort((a, b) => b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf());
+const books = allBooks.sort((a, b) => {
+    const dateA = a.data.publicationDate ? a.data.publicationDate.valueOf() : 0;
+    const dateB = b.data.publicationDate ? b.data.publicationDate.valueOf() : 0;
+    return dateB - dateA;
+});
 
 // Extract unique values for filters
-const years = [...new Set(books.map(book => book.data.publicationDate.getFullYear()))].sort((a, b) => b - a);
+const years = [...new Set(books.map(book => book.data.publicationDate ? book.data.publicationDate.getFullYear() : null).filter(Boolean))].sort((a, b) => (b as number) - (a as number));
 const bookLanguages = [...new Set(books.map(book => book.data.language))];
 const categories = [...new Set(books.map(book => book.data.category).filter(Boolean))].sort();
 
@@ -124,10 +128,10 @@ function getAuthorName(authorRef: { id: string }) {
             <div class="flex items-center gap-2">
                 <label for="sortSelect" class="text-sm text-gray-600 font-medium">{t('books.sort_by')}</label>
                 <select id="sortSelect" class="px-3 py-1 border border-gray-300 rounded-sm text-sm focus:outline-none focus:ring-1 focus:ring-primary">
+                    <option value="year-desc" selected>{t('books.sort_year_desc')}</option>
+                    <option value="year-asc">{t('books.sort_year_asc')}</option>
                     <option value="title-asc">{t('books.sort_title_asc')}</option>
                     <option value="title-desc">{t('books.sort_title_desc')}</option>
-                    <option value="year-desc">{t('books.sort_year_desc')}</option>
-                    <option value="year-asc">{t('books.sort_year_asc')}</option>
                 </select>
             </div>
         </div>
@@ -144,7 +148,7 @@ function getAuthorName(authorRef: { id: string }) {
                 data-lang={book.data.language}
                 data-author={allAuthorIds}
                 data-author-names={`${getAuthorName(book.data.author)} ${book.data.coAuthors ? book.data.coAuthors.map(ca => getAuthorName(ca)).join(' ') : ''}`}
-                data-year={book.data.publicationDate.getFullYear()}
+                data-year={book.data.publicationDate ? book.data.publicationDate.getFullYear() : 'unknown'}
                 data-category={book.data.category || ''}
                 data-title={book.data.title.toLowerCase()}
             >
@@ -173,7 +177,7 @@ function getAuthorName(authorRef: { id: string }) {
                 </p>
                 <div class="flex justify-between items-center mt-2">
                      <p class="text-xs text-gray-400">
-                      {book.data.publicationDate.getFullYear()}
+                      {book.data.publicationDate ? book.data.publicationDate.getFullYear() : t('book.unknown_date') || 'Unknown'}
                     </p>
                     <span class="text-xs font-bold uppercase text-gray-300 bg-gray-50 px-1 rounded">{book.data.language}</span>
                 </div>
@@ -423,10 +427,16 @@ function getAuthorName(authorRef: { id: string }) {
                             return (aEl.dataset.title || '').localeCompare(bEl.dataset.title || '');
                         case 'title-desc':
                             return (bEl.dataset.title || '').localeCompare(aEl.dataset.title || '');
-                        case 'year-desc':
-                            return parseInt(bEl.dataset.year || '0') - parseInt(aEl.dataset.year || '0');
-                        case 'year-asc':
-                            return parseInt(aEl.dataset.year || '0') - parseInt(bEl.dataset.year || '0');
+                        case 'year-desc': {
+                            const yA = aEl.dataset.year === 'unknown' ? 0 : parseInt(aEl.dataset.year || '0', 10);
+                            const yB = bEl.dataset.year === 'unknown' ? 0 : parseInt(bEl.dataset.year || '0', 10);
+                            return yB - yA;
+                        }
+                        case 'year-asc': {
+                            const yA = aEl.dataset.year === 'unknown' ? Number.MAX_SAFE_INTEGER : parseInt(aEl.dataset.year || '0', 10);
+                            const yB = bEl.dataset.year === 'unknown' ? Number.MAX_SAFE_INTEGER : parseInt(bEl.dataset.year || '0', 10);
+                            return yA - yB;
+                        }
                         default:
                             return 0;
                     }

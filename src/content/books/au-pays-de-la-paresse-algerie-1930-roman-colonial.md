@@ -1,8 +1,8 @@
 ---
 title: Au pays de la paresse. Algérie 1930. Roman colonial
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: charles-courtin
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2020-01-01T00:00:00.000Z
 isbn: 978-3-932711-74-9
 description: >
   L'univers des nomades dans les Hauts-Plateaux algériens

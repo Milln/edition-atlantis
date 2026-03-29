@@ -1,8 +1,8 @@
 ---
 title: Mémoire d’absence
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: jeanine-de-la-hogue
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2001-01-01T00:00:00.000Z
 isbn: 978-3-932711-22-0
 description: >
   Des lettres, comme un appel au secours, comme on jette une bouteille à  la

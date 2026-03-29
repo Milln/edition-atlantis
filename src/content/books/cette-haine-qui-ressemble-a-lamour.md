@@ -1,8 +1,8 @@
 ---
 title: Cette haine qui ressemble à  l’amour
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 1998-01-01T00:00:00.000Z
 isbn: 978-3-932711-04-6
 description: >
   À une phase décisive de la guerre d’Algérie, le \"Colonel\" est à la poursuite

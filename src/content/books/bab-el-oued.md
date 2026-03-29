@@ -1,8 +1,8 @@
 ---
 title: Bab-el-Oued
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2015-01-01T00:00:00.000Z
 isbn: 978-3-932711-43-5
 description: >
   Bab-el-Oued raconté à Toinet (1955). Alger – Bab-el-Oued (1956). Avec des

@@ -1,8 +1,8 @@
 ---
 title: Le sel des Andalouses
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2009-01-01T00:00:00.000Z
 isbn: 978-3-932711-28-2
 description: >
   Préface de Boualem Sansal

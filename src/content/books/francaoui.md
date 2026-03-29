@@ -1,8 +1,8 @@
 ---
 title: Francaoui
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2015-01-01T00:00:00.000Z
 isbn: 978-3-932711-42-8
 description: >
   Ce roman raconte la vie d’une famille « francaoui » au Maghreb, à l’apogée de

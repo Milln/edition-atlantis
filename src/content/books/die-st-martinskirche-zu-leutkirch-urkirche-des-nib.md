@@ -1,7 +1,7 @@
 ---
 title: Die St. Martinskirche zu Leutkirch. Urkirche des Nibelgaus
 author: erwin-munsch
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2018-01-01T00:00:00.000Z
 isbn: '9783932711619'
 description: >
   Auf den Spuren der Leutekirche im Nibelgau

@@ -1,8 +1,8 @@
 ---
 title: Alger. Mes îles aux mouettes
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: danielle-deliot-libmann
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2016-01-01T00:00:00.000Z
 isbn: 978-3-932711-46-6
 description: >
   J'ai écrit ce mémoire pour deux raisons très simples. 

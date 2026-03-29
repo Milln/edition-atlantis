@@ -1,8 +1,8 @@
 ---
 title: Death of a Dream. Algeria 1958. A True Novel
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: maia-alonso
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2021-01-01T00:00:00.000Z
 isbn: '9783932711770'
 description: >
   A Dream for a New Algeria

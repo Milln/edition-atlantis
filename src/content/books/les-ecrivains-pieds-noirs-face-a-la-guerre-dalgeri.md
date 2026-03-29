@@ -4,7 +4,7 @@ title: >-
   - Jean Brune - Roger Curel - Robert Merle - Janine Montupet - Marcel Moussy -
   Jean Pélégri - Emmanuel Roblès - André Rosfelder - Jules Roy
 author: wolf-albes
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2012-01-01T00:00:00.000Z
 isbn: 978-3-932711-19-0
 description: >
   Préface de Maurice Calmein.

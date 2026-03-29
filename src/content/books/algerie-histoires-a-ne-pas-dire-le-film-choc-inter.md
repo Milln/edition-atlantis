@@ -3,7 +3,7 @@ title: >-
   Algérie, histoires à ne pas dire... Le film choc interdit en Algérie. Scénario
   - réactions - polémiques
 author: jean-pierre-lledo
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2011-01-01T00:00:00.000Z
 isbn: 978-3-932711-31-2
 description: >
   Préface de Boualem Sansal

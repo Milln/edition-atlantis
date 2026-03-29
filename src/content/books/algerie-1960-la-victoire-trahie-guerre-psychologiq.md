@@ -1,6 +1,6 @@
 ---
 title: 'Algérie 1960 : la victoire trahie. Guerre psychologique en Algérie'
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: nicolas-kayanakis
 publicationDate: 2000-01-01T00:00:00.000Z
 isbn: 978-3-932711-16-9

@@ -2,9 +2,9 @@
 title: >-
   Mon paradis perdu. Une enfance algérienne. Oran 1954 - 1962. Préface de
   Maurice Calmein
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2012-01-01T00:00:00.000Z
 isbn: 978-3-932711-35-0
 description: >
   J'aurais pu être heureuse…

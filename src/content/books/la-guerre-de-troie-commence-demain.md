@@ -1,8 +1,8 @@
 ---
 title: La guerre de Troie commence demain
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 1997-01-01T00:00:00.000Z
 isbn: 978-3-932711-02-2
 description: >
   Ce titre claque déjà comme les ironiques prémices d’une joute lancée contre

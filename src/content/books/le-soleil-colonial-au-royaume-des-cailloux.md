@@ -1,8 +1,8 @@
 ---
 title: Le soleil colonial. Au Royaume des cailloux
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2014-01-01T00:00:00.000Z
 isbn: 978-3-932711-40-4
 description: >
   Cette petite saga est une suite indépendante de L’Odyssée de Grain de Bled en

@@ -1,6 +1,6 @@
 ---
 title: Une histoire souterraine. Pieds-Noirs et Musulmans en Algérie
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: nicole-guiraud
 publicationDate: 2000-01-01T00:00:00.000Z
 isbn: 978-3-932711-17-6

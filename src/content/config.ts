@@ -5,7 +5,7 @@ const booksCollection = defineCollection({
     schema: z.object({
         title: z.string(),
         author: reference('authors'),
-        publicationDate: z.date(),
+        publicationDate: z.date().nullable().optional(),
         isbn: z.string().optional(),
         description: z.union([
             z.string(),

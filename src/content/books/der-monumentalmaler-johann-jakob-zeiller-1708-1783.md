@@ -3,7 +3,7 @@ title: >-
   Der Monumentalmaler Johann Jakob Zeiller. 1708-1783. Vorwort von Andreas
   Gamerith
 author: josef-mair
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2020-01-01T00:00:00.000Z
 isbn: 978-3-932711-72-5
 description: >
   Johann Jakob Zeiller, bedeutendster Spross der Reuttener Malerfamilie Zeiller,

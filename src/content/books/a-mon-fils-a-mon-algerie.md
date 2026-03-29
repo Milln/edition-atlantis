@@ -1,7 +1,7 @@
 ---
 title: 'A mon fils, à mon Algérie'
 author: henry-guey
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2001-01-01T00:00:00.000Z
 isbn: 978-3-932711-24-4
 description: >
   Ces quelques lignes, je les écris avec mon cœur, avec ma passion pour une
@@ -25,7 +25,7 @@ description: >
 cover: /images/books/a-mon-fils-a-mon-algerie.jpg
 language: fr
 price: 19
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 back: /images/books/a-mon-fils-a-mon-algerie_back.jpg
 ---
 

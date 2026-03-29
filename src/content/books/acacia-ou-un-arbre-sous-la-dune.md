@@ -1,8 +1,8 @@
 ---
 title: Acacia ou un Arbre sous la dune
-category: 'Collection France-Algérie'
+category: Collection France-Algérie
 author: michele-piris-lambert
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 1999-01-01T00:00:00.000Z
 isbn: 978-3-932711-15-2
 description: >
   « Drôle, hein ! qu’il m’ait fallu vingt ans pour me rendre compte que j’étais

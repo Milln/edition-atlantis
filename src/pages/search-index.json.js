@@ -27,7 +27,7 @@ export async function GET({ params, request }) {
             author: authorName,
             slug: book.slug,
             lang: book.data.language,
-            year: book.data.publicationDate.getFullYear(),
+            year: book.data.publicationDate ? book.data.publicationDate.getFullYear() : 'unknown',
             cover: book.data.cover
         };
     });

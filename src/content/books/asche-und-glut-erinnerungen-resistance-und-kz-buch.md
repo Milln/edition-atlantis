@@ -3,7 +3,7 @@ title: >-
   Asche und Glut. Erinnerungen. Résistance und KZ Buchenwald – Fallschirmjäger
   der Fremdenlegion – Indochina- und Algerienkrieg – Putsch gegen de Gaulle
 author: helie-de-saint-marc
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 1998-01-01T00:00:00.000Z
 isbn: 978-3-932711-50-3
 description: >
   Ruhig, nachdenklich, ohne Pathos und mit kompromissloser Ehrlichkeit skizziert

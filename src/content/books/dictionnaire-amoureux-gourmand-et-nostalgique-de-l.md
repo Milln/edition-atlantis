@@ -1,7 +1,7 @@
 ---
 title: 'Dictionnaire amoureux, gourmand et nostalgique de l''Algérie française'
 author: max-teste
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2015-01-01T00:00:00.000Z
 isbn: 978-3-932711-47-3
 description: >
   Invitation au voyage…

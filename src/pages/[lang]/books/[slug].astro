@@ -92,7 +92,7 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
       <!-- Content -->
       <div class="md:col-span-8 lg:col-span-9">
         <div class="mb-4 text-sm text-accent font-bold uppercase tracking-wider">
-           {book.data.language.toUpperCase()} • {book.data.publicationDate.getFullYear()}
+           {book.data.language.toUpperCase()} {book.data.publicationDate ? `• ${book.data.publicationDate.getFullYear()}` : ''}
         </div>
         
         <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
@@ -146,7 +146,7 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
              )}
              <div class="flex flex-col">
                  <dt class="text-gray-500">{t('book.published')}</dt>
-                 <dd class="text-gray-900">{book.data.publicationDate.toLocaleDateString(pageLang)}</dd>
+                 <dd class="text-gray-900">{book.data.publicationDate ? book.data.publicationDate.toLocaleDateString(pageLang) : t('book.unknown_date') || 'Unknown'}</dd>
              </div>
               {author && (
                 <div class="flex flex-col">

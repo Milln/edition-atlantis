@@ -1,7 +1,7 @@
 ---
 title: À demain dans les étoiles. Carnets vagabonds
 author: maia-alonso
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 2023-01-01T00:00:00.000Z
 isbn: 978-3-932711-84-8
 description: >
   Ce recueil d’écrits au fil des ans, retrouvés, choisis, rassemblés, va vous

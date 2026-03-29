@@ -3,7 +3,7 @@ title: >-
   Jean Brune et Albert Camus. Deux écrivains pieds-noirs face au drame de
   l’Algérie  française
 author: wolf-albes
-publicationDate: 2000-01-01T00:00:00.000Z
+publicationDate: 1999-01-01T00:00:00.000Z
 isbn: 978-3-932711-12-1
 description: >
   Jean Brune (1912-1973) a été le condisciple d’Albert Camus (1913-1960) au
