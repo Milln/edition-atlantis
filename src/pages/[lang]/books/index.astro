@@ -157,6 +157,8 @@ function getAuthorName(authorRef: { id: string }) {
                   src={`${import.meta.env.BASE_URL}/${book.data.cover.replace(/^\//, '')}`}
                   alt={book.data.title}
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                  decoding="async"
                   onError={`this.onerror=null;this.src='${import.meta.env.BASE_URL}/images/placeholder-book.png';`}
                 />
                 <div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300"></div>
@@ -190,6 +192,15 @@ function getAuthorName(authorRef: { id: string }) {
         <div id="noResults" class="hidden text-center py-20 text-gray-500">
           <p id="noResultsMessage" data-default={t('books.not_found')} data-filtering={t('books.no_results_filtering')}></p>
         </div>
+        
+        <div class="text-center mt-12 mb-8">
+            <p id="resultsCountBottom" class="text-sm text-gray-500 font-medium mb-6" data-template={t('books.results_count')}></p>
+            <div id="loadMoreContainer" class="hidden inline-block">
+                <button id="loadMoreBtn" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-sm text-white bg-primary hover:bg-primary/90 transition-colors shadow-sm">
+                    {t('books.load_more') || 'Load More'}
+                </button>
+            </div>
+        </div>
     </div>
   </div>
 </Layout>
@@ -202,7 +213,13 @@ function getAuthorName(authorRef: { id: string }) {
         const noResults = document.getElementById('noResults');
         const noResultsMessage = document.getElementById('noResultsMessage');
         const resultsCount = document.getElementById('resultsCount');
+        const resultsCountBottom = document.getElementById('resultsCountBottom');
         const searchInput = document.getElementById('searchInput') as HTMLInputElement;
+        const loadMoreBtn = document.getElementById('loadMoreBtn');
+        const loadMoreContainer = document.getElementById('loadMoreContainer');
+        
+        const ITEMS_PER_PAGE = 12;
+        let currentLimit = ITEMS_PER_PAGE;
         
         // Parse URL params
         const urlParams = new URLSearchParams(window.location.search);
@@ -289,6 +306,8 @@ function getAuthorName(authorRef: { id: string }) {
                     .toLowerCase();
             };
 
+            let matchingItems: HTMLElement[] = [];
+
             items.forEach(item => {
                 const el = item as HTMLElement;
                 const lang = el.dataset.lang;
@@ -311,12 +330,29 @@ function getAuthorName(authorRef: { id: string }) {
                     normalizeText(authorNames).includes(normalizedSearch);
 
                 if (matchLang && matchYear && matchAuthor && matchSearch && matchCategory) {
-                    el.classList.remove('hidden');
-                    visibleCount++;
+                    matchingItems.push(el);
                 } else {
                     el.classList.add('hidden');
                 }
             });
+            
+            visibleCount = matchingItems.length;
+            
+            // Apply pagination limit
+            matchingItems.forEach((el, index) => {
+                 if (index < currentLimit) {
+                     el.classList.remove('hidden');
+                 } else {
+                     el.classList.add('hidden');
+                 }
+            });
+            
+            // Handle Load More button visibility
+            if (visibleCount > currentLimit) {
+                 loadMoreContainer?.classList.remove('hidden');
+            } else {
+                 loadMoreContainer?.classList.add('hidden');
+            }
 
             if (visibleCount === 0) {
                 noResults?.classList.remove('hidden');
@@ -329,8 +365,21 @@ function getAuthorName(authorRef: { id: string }) {
             }
 
             if (resultsCount) {
-                const template = resultsCount.dataset.template || '{count} results';
-                resultsCount.textContent = template.replace('{count}', visibleCount.toString());
+                const template = resultsCount.dataset.template || 'Showing {shown} of {total} results';
+                const shownStr = Math.min(visibleCount, currentLimit).toString();
+                const totalStr = visibleCount.toString();
+                const processedText = template.replace('{shown}', shownStr).replace('{total}', totalStr);
+                
+                resultsCount.textContent = processedText;
+                if (resultsCountBottom) {
+                    // Hide the bottom counter completely if 0 results, otherwise update it
+                    if (visibleCount === 0) {
+                        resultsCountBottom.style.display = 'none';
+                    } else {
+                        resultsCountBottom.style.display = '';
+                        resultsCountBottom.textContent = processedText;
+                    }
+                }
             }
 
             updateURL();
@@ -357,6 +406,7 @@ function getAuthorName(authorRef: { id: string }) {
 
                     // @ts-ignore
                     currentFilters[filterType] = value;
+                    currentLimit = ITEMS_PER_PAGE;
                     applyFilters();
                 }
             });
@@ -375,6 +425,7 @@ function getAuthorName(authorRef: { id: string }) {
                     target.classList.add('text-primary', 'font-bold');
                     
                     currentFilters.author = value;
+                    currentLimit = ITEMS_PER_PAGE;
                     applyFilters();
                 }
              })
@@ -384,6 +435,7 @@ function getAuthorName(authorRef: { id: string }) {
             searchInput.addEventListener('input', (e) => {
                 const target = e.target as HTMLInputElement;
                 currentFilters.search = target.value;
+                currentLimit = ITEMS_PER_PAGE;
                 applyFilters();
             });
         }
@@ -405,6 +457,13 @@ function getAuthorName(authorRef: { id: string }) {
              document.querySelector('.filter-link[data-value="all"]')?.classList.add('text-primary', 'font-bold');
 
              if(searchInput) searchInput.value = '';
+             currentLimit = ITEMS_PER_PAGE;
+             applyFilters();
+        });
+        
+        // Load More functionality
+        loadMoreBtn?.addEventListener('click', () => {
+             currentLimit += ITEMS_PER_PAGE;
              applyFilters();
         });
         
@@ -444,6 +503,10 @@ function getAuthorName(authorRef: { id: string }) {
                 
                 // Re-append in sorted order
                 books.forEach(book => bookGrid.appendChild(book));
+                
+                // Re-apply filters to enforce pagination on newly sorted items
+                currentLimit = ITEMS_PER_PAGE;
+                applyFilters();
             });
             
             // Trigger initial sort (alphabetical by default)

@@ -146,7 +146,7 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
              )}
              <div class="flex flex-col">
                  <dt class="text-gray-500">{t('book.published')}</dt>
-                 <dd class="text-gray-900">{book.data.publicationDate ? book.data.publicationDate.toLocaleDateString(pageLang) : t('book.unknown_date') || 'Unknown'}</dd>
+                 <dd class="text-gray-900">{book.data.publicationDate ? book.data.publicationDate.getFullYear() : t('book.unknown_date') || 'Unknown'}</dd>
              </div>
               {author && (
                 <div class="flex flex-col">
