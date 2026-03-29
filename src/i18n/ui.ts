@@ -60,6 +60,10 @@ export const ui = {
         'about.payment_cheque': 'Scheck',
         'about.payment_cheque_text': 'Bitte lassen Sie die Bestellung (.pdf) ausdrucken und senden Sie diese zusammen mit Ihrem Scheck an die folgende Adresse:',
         'about.payment_cheque_note': 'Ihr Scheck wird kostenlos von einer französischen Bank eingelöst.',
+        'footer.privacy_hint': 'Diese Website verwendet keine Cookies und trackt keine Nutzerdaten.',
+        'footer.privacy': 'Datenschutzerklärung',
+        'about.privacy_text1': 'Diese Website dient ausschließlich der Bereitstellung von Informationen. Wir verwenden keine Cookies, Analyse-Tools oder Social-Media-Plugins, die personenbezogene Daten nachverfolgen.',
+        'about.privacy_text2': 'Bitte beachten Sie, dass diese Website auf Servern Dritter gehostet wird. Bei jedem Aufruf der Website erfasst der Host-Provider automatisch Verbindungsdaten (wie Ihre IP-Adresse und Ihren Browser-Typ), die vorübergehend in Server-Logfiles gespeichert werden. Dies ist technisch erforderlich, um Ihnen unsere Website sicher und zuverlässig anzuzeigen gemäß (Art. 6 Abs. 1 lit. f DSGVO).',
     },
     en: {
         'nav.books': 'Books',
@@ -114,6 +118,10 @@ export const ui = {
         'about.payment_cheque': 'Cheque',
         'about.payment_cheque_text': 'Please print the order (.pdf) and send it along with your check to the following address:',
         'about.payment_cheque_note': 'Your check will be cashed for free by a French bank.',
+        'footer.privacy_hint': 'This website does not use cookies and does not track user data.',
+        'footer.privacy': 'Privacy Policy',
+        'about.privacy_text1': 'This website is solely for informational purposes. We do not use cookies, analytics tools, or social media plugins that track personal data.',
+        'about.privacy_text2': 'Please note that this website is hosted on third-party servers. With every visit, the hosting provider automatically logs connection data (such as your IP address and browser type) in temporary server log files. This is technically necessary to display our website securely and reliably.',
     },
     fr: {
         'nav.books': 'Livres',
@@ -167,5 +175,9 @@ export const ui = {
         'home.new_releases': 'Nouvelles versions',
         'author.view_books': 'Voir les livres',
         'book.author': 'Auteur',
+        'footer.privacy_hint': "Ce site n'utilise pas de cookies et ne suit pas les données des utilisateurs.",
+        'footer.privacy': 'Politique de confidentialité',
+        'about.privacy_text1': "Ce site web a uniquement un but informatif. Nous n'utilisons pas de cookies, d'outils d'analyse ou de plugins de réseaux sociaux qui suivent les données personnelles.",
+        'about.privacy_text2': "Veuillez noter que ce site est hébergé sur des serveurs tiers. À chaque visite, le fournisseur d'hébergement enregistre automatiquement les données de connexion (telles que votre adresse IP et votre type de navigateur) dans des fichiers de journal de serveur temporaires. Ceci est techniquement nécessaire pour afficher notre site web de manière sécurisée et fiable.",
     },
 } as const;

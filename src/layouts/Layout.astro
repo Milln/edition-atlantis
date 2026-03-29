@@ -1,6 +1,6 @@
 ---
 import Header from '../components/Header.astro';
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, getPath } from '../i18n/utils';
 import '@fontsource/playfair-display';
 import '@fontsource/inter';
 
@@ -32,8 +32,16 @@ const { title, description = "Edition Atlantis - Premium Book Publisher" } = Ast
     </main>
 
     <footer class="bg-gray-50 border-t border-gray-100 py-12 mt-20">
-      <div class="container mx-auto px-4 text-center text-gray-500 text-sm">
+      <div class="container mx-auto px-4 text-center text-gray-500 text-sm space-y-3 flex flex-col items-center">
         <p>&copy; {new Date().getFullYear()} Edition Atlantis. {t('footer.rights')}</p>
+        <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+          <a href={getPath(`/${lang}/about#impressum`)} class="hover:text-primary transition-colors underline decoration-gray-300 underline-offset-4">{t('footer.imprint')}</a>
+          <span class="text-gray-300 hidden sm:inline">|</span>
+          <a href={getPath(`/${lang}/about#payment`)} class="hover:text-primary transition-colors underline decoration-gray-300 underline-offset-4">{t('about.payment_info')}</a>
+          <span class="text-gray-300 hidden sm:inline">|</span>
+          <a href={getPath(`/${lang}/about#privacy`)} class="hover:text-primary transition-colors underline decoration-gray-300 underline-offset-4">{t('footer.privacy')}</a>
+        </div>
+        <p class="text-xs text-gray-400 max-w-lg mx-auto leading-relaxed">{t('footer.privacy_hint')}</p>
       </div>
     </footer>
   </body>
