@@ -86,6 +86,9 @@ const { placeholder = "Search..." } = Astro.props;
 
     // Preload index on hover or focus
     searchInput.addEventListener('focus', async () => {
+        const isBooksIndexPage = window.location.pathname.match(/\/[a-z]{2}\/books\/?$/);
+        if (isBooksIndexPage) return;
+
         if (!fuse) {
             spinner.classList.remove('hidden');
             await getFuseInstance();
@@ -93,8 +96,30 @@ const { placeholder = "Search..." } = Astro.props;
         }
     });
 
+    searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            const query = e.target.value;
+            const isBooksIndexPage = window.location.pathname.match(/\/[a-z]{2}\/books\/?$/);
+            if (!isBooksIndexPage && query.trim() !== '') {
+                const lang = document.documentElement.lang || 'en';
+                const baseUrl = wrapper.dataset.baseUrl?.replace(/\/$/, '') || '';
+                window.location.href = `${baseUrl}/${lang}/books?search=${encodeURIComponent(query)}`;
+            }
+        }
+    });
+
     searchInput.addEventListener('input', async (e) => {
       const query = e.target.value;
+      const isBooksIndexPage = window.location.pathname.match(/\/[a-z]{2}\/books\/?$/);
+      
+      if (isBooksIndexPage) {
+          resultsContainer.classList.add('hidden');
+          document.querySelectorAll('.search-input').forEach(input => {
+              if (input !== searchInput) input.value = query;
+          });
+          return;
+      }
       
       if (query.length < 2) {
         resultsContainer.classList.add('hidden');

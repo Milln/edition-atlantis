@@ -28,8 +28,9 @@ const isActive = (path: string) => {
 ---
 
 <header class="sticky top-0 z-40 w-full bg-white/90 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
-  <div class="container mx-auto px-4 h-20 flex items-center justify-between">
-    <!-- Logo -->
+  <div class="container mx-auto px-4">
+    <div class="h-20 flex items-center justify-between">
+      <!-- Logo -->
     <a href={getPath(`/${lang}/books`)} class="flex items-center group">
       <img src={`${import.meta.env.BASE_URL}/images/logo.jpg`} alt="Edition Atlantis" class="h-12 w-auto object-contain" />
     </a>
@@ -71,16 +72,15 @@ const isActive = (path: string) => {
         </svg>
       </button>
     </div>
+    </div>
+    <!-- Mobile Search (Always visible) -->
+    <div class="md:hidden pb-4">
+      <Search placeholder={t('search.placeholder')} />
+    </div>
   </div>
-
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100 absolute w-full bg-white shadow-lg">
     <div class="container mx-auto px-4 py-4 space-y-4">
-        <!-- Mobile Search -->
-        <div class="pb-4 border-b border-gray-100">
-           <Search placeholder={t('search.placeholder')} />
-        </div>
-
         <nav class="flex flex-col space-y-3">
           <a href={getPath(`/${lang}/books`)} class:list={[
             "text-base font-medium transition-colors",
