@@ -163,12 +163,12 @@ function getAuthorName(authorRef: { id: string }) {
             >
               <div class="aspect-[2/3] overflow-hidden bg-gray-100 relative">
                 <img 
-                  src={`${import.meta.env.BASE_URL}/${book.data.cover.replace(/^\//, '')}`}
+                  src={getPath(book.data.cover)}
                   alt={book.data.title}
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                   decoding="async"
-                  onError={`this.onerror=null;this.src='${import.meta.env.BASE_URL}/images/placeholder-book.png';`}
+                  onError={`this.onerror=null;this.src='${getPath("/images/placeholder-book.png")}';`}
                 />
                 <div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300"></div>
                 {book.data.price && (

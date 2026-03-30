@@ -32,14 +32,14 @@ authors.sort((a, b) => a.data.name.localeCompare(b.data.name));
         <div id={author.id} class="bg-white p-6 rounded-sm shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col items-center text-center">
           {author.data.photo ? (
             <img 
-              src={`${import.meta.env.BASE_URL}/${author.data.photo.replace(/^\//, '')}`}
+              src={getPath(author.data.photo)}
               alt={author.data.name} 
               class="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-50"
-              onError={`this.onerror=null;this.src='${import.meta.env.BASE_URL}/images/placeholder-author.png';`}
+              onError={`this.onerror=null;this.src='${getPath("/images/placeholder-author.png")}';`}
             />
           ) : (
             <img 
-              src={`${import.meta.env.BASE_URL}/images/placeholder-author.png`}
+              src={getPath("/images/placeholder-author.png")}
               alt={author.data.name} 
               class="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-50 bg-gray-100"
             />
