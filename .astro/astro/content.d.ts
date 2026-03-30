@@ -832,11 +832,6 @@ declare module 'astro:content' {
   collection: "authors";
   data: InferEntrySchema<"authors">
 };
-"documents": {
-	id: "documents";
-  collection: "authors";
-  data: InferEntrySchema<"authors">
-};
 "erwin-munsch": {
 	id: "erwin-munsch";
   collection: "authors";
