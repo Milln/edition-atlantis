@@ -120,11 +120,11 @@ function getAuthorName(authorRef: { id: string }) {
 
     <!-- Book Grid -->
     <div class="flex-grow">
-        <div class="mb-6 flex justify-between items-center h-8">
+        <div class="mb-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
             <span id="resultsCount" class="text-sm text-gray-500 font-medium" data-template={t('books.results_count')}></span>
-            <div class="flex items-center gap-2">
-                <label for="sortSelect" class="text-sm text-gray-600 font-medium">{t('books.sort_by')}</label>
-                <select id="sortSelect" class="px-3 py-1 border border-gray-300 rounded-sm text-sm focus:outline-none focus:ring-1 focus:ring-primary">
+            <div class="flex items-center gap-2 w-full sm:w-auto justify-between sm:justify-start">
+                <label for="sortSelect" class="text-sm text-gray-600 font-medium whitespace-nowrap">{t('books.sort_by')}</label>
+                <select id="sortSelect" class="px-3 py-1 border border-gray-300 rounded-sm text-sm focus:outline-none focus:ring-1 focus:ring-primary bg-white">
                     <option value="year-desc" selected>{t('books.sort_year_desc')}</option>
                     <option value="year-asc">{t('books.sort_year_asc')}</option>
                     <option value="title-asc">{t('books.sort_title_asc')}</option>
