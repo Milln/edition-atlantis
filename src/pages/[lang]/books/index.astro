@@ -359,6 +359,13 @@ function getAuthorName(authorRef: { id: string }) {
                 searchResults.forEach((res: any) => searchMatchSet.add(res.item.originalEl));
             }
 
+            const facets = {
+                lang: new Set(),
+                author: new Set(),
+                year: new Set(),
+                category: new Set()
+            };
+
             currentItems.forEach(item => {
                 const el = item as HTMLElement;
                 const lang = el.dataset.lang;
@@ -370,7 +377,6 @@ function getAuthorName(authorRef: { id: string }) {
                 const matchYear = currentFilters.year === 'all' || year === currentFilters.year;
                 const matchCategory = currentFilters.category === 'all' || category === currentFilters.category;
                 const matchAuthor = currentFilters.author === 'all' || authors.includes(currentFilters.author);
-                
                 const matchSearch = currentFilters.search === '' || searchMatchSet.has(el);
 
                 if (matchLang && matchYear && matchAuthor && matchSearch && matchCategory) {
@@ -378,6 +384,12 @@ function getAuthorName(authorRef: { id: string }) {
                 } else {
                     el.classList.add('hidden');
                 }
+
+                // Calculate facets: item is valid for a facet if it matches ALL OTHER filters
+                if (matchYear && matchCategory && matchAuthor && matchSearch) facets.lang.add(lang);
+                if (matchLang && matchCategory && matchAuthor && matchSearch) facets.year.add(year);
+                if (matchLang && matchYear && matchAuthor && matchSearch) facets.category.add(category);
+                if (matchLang && matchYear && matchCategory && matchSearch) authors.forEach(a => facets.author.add(a));
             });
             
             visibleCount = matchingItems.length;
@@ -428,6 +440,44 @@ function getAuthorName(authorRef: { id: string }) {
 
             updateURL();
             renderActiveFilters();
+            updateFilterUI(facets);
+        }
+
+        function updateFilterUI(facets: any) {
+             const updateEl = (el: HTMLElement, isValid: boolean) => {
+                 const btn = el as HTMLButtonElement;
+                 if (isValid) {
+                     btn.disabled = false;
+                     btn.classList.remove('opacity-20', 'pointer-events-none', 'grayscale');
+                 } else {
+                     btn.disabled = true;
+                     btn.classList.add('opacity-20', 'pointer-events-none', 'grayscale');
+                 }
+             };
+
+             // Languages
+             document.querySelectorAll('.filter-btn[data-filter="lang"]').forEach(el => {
+                 const val = (el as HTMLElement).dataset.value;
+                 updateEl(el as HTMLElement, val === 'all' || facets.lang.has(val));
+             });
+
+             // Categories
+             document.querySelectorAll('.filter-btn[data-filter="category"]').forEach(el => {
+                 const val = (el as HTMLElement).dataset.value;
+                 updateEl(el as HTMLElement, val === 'all' || facets.category.has(val));
+             });
+
+             // Years
+             document.querySelectorAll('.filter-btn[data-filter="year"]').forEach(el => {
+                 const val = (el as HTMLElement).dataset.value;
+                 updateEl(el as HTMLElement, val === 'all' || facets.year.has(val));
+             });
+
+             // Authors
+             document.querySelectorAll('.filter-link').forEach(el => {
+                 const val = (el as HTMLElement).dataset.value;
+                 updateEl(el as HTMLElement, val === 'all' || facets.author.has(val));
+             });
         }
 
         // Render Active Filter Chips
