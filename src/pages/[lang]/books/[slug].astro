@@ -175,7 +175,11 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
               {book.data.category && (
                 <div class="flex flex-col">
                   <dt class="font-bold text-gray-900">{t('book.category')}</dt>
-                  <dd class="text-gray-700">{book.data.category}</dd>
+                  <dd class="text-gray-700">
+                    <a href={getPath(`/${pageLang}/books?category=${encodeURIComponent(book.data.category)}`)} class="hover:underline hover:text-primary transition-colors">
+                      {book.data.category}
+                    </a>
+                  </dd>
                 </div>
               )}
            </dl>

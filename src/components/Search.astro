@@ -86,9 +86,6 @@ const { placeholder = "Search..." } = Astro.props;
 
     // Preload index on hover or focus
     searchInput.addEventListener('focus', async () => {
-        const isBooksIndexPage = window.location.pathname.match(/\/[a-z]{2}\/books\/?$/);
-        if (isBooksIndexPage) return;
-
         if (!fuse) {
             spinner.classList.remove('hidden');
             await getFuseInstance();
@@ -110,16 +107,12 @@ const { placeholder = "Search..." } = Astro.props;
     });
 
     searchInput.addEventListener('input', async (e) => {
-      const query = e.target.value;
-      const isBooksIndexPage = window.location.pathname.match(/\/[a-z]{2}\/books\/?$/);
+      const query = (e.target as HTMLInputElement).value;
       
-      if (isBooksIndexPage) {
-          resultsContainer.classList.add('hidden');
-          document.querySelectorAll('.search-input').forEach(input => {
-              if (input !== searchInput) input.value = query;
-          });
-          return;
-      }
+      // Sync other search inputs
+      document.querySelectorAll('.search-input').forEach(input => {
+          if (input !== searchInput) (input as HTMLInputElement).value = query;
+      });
       
       if (query.length < 2) {
         resultsContainer.classList.add('hidden');
