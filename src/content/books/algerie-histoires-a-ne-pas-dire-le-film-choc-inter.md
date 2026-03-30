@@ -78,6 +78,29 @@ cover: /images/books/algerie-histoires-a-ne-pas-dire-le-film-choc-inter.jpg
 language: fr
 price: 20
 back: /images/books/algerie-histoires-a-ne-pas-dire-le-film-choc-inter_back.jpg
+downloads:
+  - label: >-
+      Bon de commande spécial Jean Pierre Lledo : <i>Algérie, histoires à  ne
+      pas dire</i>
+    file: /downloads/Bon-de-Commande-Lledo.pdf
+  - label: La préface de Boualem Sansal (extraits)
+    file: /downloads/PrefaceSansalExtraits.pdf
+  - label: L’avant-propos de l’éditeur
+    file: /downloads/Preface-de-lediteur.pdf
+  - label: La présentation de Jean Pierre Lledo (extraits)
+    file: /downloads/Presentation-de-Jean-Pierre-Lledo-extraits.pdf
+  - label: La table des matières
+    file: /downloads/Table-des-matieres-Internet.pdf
+  - label: Réactions de spectateurs pieds noirs (extraits)
+    file: /downloads/Reactions-de-Pieds-Noirs-extraits.pdf
+  - label: Réactions de spectateurs algériens (extraits)
+    file: /downloads/Reactions-de-spectateurs-algeriens-extraits.pdf
+  - label: La réaction de Serge Toubiana (Cinémathèque française) (extraits)
+    file: /downloads/Lire-la-reaction-de-Serge-Toubiana-extraits.pdf
+  - label: La réaction de Guy Pervillé (extraits)
+    file: /downloads/Lire-la-reaction-de-Guy-Perville-extraits.pdf
+  - label: La réaction de Mohamed Harbi
+    file: /downloads/Lire-la-reaction-de-Mohamed-Harbi-extraits.pdf
 ---
 
 **Préface de Boualem Sansal**

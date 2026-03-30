@@ -81,6 +81,23 @@ price: 17
 coAuthors:
   - nicole-guiraud
 back: /images/books/algerie-1962-journal-de-lapocalypse-tagebuch-der-a_back.jpg
+downloads:
+  - label: Präsentation
+    file: /downloads/Prasentation-Nicole-Guiraud-Algerie-1962-DT.pdf
+  - label: Table des matières / Inhaltsverzeichnis
+    file: /downloads/Inhaltsverzeichnis-Guiraud.pdf
+  - label: Préface de Boualem Sansal (extraits)
+    file: /downloads/PrefaceSansalExtraits.pdf
+  - label: Vorwort von Boualem Sansal (Auszüge)
+    file: /downloads/Vorwort-Sansal-Guiraud-Auszuge.pdf
+  - label: Épilogue de Gérard Lehmann
+    file: /downloads/Epilogue-Lehmann-Guiraud.pdf
+  - label: Epilog von Gérard Lehmann
+    file: /downloads/Epilog-Lehmann-Guiraud.pdf
+  - label: Quelques pages du livre... / Einige Seiten aus dem Buch...
+    file: /downloads/Auszuge-Guiraud.pdf
+  - label: Nicole Guiraud - Diary of the Apocalypse .pdf
+    file: /downloads/Nicole-Guiraud---Diary-of-the-Apocalypse-.pdf
 ---
 
 Nicole Guiraud est née en 1946 aux Vergers, dans le Sahel algérois, descendante d’une lignée de pionniers enracinés dans le pays depuis cinq générations. À 10 ans, elle est grièvement blessée dans l’attentat du Milk Bar, le 30 septembre 1956 à Alger.

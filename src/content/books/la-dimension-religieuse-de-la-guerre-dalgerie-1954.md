@@ -10,6 +10,31 @@ cover: /images/books/la-dimension-religieuse-de-la-guerre-dalgerie-1954.jpg
 language: fr
 price: 22
 back: /images/books/la-dimension-religieuse-de-la-guerre-dalgerie-1954_back.jpg
+downloads:
+  - label: Roger-Vétillard-La-dimension-Avant-propos-de-l-auteur.pdf
+    file: /downloads/Roger-Vtillard-La-dimension-Avant-propos-de-l-auteur.pdf
+  - label: Roger-Vétillard-la-dimension-Postface-de-l-éditeur.pdf
+    file: /downloads/Roger-Vtillard-la-dimension-Postface-de-l-diteur.pdf
+  - label: Roger-Vétillard-La-dimension-Préface-de-Gregor-Mathias.pdf
+    file: /downloads/Roger-Vtillard-La-dimension-Prface-de-Gregor-Mathias.pdf
+  - label: Roger-Vétillard-La-dimension-Table-des-matières.pdf
+    file: /downloads/Roger-Vtillard-La-dimension-Table-des-matires.pdf
+  - label: Vétillard -Dimension religieuse - 4e de Couverture HD.jpg
+    file: /downloads/Vtillard--Dimension-religieuse---4e-de-Couverture-HD.jpg
+  - label: Vétillard -Dimension religieuse - 1ère de Couverture - HD.jpg
+    file: /downloads/Vtillard--Dimension-religieuse---1re-de-Couverture---HD.jpg
+  - label: Errata.pdf
+    file: /downloads/Errata.pdf
+  - label: >-
+      Recension de Roger Vétillard - La Dimension religieuse - dans Valeurs
+      actuelles du 12 juillet 2018 - p 67.jpg
+    file: >-
+      /downloads/Recension-de-Roger-Vtillard---La-Dimension-religieuse---dans-Valeurs-actuelles-du-12-juillet-2018---p-67.jpg
+  - label: >-
+      Recension de Roger Vétillard - La Dimension religieuse - dans Valeurs
+      actuelles du 12 juillet 2018 - p 67.pdf
+    file: >-
+      /downloads/Recension-de-Roger-Vtillard---La-Dimension-religieuse---dans-Valeurs-actuelles-du-12-juillet-2018---p-67.pdf
 ---
 
 **L'arabo-islamisme dans la guerre d'Algérie**

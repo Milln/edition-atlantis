@@ -45,6 +45,9 @@ cover: /images/books/les-ecrivains-pieds-noirs-face-a-la-guerre-dalgeri.jpg
 language: fr
 price: 27
 back: /images/books/les-ecrivains-pieds-noirs-face-a-la-guerre-dalgeri_back.jpg
+downloads:
+  - label: Lire la préface de Maurice Calmein
+    file: /downloads/Preface-Ecrivains-PN.pdf
 ---
 
 Préface de Maurice Calmein.

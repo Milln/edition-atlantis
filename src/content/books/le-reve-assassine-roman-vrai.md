@@ -9,6 +9,21 @@ cover: /images/books/le-reve-assassine-roman-vrai.jpg
 language: fr
 price: 22
 back: /images/books/le-reve-assassine-roman-vrai_back.jpg
+downloads:
+  - label: Rêve assassiné - 1 - Table des matières.pdf
+    file: /downloads/Rve-assassin---1---Table-des-matires.pdf
+  - label: Rêve assassiné - 2 - Préface des frères Vallat.pdf
+    file: /downloads/Rve-assassin---2---Prface-des-frres-Vallat.pdf
+  - label: Rêve assassiné - 3 - Avant-propos de Maïa Alonso.pdf
+    file: /downloads/Rve-assassin---3---Avant-propos-de-Maa-Alonso.pdf
+  - label: Rêve assassiné - 4 - Le marabout et la chapelle.pdf
+    file: /downloads/Rve-assassin---4---Le-marabout-et-la-chapelle.pdf
+  - label: Rêve assassiné - 5 - L’attentat contre la famille Vallat.pdf
+    file: /downloads/Rve-assassin---5---Lattentat-contre-la-famille-Vallat.pdf
+  - label: Rêve assassiné - 6 - Postface de l éditeur.pdf
+    file: /downloads/Rve-assassin---6---Postface-de-l-diteur.pdf
+  - label: Le rêve assassiné - recension de Jean-Pierre Lledo.pdf
+    file: /downloads/Le-rve-assassin---recension-de-Jean-Pierre-Lledo.pdf
 ---
 
 **Cet ouvrage a reçu le Prix 2017 de la *Fondation pour la Mémoire de la Guerre d'Algérie, des combats du Maroc et de Tunisie. ***

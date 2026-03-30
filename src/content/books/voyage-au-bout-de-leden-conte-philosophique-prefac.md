@@ -8,6 +8,10 @@ cover: /images/books/voyage-au-bout-de-leden-conte-philosophique-prefac.jpg
 language: fr
 price: 17
 back: /images/books/voyage-au-bout-de-leden-conte-philosophique-prefac_back.jpg
+downloads:
+  - label: Préface de Norbert Multeau - La Divine Comédie de Jean Taousson.pdf
+    file: >-
+      /downloads/Prface-de-Norbert-Multeau---La-Divine-Comdie-de-Jean-Taousson.pdf
 ---
 
 **\"Jean Taousson est un véritable écrivain. Il l’a prouvé avec *****Adieu*** ***Roumi*****, un récit de la guerre d’Algérie plein de révélations sur des épisodes que l’Histoire officielle oublie soigneusement de relater.**

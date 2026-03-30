@@ -100,6 +100,19 @@ price: 25
 coAuthors:
   - maurice-calmein
 back: /images/books/les-francais-dalgerie-de-1962-a-2014_back.jpg
+downloads:
+  - label: Table des matières
+    file: /downloads/Calmein-50-Table-Internet.pdf
+  - label: La préface de Thierry Rolando
+    file: /downloads/Calmein-50-Rolando-Internet.pdf
+  - label: L’introduction de Maurice Calmein
+    file: /downloads/Calmein-50-Introduction-Internet.pdf
+  - label: Appel aux hommes de bonne volonté. Par Jules Romains
+    file: /downloads/Romains-Appel.pdf
+  - label: Le destin des Pieds Noirs. Vu par Pascal Diener
+    file: /downloads/Diener-Destin.pdf
+  - label: La colère du Pied Noir. Extrait de "Cette haine qui ressemble à  l’amour
+    file: /downloads/Colere-Pied-Noir.pdf
 ---
 
 **Une plaie toujours béante...**

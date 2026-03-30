@@ -7,6 +7,8 @@ description: "Kostenloser Versand:\n\n\n\nBei Bestellung auf Rechnung über cont
 cover: /images/books/lhote-albert-camus-novelle-jacques-ferrandez.jpg
 back: /images/books/lhote-albert-camus-novelle-jacques-ferrandez_back.jpg
 language: de
+coAuthors:
+    - eva-albes
 ---
 
 **Kostenloser Versand:**

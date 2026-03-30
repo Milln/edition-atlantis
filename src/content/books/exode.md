@@ -57,6 +57,9 @@ language: fr
 price: 3
 coAuthors:
   - maurice-calmein
+downloads:
+  - label: Découvrez la dernière page d’<i>Exode</i> en cliquant ici
+    file: /downloads/Exode7.jpg
 ---
 
 ***Ils étaient vingt et cent, ils étaient des milliers,

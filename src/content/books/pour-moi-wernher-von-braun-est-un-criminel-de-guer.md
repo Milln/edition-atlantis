@@ -71,6 +71,15 @@ cover: /images/books/pour-moi-wernher-von-braun-est-un-criminel-de-guer.jpg
 language: fr
 coAuthors:
   - andre-laroche
+downloads:
+  - label: >-
+      Pour lire l’interview d’André Laroche en langue française, veuillez
+      cliquer ici
+    file: /downloads/Interview-Laroche-VFL-22-11-2012.pdf
+  - label: >-
+      Pour lire l’interview d’André Laroche en langue allemande, veuillez
+      cliquer ici
+    file: /downloads/Interview-Laroche-VDL-22-11-2012.pdf
 ---
 
 André Laroche naît le 3 mai 1924 à  Lyon. 

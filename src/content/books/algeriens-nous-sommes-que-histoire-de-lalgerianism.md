@@ -49,6 +49,9 @@ language: fr
 price: 13
 coAuthors:
   - maurice-calmein
+downloads:
+  - label: L’avant-propos de l’éditeur
+    file: /downloads/CA-Avantpropos-editeur-Internet.pdf
 ---
 
 Ce petit livre retrace toute l'histoire de **la littérature française d'Algérie** et du **mouvement algérianiste**, depuis ses origines dans les années 1920 jusqu'à nos jours.

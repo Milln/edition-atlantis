@@ -28,6 +28,21 @@ price: 12
 coAuthors:
   - maurice-calmein
 back: /images/books/les-maux-pour-le-dire-chroniques-de-ciceron-pour-l_back.jpg
+downloads:
+  - label: 'Pour lire le billet N° 4 : "Et voilà " veuillez cliquer ici'
+    file: /downloads/Internet-Auszug-No-4.pdf
+  - label: 'Pour lire le billet N° 45 : "Une Orange un peu amère" veuillez cliquer ici'
+    file: /downloads/Internet-Auszug-No-45.pdf
+  - label: 'Pour lire le billet N° 51 : "Au revoir, Mademoiselle" veuillez cliquer ici'
+    file: /downloads/Internet-Auszug-No-51.pdf
+  - label: 'Pour lire le billet N° 83 : "L’horreur absolue !" veuillez cliquer ici'
+    file: /downloads/Internet-Auszug-No-83.pdf
+  - label: >-
+      Pour lire le billet N° 86 : "La teuf de la zik, trop peu pour moi !"
+      veuillez cliquer ici
+    file: /downloads/Internet-Auszug-No-86.pdf
+  - label: 'Pour lire le billet N° 90 : "Le franglais résistant" veuillez cliquer ici'
+    file: /downloads/Internet-Auszug-No-90.pdf
 ---
 
 Sous le pseudonyme du grand rhétoricien Cicéron, Maurice Calmein a publié pendant deux ans dans la *Voix du Midi-Lauragais* la chronique « Les maux pour le dire ». 

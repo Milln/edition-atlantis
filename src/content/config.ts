@@ -21,6 +21,10 @@ const booksCollection = defineCollection({
         coAuthors: z.array(reference('authors')).optional(),
         language: z.enum(['de', 'en', 'fr']),
         category: z.string().optional(),
+        downloads: z.array(z.object({
+            label: z.string(),
+            file: z.string(),
+        })).optional(),
     }),
 });
 

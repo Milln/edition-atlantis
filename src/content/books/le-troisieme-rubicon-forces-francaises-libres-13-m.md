@@ -10,6 +10,11 @@ cover: /images/books/le-troisieme-rubicon-forces-francaises-libres-13-m.jpg
 language: fr
 price: 25
 back: /images/books/le-troisieme-rubicon-forces-francaises-libres-13-m_back.jpg
+downloads:
+  - label: Pouilly - Troisième Rubicon - Avant-propos éditeur.jpg
+    file: /downloads/Pouilly---Troisime-Rubicon---Avant-propos-diteur.jpg
+  - label: Pouilly - Troisième Rubicon - Avant-propos éditeur.pdf
+    file: /downloads/Pouilly---Troisime-Rubicon---Avant-propos-diteur.pdf
 ---
 
 ***Le Troisième Rubicon* : de la Résistance à l'OAS**

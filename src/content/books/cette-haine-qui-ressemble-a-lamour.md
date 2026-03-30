@@ -42,6 +42,11 @@ cover: /images/books/cette-haine-qui-ressemble-a-lamour.jpg
 language: fr
 price: 36
 back: /images/books/cette-haine-qui-ressemble-a-lamour_back.jpg
+downloads:
+  - label: 'Les méthodes du FLN : la terreur et la torture'
+    file: /downloads/Extraits-Haine-Torture.pdf
+  - label: « Pourquoi sommes nous maudits à »
+    file: /downloads/Extraits-Haine-Durrieu.pdf
 ---
 
 À une phase décisive de la guerre d’Algérie, le \"Colonel\" est à la poursuite du rebelle insaisissable Kim ben Kim dont la cruauté et la violence risquent de faire basculer la population musulmane du côté des terroristes FLN et les colons dans le contre-terrorisme.

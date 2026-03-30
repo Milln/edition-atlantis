@@ -65,6 +65,9 @@ price: 27
 coAuthors:
   - janine-montupet
 back: /images/books/la-traversee-de-fiora-valencourt_back.jpg
+downloads:
+  - label: La Préface de Maurice Calmein
+    file: /downloads/Preface-Fiora-Internet.pdf
 ---
 
 **Préface de Maurice Calmein.**

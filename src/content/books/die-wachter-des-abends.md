@@ -52,6 +52,9 @@ cover: /images/books/die-wachter-des-abends.jpg
 language: de
 price: 16
 back: /images/books/die-wachter-des-abends_back.jpg
+downloads:
+  - label: Die Rechtfertigung und die Größe des Soldatentums - Weinstein
+    file: /downloads/Rezension-Weinstein-Wchter-des-Abends.jpg
 ---
 
 *Jeder Mensch möchte in seinem Leben einige Vorstellungen verwirklichen. Doch das Schicksal verändert sie oder stellt sich ihnen in den Weg. Gewissheiten schwinden. Neue geheimnisvolle Rätsel tauchen auf.

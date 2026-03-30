@@ -60,6 +60,15 @@ cover: /images/books/asche-und-glut-erinnerungen-resistance-und-kz-buch.jpg
 language: de
 price: 25.9
 back: /images/books/asche-und-glut-erinnerungen-resistance-und-kz-buch_back.jpg
+downloads:
+  - label: >-
+      Die Rezension von Rudolph Chimelli <i>Soldat mit vier Leben</i> in der
+      <i>Süddeutschen Zeitung</i> vom 12. Juli 1998
+    file: /downloads/Chimelli.pdf
+  - label: La justification vivante du métier de soldat - Weinstein
+    file: /downloads/FAZ-Weinstein-Franzsisch.pdf
+  - label: Rezension Weinstein Asche und Glut - DT
+    file: /downloads/Rezension-Weinstein-Asche-und-Glut---DT.jpg
 ---
 
 Ruhig, nachdenklich, ohne Pathos und mit kompromissloser Ehrlichkeit skizziert Hélie de Saint Marc die Stationen seines Lebens, in dem sich die Krisen und Umbrüche der französischen Gesellschaft im 20. Jahrhundert widerspiegeln.
