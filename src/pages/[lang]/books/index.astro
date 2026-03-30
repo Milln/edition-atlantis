@@ -120,6 +120,16 @@ function getAuthorName(authorRef: { id: string }) {
 
     <!-- Book Grid -->
     <div class="flex-grow">
+        <div id="activeFilters" 
+            class="mb-6 flex flex-wrap gap-2 hidden"
+            data-label-lang={t('filter.languages')}
+            data-label-category={t('filter.category')}
+            data-label-author={t('filter.authors')}
+            data-label-year={t('filter.year')}
+            data-label-search={t('filter.search')}
+        >
+        </div>
+
         <div class="mb-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
             <span id="resultsCount" class="text-sm text-gray-500 font-medium" data-template={t('books.results_count')}></span>
             <div class="flex items-center gap-2 w-full sm:w-auto justify-between sm:justify-start">
@@ -132,6 +142,7 @@ function getAuthorName(authorRef: { id: string }) {
                 </select>
             </div>
         </div>
+
         <div id="bookGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {books.map((book) => {
             const authorId = book.data.author.id;
@@ -416,6 +427,82 @@ function getAuthorName(authorRef: { id: string }) {
             }
 
             updateURL();
+            renderActiveFilters();
+        }
+
+        // Render Active Filter Chips
+        function renderActiveFilters() {
+            const container = document.getElementById('activeFilters');
+            if (!container) return;
+            
+            container.innerHTML = '';
+            let hasFilters = false;
+            
+            const createChip = (label: string, value: string, filterType: string) => {
+                hasFilters = true;
+                const chip = document.createElement('div');
+                chip.className = 'inline-flex items-center bg-primary/5 border border-primary/20 text-primary text-[10px] md:text-xs font-bold px-2 py-1 rounded-sm gap-2 transition-all duration-300';
+                
+                const labelSpan = document.createElement('span');
+                labelSpan.textContent = `${label}: ${value}`;
+                chip.appendChild(labelSpan);
+                
+                const closeBtn = document.createElement('button');
+                closeBtn.className = 'hover:text-accent transition-colors flex items-center justify-center p-0.5 rounded-full hover:bg-primary/10';
+                closeBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 md:h-3.5 md:w-3.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>';
+                closeBtn.onclick = () => {
+                    if (filterType === 'search') {
+                        currentFilters.search = '';
+                        searchInputs.forEach(input => (input as HTMLInputElement).value = '');
+                    } else {
+                        // @ts-ignore
+                        currentFilters[filterType] = 'all';
+                        
+                        // Reset UI state for buttons/links
+                        if (filterType === 'author') {
+                            document.querySelectorAll('.filter-link').forEach(l => l.classList.remove('text-primary', 'font-bold'));
+                            document.querySelector('.filter-link[data-value="all"]')?.classList.add('text-primary', 'font-bold');
+                        } else {
+                            document.querySelectorAll(`.filter-btn[data-filter="${filterType}"]`).forEach(b => {
+                                b.classList.remove('bg-primary', 'text-white', 'active');
+                                b.classList.add('bg-gray-100', 'text-gray-700');
+                            });
+                            document.querySelector(`.filter-btn[data-filter="${filterType}"][data-value="all"]`)?.classList.add('bg-primary', 'text-white', 'active');
+                        }
+                    }
+                    currentLimit = ITEMS_PER_PAGE;
+                    applyFilters();
+                };
+                
+                chip.appendChild(closeBtn);
+                container.appendChild(chip);
+            };
+
+            const labels = container.dataset;
+
+            if (currentFilters.lang !== 'all') {
+                createChip(labels.labelLang || 'Language', currentFilters.lang.toUpperCase(), 'lang');
+            }
+            if (currentFilters.category !== 'all') {
+                createChip(labels.labelCategory || 'Category', currentFilters.category, 'category');
+            }
+            if (currentFilters.year !== 'all') {
+                createChip(labels.labelYear || 'Year', currentFilters.year, 'year');
+            }
+            if (currentFilters.author !== 'all') {
+                const authorLink = document.querySelector(`.filter-link[data-value="${currentFilters.author}"]`);
+                const authorName = authorLink ? authorLink.textContent?.trim() : currentFilters.author;
+                createChip(labels.labelAuthor || 'Author', authorName || '', 'author');
+            }
+            if (currentFilters.search) {
+                createChip(labels.labelSearch || 'Search', `"${currentFilters.search}"`, 'search');
+            }
+            
+            if (hasFilters) {
+                container.classList.remove('hidden');
+            } else {
+                container.classList.add('hidden');
+            }
         }
 
         // Event Listeners for Buttons
