@@ -66,16 +66,29 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
         working-directory: ${{ env.BUILD_PATH }}
-      - name: Build with Astro
+      - name: Build for GitHub Pages (Test)
         run: |
           ${{ steps.detect-package-manager.outputs.runner }} astro build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ${{ env.BUILD_PATH }}/dist
+
+      - name: Build for Production (ZIP)
+        run: |
+          ${{ steps.detect-package-manager.outputs.runner }} astro build \
+            --site "https://neu.editionatlantis.de" \
+            --base "/" \
+            --outDir dist-prod
+        working-directory: ${{ env.BUILD_PATH }}
+      - name: Upload Production artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-production-zip
+          path: ${{ env.BUILD_PATH }}/dist-prod
 
   deploy:
     environment:

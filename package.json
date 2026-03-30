@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "build:prod": "astro build --site https://neu.editionatlantis.de --base /",
     "preview": "astro preview",
     "astro": "astro"
   },
