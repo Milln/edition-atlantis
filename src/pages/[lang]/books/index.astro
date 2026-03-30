@@ -148,6 +148,7 @@ function getAuthorName(authorRef: { id: string }) {
                 data-year={book.data.publicationDate ? book.data.publicationDate.getFullYear() : 'unknown'}
                 data-category={book.data.category || ''}
                 data-title={book.data.title.toLowerCase()}
+                data-isbn={book.data.isbn || ''}
             >
               <div class="aspect-[2/3] overflow-hidden bg-gray-100 relative">
                 <img 
@@ -203,10 +204,11 @@ function getAuthorName(authorRef: { id: string }) {
 </Layout>
 
 <script>
+    import Fuse from 'fuse.js';
+
     // Client-side filtering logic
     document.addEventListener('DOMContentLoaded', () => {
         const grid = document.getElementById('bookGrid');
-        const items = grid?.querySelectorAll('.book-item');
         const noResults = document.getElementById('noResults');
         const noResultsMessage = document.getElementById('noResultsMessage');
         const resultsCount = document.getElementById('resultsCount');
@@ -214,6 +216,39 @@ function getAuthorName(authorRef: { id: string }) {
         const searchInputs = document.querySelectorAll('.search-input');
         const loadMoreBtn = document.getElementById('loadMoreBtn');
         const loadMoreContainer = document.getElementById('loadMoreContainer');
+        
+        let fuse: any = null;
+        
+        function initFuse() {
+            const currentItems = grid?.querySelectorAll('.book-item');
+            if (!currentItems) return;
+            const data = Array.from(currentItems).map((el: any) => ({
+                id: el.dataset.isbn, // Use ISBN as identifier (though not strictly needed)
+                title: el.dataset.title,
+                author: el.dataset.authorNames,
+                isbn: el.dataset.isbn,
+                originalEl: el // Keep reference to the element
+            }));
+
+            fuse = new Fuse(data, {
+                keys: ['title', 'author', 'isbn'],
+                threshold: 0.4,
+                ignoreLocation: true,
+                getFn: (obj, path) => {
+                  const value = (obj as any)[path as string];
+                  if (typeof value === 'string') {
+                    return value
+                      .normalize('NFD')
+                      .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+                      .replace(/['']/g, '') // Remove apostrophes
+                      .toLowerCase();
+                  }
+                  return value;
+                }
+            });
+        }
+        
+        initFuse();
         
         const ITEMS_PER_PAGE = 12;
         let currentLimit = ITEMS_PER_PAGE;
@@ -291,7 +326,8 @@ function getAuthorName(authorRef: { id: string }) {
         }
 
         function applyFilters() {
-            if (!items) return;
+            const currentItems = grid?.querySelectorAll('.book-item');
+            if (!currentItems) return;
             let visibleCount = 0;
             
             // Normalize text for fuzzy matching (same as Search component)
@@ -304,27 +340,27 @@ function getAuthorName(authorRef: { id: string }) {
             };
 
             let matchingItems: HTMLElement[] = [];
+            let searchMatchSet = new Set();
+            
+            if (currentFilters.search) {
+                if (!fuse) initFuse();
+                const searchResults = fuse.search(currentFilters.search);
+                searchResults.forEach((res: any) => searchMatchSet.add(res.item.originalEl));
+            }
 
-            items.forEach(item => {
+            currentItems.forEach(item => {
                 const el = item as HTMLElement;
                 const lang = el.dataset.lang;
                 const authors = el.dataset.author?.split(' ') || [];
                 const year = el.dataset.year;
                 const category = el.dataset.category || '';
-                const title = el.dataset.title || '';
 
                 const matchLang = currentFilters.lang === 'all' || lang === currentFilters.lang;
                 const matchYear = currentFilters.year === 'all' || year === currentFilters.year;
                 const matchCategory = currentFilters.category === 'all' || category === currentFilters.category;
                 const matchAuthor = currentFilters.author === 'all' || authors.includes(currentFilters.author);
                 
-                const authorNames = el.dataset.authorNames || '';
-                
-                // Fuzzy search: normalize both search term and title/author
-                const normalizedSearch = normalizeText(currentFilters.search);
-                const matchSearch = currentFilters.search === '' || 
-                    normalizeText(title).includes(normalizedSearch) ||
-                    normalizeText(authorNames).includes(normalizedSearch);
+                const matchSearch = currentFilters.search === '' || searchMatchSet.has(el);
 
                 if (matchLang && matchYear && matchAuthor && matchSearch && matchCategory) {
                     matchingItems.push(el);

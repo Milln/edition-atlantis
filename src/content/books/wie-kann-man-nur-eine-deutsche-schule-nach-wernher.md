@@ -2,10 +2,10 @@
 title: >-
   \"Wie kann man nur eine deutsche Schule nach Wernher von Braun benennen?\" -
   Interview mit André Laroche, einem Überlebenden des KZ Mittelbau-Dora
-category: Interviews
+category: Interview
 author: jean-brune
-publicationDate: null
-isbn: interview2
+publicationDate: 2012-01-01T00:00:00.000Z
+isbn: null
 description: >
   André Laroche (geb. am 3.5.1924 in Lyon) tritt im Juli 1941 in die
   bedeutendste französische Widerstandsgruppe Combat innerhalb der damals noch

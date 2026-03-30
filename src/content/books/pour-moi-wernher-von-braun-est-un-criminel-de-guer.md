@@ -2,10 +2,10 @@
 title: >-
   « Pour moi, Wernher von Braun est un criminel de guerre. » - Interview d‘André
   Laroche, rescapé de Dora (Lyon - octobre 2012)
-category: Interviews
+category: Interview
 author: jean-brune
-publicationDate: null
-isbn: interview
+publicationDate: 2012-01-01T00:00:00.000Z
+isbn: null
 description: >
   André Laroche naît le 3 mai 1924 à  Lyon. 
 

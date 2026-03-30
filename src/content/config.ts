@@ -6,7 +6,7 @@ const booksCollection = defineCollection({
         title: z.string(),
         author: reference('authors'),
         publicationDate: z.date().nullable().optional(),
-        isbn: z.string().optional(),
+        isbn: z.string().nullable().optional(),
         description: z.union([
             z.string(),
             z.object({

@@ -1,9 +1,9 @@
 ---
 title: Exode
-category: Collection France-Algérie
+category: Other
 author: jean-brune
-publicationDate: null
-isbn: exode
+publicationDate: 2012-01-01T00:00:00.000Z
+isbn: null
 description: >
   Ils étaient vingt et cent, ils étaient des milliers,
 

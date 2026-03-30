@@ -1,9 +1,9 @@
 ---
 title: 'Nouveau Blason Pied-Noir '
-category: Blason Pied-Noir
+category: Other
 author: jean-brune
-publicationDate: null
-isbn: autocollant
+publicationDate: 2021-01-01T00:00:00.000Z
+isbn: null
 description: |
   Le nouveau blason pied-noir
 
@@ -39,8 +39,6 @@ description: |
 cover: /images/books/nouveau-blason-pied-noir.jpg
 language: fr
 price: 1
-coAuthors:
-  - autocollant
 ---
 
 **Le nouveau blason pied-noir
