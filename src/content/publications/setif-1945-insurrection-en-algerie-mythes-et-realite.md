@@ -85,5 +85,6 @@ description:
       - Face à ces reproches inflationnistes, Roger Vétillard estime que le nombre de victimes était de moins de 2 000 dans la région de Guelma et de moins de 3 000 dans les autres régions. Là où il n’y a pas eu de massacres d’Européens, il n’y a pas eu de répression.
       - Il y a eu 125 morts européens.
       - Le cas de Guelma, où la milice – créée après l'annonce des tueries de Sétif – se comportera en justicière sommaire, est aujourd’hui présenté comme le parangon de la répression, alors qu’il n’en est que l’exception.
+    original: true
 downloads: null
 ---
