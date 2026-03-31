@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import { useTranslations, getPath } from '../i18n/utils';
 import type { languages } from '../i18n/ui';
-import BookCard from './BookCard.astro';
+import PublicationCard from './PublicationCard.astro';
 
 interface Props {
   lang: keyof typeof languages;
@@ -11,7 +11,7 @@ interface Props {
 const { lang } = Astro.props;
 const t = useTranslations(lang);
 
-const allBooks = await getCollection('books');
+const allPublications = await getCollection('publications');
 const allAuthors = await getCollection('authors');
 
 // Create a map for quick author lookup
@@ -21,8 +21,8 @@ function getAuthorName(authorRef: { id: string }) {
   return authorMap.get(authorRef.id) || authorRef.id;
 }
 
-// Get the 3 newest books
-const newestBooks = allBooks
+// Get the 3 newest publications
+const newestPublications = allPublications
   .sort((a, b) => {
     const dateA = a.data.publicationDate ? a.data.publicationDate.valueOf() : 0;
     const dateB = b.data.publicationDate ? b.data.publicationDate.valueOf() : 0;
@@ -47,7 +47,7 @@ const newestBooks = allBooks
         {t('home.hero.subtitle')}
       </p>
       <div class="flex flex-col sm:flex-row gap-4">
-        <a href={getPath(`/${lang}/books`)} class="px-8 py-4 bg-accent text-primary font-bold rounded-sm hover:bg-white hover:text-primary transition-all duration-300 shadow-xl hover:shadow-accent/20 text-center">
+        <a href={getPath(`/${lang}/publications`)} class="px-8 py-4 bg-accent text-primary font-bold rounded-sm hover:bg-white hover:text-primary transition-all duration-300 shadow-xl hover:shadow-accent/20 text-center">
           {t('home.hero.browse')}
         </a>
         <a href={getPath(`/${lang}/authors`)} class="px-8 py-4 bg-transparent border border-white/30 text-white font-bold rounded-sm hover:bg-white/10 transition-all duration-300 text-center">
@@ -66,7 +66,7 @@ const newestBooks = allBooks
         <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary mb-4">{t('home.new_releases')}</h2>
         <div class="h-1.5 w-20 bg-accent"></div>
       </div>
-      <a href={getPath(`/${lang}/books`)} class="text-primary font-bold hover:text-accent transition-colors flex items-center gap-2 group">
+      <a href={getPath(`/${lang}/publications`)} class="text-primary font-bold hover:text-accent transition-colors flex items-center gap-2 group">
         {t('home.hero.browse')}
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -75,12 +75,12 @@ const newestBooks = allBooks
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-      {newestBooks.map(book => (
-        <BookCard 
-          book={book} 
+      {newestPublications.map(publication => (
+        <PublicationCard 
+          publication={publication} 
           lang={lang} 
-          authorName={getAuthorName(book.data.author)}
-          coAuthorNames={book.data.coAuthors ? book.data.coAuthors.map(ca => getAuthorName(ca)).join(', ') : undefined}
+          authorName={getAuthorName(publication.data.author)}
+          coAuthorNames={publication.data.coAuthors ? publication.data.coAuthors.map(ca => getAuthorName(ca)).join(', ') : undefined}
           showFilters={false}
         />
       ))}

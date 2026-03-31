@@ -5,7 +5,7 @@ import { getLangFromUrl, getPath } from '../i18n/utils';
 const lang = getLangFromUrl(Astro.url);
 
 // Remove both the base URL and the current language prefix from the pathname
-// e.g., /edition-atlantis/en/books -> /books
+// e.g., /edition-atlantis/en/publications -> /publications
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, ''); // Remove trailing slash
 let currentPath = Astro.url.pathname;
 

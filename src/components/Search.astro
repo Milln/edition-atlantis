@@ -97,11 +97,11 @@ const { placeholder = "Search..." } = Astro.props;
         if (e.key === 'Enter') {
             e.preventDefault();
             const query = e.target.value;
-            const isBooksIndexPage = window.location.pathname.match(/\/[a-z]{2}\/books\/?$/);
-            if (!isBooksIndexPage && query.trim() !== '') {
+            const isPublicationsIndexPage = window.location.pathname.match(/\/[a-z]{2}\/publications\/?$/);
+            if (!isPublicationsIndexPage && query.trim() !== '') {
                 const lang = document.documentElement.lang || 'en';
                 const baseUrl = wrapper.dataset.baseUrl?.replace(/\/$/, '') || '';
-                window.location.href = `${baseUrl}/${lang}/books?search=${encodeURIComponent(query)}`;
+                window.location.href = `${baseUrl}/${lang}/publications?search=${encodeURIComponent(query)}`;
             }
         }
     });
@@ -141,10 +141,10 @@ const { placeholder = "Search..." } = Astro.props;
           const coverUrl = `${baseUrl}/${coverPath}`;
           
           return `
-          <a href="${baseUrl}/${item.lang}/books/${item.slug}" class="block p-3 hover:bg-gray-50 border-b border-gray-100 last:border-0 transition-colors">
+          <a href="${baseUrl}/${item.lang}/publications/${item.slug}" class="block p-3 hover:bg-gray-50 border-b border-gray-100 last:border-0 transition-colors">
             <div class="flex items-start">
                <div class="flex-shrink-0 mr-3">
-                 <img src="${coverUrl}" class="w-10 h-14 object-cover rounded-sm bg-gray-200" onerror="this.src='${baseUrl}/images/placeholder-book.png'">
+                 <img src="${coverUrl}" class="w-10 h-14 object-cover rounded-sm bg-gray-200" onerror="this.src='${baseUrl}/images/placeholder-publication.png'">
                </div>
                <div>
                  <div class="text-sm font-bold text-gray-900 line-clamp-1" title="${item.title}">${item.title}</div>

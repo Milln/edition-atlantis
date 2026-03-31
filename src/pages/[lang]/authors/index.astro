@@ -52,8 +52,8 @@ authors.sort((a, b) => a.data.name.localeCompare(b.data.name));
              {author.data.bio}
           </div>
           
-          <a href={getPath(`/${lang}/books?author=${author.id}`)} class="text-accent hover:text-primary text-sm font-semibold uppercase tracking-wide mt-auto">
-            {t('author.view_books')}
+          <a href={getPath(`/${lang}/publications?author=${author.id}`)} class="text-accent hover:text-primary text-sm font-semibold uppercase tracking-wide mt-auto">
+            {t('author.view_publications')}
           </a>
         </div>
       ))}

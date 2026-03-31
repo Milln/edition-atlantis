@@ -43,11 +43,11 @@ const isActive = (path: string) => {
       ]}>
         {t('nav.home')}
       </a>
-      <a href={getPath(`/${lang}/books`)} class:list={[
+      <a href={getPath(`/${lang}/publications`)} class:list={[
         "text-base font-medium transition-colors tracking-wide border-b-2 py-1",
-        isActive(`/${lang}/books`) ? "text-accent border-accent" : "text-gray-700 hover:text-accent border-transparent"
+        isActive(`/${lang}/publications`) ? "text-accent border-accent" : "text-gray-700 hover:text-accent border-transparent"
       ]}>
-        {t('nav.books')}
+        {t('nav.publications')}
       </a>
       <a href={getPath(`/${lang}/authors`)} class:list={[
         "text-base font-medium transition-colors tracking-wide border-b-2 py-1",
@@ -94,11 +94,11 @@ const isActive = (path: string) => {
           ]}>
             {t('nav.home')}
           </a>
-          <a href={getPath(`/${lang}/books`)} class:list={[
+          <a href={getPath(`/${lang}/publications`)} class:list={[
             "text-base font-medium transition-colors",
-            isActive(`/${lang}/books`) ? "text-accent" : "text-gray-700 hover:text-accent"
+            isActive(`/${lang}/publications`) ? "text-accent" : "text-gray-700 hover:text-accent"
           ]}>
-            {t('nav.books')}
+            {t('nav.publications')}
           </a>
           <a href={getPath(`/${lang}/authors`)} class:list={[
             "text-base font-medium transition-colors",

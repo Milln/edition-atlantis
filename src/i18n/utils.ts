@@ -9,7 +9,7 @@ export function getLangFromUrl(url: URL) {
         pathname = pathname.substring(baseUrl.length);
     }
 
-    // Extract language from pathname (e.g., /en/books -> en)
+    // Extract language from pathname (e.g., /en/publications -> en)
     const [, lang] = pathname.split('/');
     if (lang in ui) return lang as keyof typeof ui;
     return defaultLang;
@@ -23,7 +23,7 @@ export function useTranslations(lang: keyof typeof ui) {
 
 /**
  * Creates a properly formatted URL path with the base path included
- * @param path - The path to format (e.g., '/de/books')
+ * @param path - The path to format (e.g., '/de/publications')
  * @returns The full path with base URL prepended
  */
 export function getPath(path: string): string {
