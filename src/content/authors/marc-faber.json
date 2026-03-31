@@ -1,5 +1,18 @@
 {
   "name": "Marc Faber",
-  "bio": "Marc Faber lebt und arbeitet seit über 20 Jahren in der Provence, am Fuße des Mont Ventoux.",
-  "photo": "/images/authors/default.jpg"
+  "bio": {
+    "de": {
+      "text": "Marc Faber lebt und arbeitet seit über 20 Jahren in der Provence, am Fuße des Mont Ventoux.",
+      "original": true
+    },
+    "en": {
+      "text": "Marc Faber has been living and working in Provence, at the foot of Mont Ventoux, for over 20 years.",
+      "original": false
+    },
+    "fr": {
+      "text": "Marc Faber vit et travaille en Provence, au pied du Mont Ventoux, depuis plus de 20 ans.",
+      "original": false
+    }
+  },
+  "photo": "/images/placeholder-author.png"
 }

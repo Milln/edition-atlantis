@@ -1,5 +1,18 @@
 {
   "name": "Henri Mazzarino",
-  "bio": "À partir d’octobre 1960, le sous-officier de l'Armée de l'Air Henri Mazzarino organise la résistance à Blida. Quelques mois plus tard, « Mazza » rejoint l’OAS avec son groupe. En octobre 1961, il déserte et passe dans la clandestinité. Blida sera la \\\"seule ville où l’OAS prend un caractère représentatif\\\" (Pierre Montagnon, La Guerre d’Algérie).",
+  "bio": {
+    "de": {
+      "text": "Ab Oktober 1960 organisierte der Unteroffizier der Luftwaffe Henri Mazzarino den Widerstand in Blida. Wenige Monate später schloss sich „Mazza“ mit seiner Gruppe der OAS an. Im Oktober 1961 desertierte er und tauchte in den Untergrund ab. Blida sollte die „einzige Stadt sein, in der die OAS einen repräsentativen Charakter annahm“ (Pierre Montagnon, La Guerre d’Algérie).",
+      "original": false
+    },
+    "en": {
+      "text": "From October 1960, Air Force non-commissioned officer Henri Mazzarino organized the resistance in Blida. A few months later, \"Mazza\" joined the OAS with his group. In October 1961, he deserted and went into hiding. Blida would be the \"only city where the OAS took on a representative character\" (Pierre Montagnon, La Guerre d’Algérie).",
+      "original": false
+    },
+    "fr": {
+      "text": "À partir d’octobre 1960, le sous-officier de l'Armée de l'Air Henri Mazzarino organise la résistance à Blida. Quelques mois plus tard, « Mazza » rejoint l’OAS avec son groupe. En octobre 1961, il déserte et passe dans la clandestinité. Blida sera la \"seule ville où l’OAS prend un caractère représentatif\" (Pierre Montagnon, La Guerre d’Algérie).",
+      "original": true
+    }
+  },
   "photo": "/images/authors/henri-mazzarino.jpg"
 }

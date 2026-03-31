@@ -1,5 +1,18 @@
 {
   "name": "Béatrice Riquelme-Olivieri",
-  "bio": "**Béatrice Riquelme-Olivieri **est née au Maroc en 1956 et vit à Paris depuis 1975.\n\nElle a toujours gardé des atta­ches pro­fondes avec ce pays, où vit encore une partie de sa famille.\n\nLors de ses recherches généalogi­ques, elle a découvert l'histoire fami­liale mou­vemen­tée des Riquelme.",
+  "bio": {
+    "de": {
+      "text": "Béatrice Riquelme-Olivieri wurde 1956 in Marokko geboren und lebt seit 1975 in Paris.\n\nSie hat stets eine tiefe Verbundenheit mit diesem Land bewahrt, in dem noch immer ein Teil ihrer Familie lebt.\n\nBei ihren genealogischen Nachforschungen entdeckte sie die bewegte Familiengeschichte der Riquelmes.",
+      "original": false
+    },
+    "en": {
+      "text": "Béatrice Riquelme-Olivieri was born in Morocco in 1956 and has lived in Paris since 1975.\n\nShe has always maintained deep ties with that country, where part of her family still lives.\n\nDuring her genealogical research, she discovered the turbulent family history of the Riquelmes.",
+      "original": false
+    },
+    "fr": {
+      "text": "Béatrice Riquelme-Olivieri est née au Maroc en 1956 et vit à Paris depuis 1975.\n\nElle a toujours gardé des attaches profondes avec ce pays, où vit encore une partie de sa famille.\n\nLors de ses recherches généalogiques, elle a découvert l'histoire familiale mouvementée des Riquelme.",
+      "original": true
+    }
+  },
   "photo": "/images/authors/beatrice-riquelme-olivieri.jpg"
 }

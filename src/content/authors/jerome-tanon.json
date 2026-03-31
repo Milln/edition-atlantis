@@ -1,5 +1,18 @@
 {
   "name": "Jérôme Tanon",
-  "bio": "Jérôme Tanon est né en 1935 à Paris. \n\nIl a vécu au Maroc, puis à Alger, jusqu’à l’âge de 19 ans. Après une longue carrière d’ingénieur dans l’industrie, il s’est installé dans le Midi. \n\n« Toi, tu es un Français de France », me disaient mes camarades, tant musulmans que français d’Algérie, alors que j’avais passé toute ma jeunesse parmi eux. \n\nIl a fallu plus de cinquante ans pour que je ressente le besoin d’exorciser cette singularité en une saga mêlant réalité et fiction, dans la vision d’un enfant au regard candide, puis naïf, enfin ingénu.",
+  "bio": {
+    "de": {
+      "text": "Jérôme Tanon wurde 1935 in Paris geboren.\n\nEr lebte bis zu seinem 19. Lebensjahr in Marokko und anschließend in Algier. Nach einer langen Karriere als Ingenieur in der Industrie ließ er sich im Midi nieder.\n\n„Du bist ein Franzose aus Frankreich“, sagten mir meine Kameraden, sowohl die Muslime als auch die Franzosen aus Algerien, obwohl ich meine gesamte Jugend unter ihnen verbracht hatte.\n\nEs dauerte mehr als fünfzig Jahre, bis ich das Bedürfnis verspürte, diese Besonderheit in einer Saga zu exorzieren, die Realität und Fiktion miteinander verbindet – aus der Sicht eines Kindes mit einem unschuldigen, dann naiven und schließlich arglosen Blick.",
+      "original": false
+    },
+    "en": {
+      "text": "Jérôme Tanon was born in 1935 in Paris.\n\nHe lived in Morocco, then in Algiers, until the age of 19. After a long career as an industrial engineer, he settled in the Midi.\n\n\"You are a Frenchman from France,\" my comrades—both Muslims and French Algerians—would tell me, even though I had spent my entire youth among them.\n\nIt took more than fifty years for me to feel the need to exorcise this singularity into a saga blending reality and fiction, through the vision of a child with an innocent, then naive, and finally ingenuous gaze.",
+      "original": false
+    },
+    "fr": {
+      "text": "Jérôme Tanon est né en 1935 à Paris.\n\nIl a vécu au Maroc, puis à Alger, jusqu’à l’âge de 19 ans. Après une longue carrière d’ingénieur dans l’industrie, il s’est installé dans le Midi.\n\n« Toi, tu es un Français de France », me disaient mes camarades, tant musulmans que français d’Algérie, alors que j’avais passé toute ma jeunesse parmi eux.\n\nIl a fallu plus de cinquante ans pour que je ressente le besoin d’exorciser cette singularité en une saga mêlant réalité et fiction, dans la vision d’un enfant au regard candide, puis naïf, enfin ingénu.",
+      "original": true
+    }
+  },
   "photo": "/images/authors/jerome-tanon.jpg"
 }

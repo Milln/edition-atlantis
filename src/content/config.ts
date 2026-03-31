@@ -41,7 +41,23 @@ const authorsCollection = defineCollection({
     type: 'data',
     schema: z.object({
         name: z.string(),
-        bio: z.string(),
+        bio: z.union([
+            z.string(),
+            z.object({
+                de: z.object({
+                    text: z.string(),
+                    original: z.boolean().optional(),
+                }).optional(),
+                en: z.object({
+                    text: z.string(),
+                    original: z.boolean().optional(),
+                }).optional(),
+                fr: z.object({
+                    text: z.string(),
+                    original: z.boolean().optional(),
+                }).optional(),
+            })
+        ]),
         photo: z.string(),
     }),
 });

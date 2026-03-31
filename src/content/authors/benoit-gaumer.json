@@ -1,5 +1,18 @@
 {
   "name": "Benoît Gaumer",
-  "bio": "Benoît Gaumer a exercé et enseigné la médecine de santé publique successivement en Tunisie, en France mais aussi en Algérie et au Québec. \n\nTout comme Fernand Destaing, c’est un passionné de l’histoire de la médecine et un grand amoureux du Maghreb.",
+  "bio": {
+    "de": {
+      "text": "Benoît Gaumer hat nacheinander in Tunesien, Frankreich, aber auch in Algerien und Québec praktiziert und im Bereich der öffentlichen Gesundheit gelehrt. Genau wie Fernand Destaing ist er ein leidenschaftlicher Kenner der Medizingeschichte und ein großer Liebhaber des Maghreb.",
+      "original": false
+    },
+    "en": {
+      "text": "Benoît Gaumer has practiced and taught public health medicine successively in Tunisia, France, as well as in Algeria and Quebec. Just like Fernand Destaing, he is passionate about the history of medicine and a great lover of the Maghreb.",
+      "original": false
+    },
+    "fr": {
+      "text": "Benoît Gaumer a exercé et enseigné la médecine de santé publique successivement en Tunisie, en France mais aussi en Algérie et au Québec. Tout comme Fernand Destaing, c’est un passionné de l’histoire de la médecine et un grand amoureux du Maghreb.",
+      "original": true
+    }
+  },
   "photo": "/images/authors/benoit-gaumer.jpg"
 }

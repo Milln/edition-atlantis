@@ -1,5 +1,18 @@
 {
   "name": "Jocelyne Mas",
-  "bio": "",
+  "bio": {
+    "de": {
+      "text": "",
+      "original": true
+    },
+    "en": {
+      "text": "",
+      "original": false
+    },
+    "fr": {
+      "text": "",
+      "original": false
+    }
+  },
   "photo": "/images/authors/jocelyne-mas.jpg"
 }

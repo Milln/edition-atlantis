@@ -1,5 +1,18 @@
 {
   "name": "Jeanine de la Hogue",
-  "bio": "",
+  "bio": {
+    "de": {
+      "text": "",
+      "original": true
+    },
+    "en": {
+      "text": "",
+      "original": false
+    },
+    "fr": {
+      "text": "",
+      "original": false
+    }
+  },
   "photo": "/images/authors/jeanine-de-la-hogue.jpg"
 }

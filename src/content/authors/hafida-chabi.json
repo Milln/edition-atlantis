@@ -1,5 +1,18 @@
 {
   "name": "Hafida Chabi",
-  "bio": "",
+  "bio": {
+    "de": {
+      "text": "",
+      "original": true
+    },
+    "en": {
+      "text": "",
+      "original": false
+    },
+    "fr": {
+      "text": "",
+      "original": false
+    }
+  },
   "photo": "/images/authors/hafida-chabi.jpg"
 }

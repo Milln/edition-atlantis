@@ -1,5 +1,18 @@
 {
   "name": "Jean-Pierre Lledo",
-  "bio": "Jean-Pierre Lledo est né en 1947 à Tlemcen. Algérien depuis le 6e siècle avant l’ère commune, par ses ancêtres maternels juifs, et depuis 1848, par les paternels catalans.\n\nÀ la suite de menaces islamistes, Jean-Pierre Lledo a dû quitter l'Algérie en 1993. Depuis, il a réalisé plusieurs films documentaires liés aux réalités multiethniques de l'Algérie d'avant 1962, mémoires refoulées par l'histoire officielle.\n\nJean-Pierre Lledo vit aujourd'hui en Israël.",
+  "bio": {
+    "de": {
+      "text": "Jean-Pierre Lledo wurde 1947 in Tlemcen geboren. Er ist Algerier seit dem 6. Jahrhundert vor der gemeinsamen Zeitrechnung durch seine jüdischen mütterlichen Vorfahren und seit 1848 durch seine katalanischen väterlichen Vorfahren.\n\nAufgrund islamistischer Drohungen musste Jean-Pierre Lledo Algerien 1993 verlassen. Seitdem hat er mehrere Dokumentarfilme gedreht, die sich mit den multiethnischen Realitäten des Algeriens vor 1962 befassen – Erinnerungen, die von der offiziellen Geschichtsschreibung verdrängt wurden.\n\nJean-Pierre Lledo lebt heute in Israel.",
+      "original": false
+    },
+    "en": {
+      "text": "Jean-Pierre Lledo was born in 1947 in Tlemcen. He has been Algerian since the 6th century BCE through his maternal Jewish ancestors, and since 1848 through his paternal Catalan ancestors.\n\nFollowing Islamist threats, Jean-Pierre Lledo had to leave Algeria in 1993. Since then, he has directed several documentary films linked to the multi-ethnic realities of pre-1962 Algeria, memories suppressed by official history.\n\nJean-Pierre Lledo now lives in Israel.",
+      "original": false
+    },
+    "fr": {
+      "text": "Jean-Pierre Lledo est né en 1947 à Tlemcen. Algérien depuis le 6e siècle avant l’ère commune, par ses ancêtres maternels juifs, et depuis 1848, par les paternels catalans.\n\nÀ la suite de menaces islamistes, Jean-Pierre Lledo a dû quitter l'Algérie en 1993. Depuis, il a réalisé plusieurs films documentaires liés aux réalités multiethniques de l'Algérie d'avant 1962, mémoires refoulées par l'histoire officielle.\n\nJean-Pierre Lledo vit aujourd'hui en Israël.",
+      "original": true
+    }
+  },
   "photo": "/images/authors/jean-pierre-lledo.jpg"
 }

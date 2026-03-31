@@ -1,5 +1,18 @@
 {
   "name": "Maïa Alonso",
-  "bio": "Maïa Alonso est l’enfant de la quatrième génération d’une famille espagnole arrivée d’Arboleas pendant l’été 1870, pour s’établir dans le Sud oranais, dans la région de Mascara.\n\nElle vit en Gascogne après une jeunesse nomade entre Toulouse, Londres et Paris. Elle a publié trois romans : L’odyssée de Grain de Bled en terre d’Ifriqiya (L’Harmattan, 2013) ; Le soleil colonial – Au royaume des cailloux (Atlantis, 2014 ; Prix Terre d’Eghriss 2014) et Les Enfants de la Licorne (Atlantis, 2015).",
+  "bio": {
+    "de": {
+      "text": "Maïa Alonso ist ein Kind der vierten Generation einer spanischen Familie, die im Sommer 1870 aus Arboleas ankam, um sich im Süden von Oran, in der Region Mascara, niederzulassen.\n\nSie lebt in der Gascogne nach einer nomadischen Jugend zwischen Toulouse, London und Paris. Sie hat drei Romane veröffentlicht: *L’odyssée de Grain de Bled en terre d’Ifriqiya* (L’Harmattan, 2013); *Le soleil colonial – Au royaume des cailloux* (Atlantis, 2014; Prix Terre d’Eghriss 2014) und *Les Enfants de la Licorne* (Atlantis, 2015).",
+      "original": false
+    },
+    "en": {
+      "text": "Maïa Alonso is a fourth-generation child of a Spanish family who arrived from Arboleas during the summer of 1870 to settle in the south of Oran, in the Mascara region.\n\nShe lives in Gascony after a nomadic youth spent between Toulouse, London, and Paris. She has published three novels: *L’odyssée de Grain de Bled en terre d’Ifriqiya* (L’Harmattan, 2013); *Le soleil colonial – Au royaume des cailloux* (Atlantis, 2014; Prix Terre d’Eghriss 2014) and *Les Enfants de la Licorne* (Atlantis, 2015).",
+      "original": false
+    },
+    "fr": {
+      "text": "Maïa Alonso est l’enfant de la quatrième génération d’une famille espagnole arrivée d’Arboleas pendant l’été 1870, pour s’établir dans le Sud oranais, dans la région de Mascara.\n\nElle vit en Gascogne après une jeunesse nomade entre Toulouse, Londres et Paris. Elle a publié trois romans : *L’odyssée de Grain de Bled en terre d’Ifriqiya* (L’Harmattan, 2013) ; *Le soleil colonial – Au royaume des cailloux* (Atlantis, 2014 ; Prix Terre d’Eghriss 2014) et *Les Enfants de la Licorne* (Atlantis, 2015).",
+      "original": true
+    }
+  },
   "photo": "/images/authors/maia-alonso.jpg"
 }

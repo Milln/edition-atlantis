@@ -1,5 +1,18 @@
 {
   "name": "Andrée Montero",
-  "bio": "",
+  "bio": {
+    "de": {
+      "text": "",
+      "original": true
+    },
+    "en": {
+      "text": "",
+      "original": false
+    },
+    "fr": {
+      "text": "",
+      "original": false
+    }
+  },
   "photo": "/images/authors/andree-montero.jpg"
 }

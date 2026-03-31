@@ -1,5 +1,18 @@
 {
   "name": "Hélie de Saint Marc",
-  "bio": "",
+  "bio": {
+    "de": {
+      "text": "",
+      "original": true
+    },
+    "en": {
+      "text": "",
+      "original": false
+    },
+    "fr": {
+      "text": "",
+      "original": false
+    }
+  },
   "photo": "/images/authors/helie-de-saint-marc.jpg"
 }

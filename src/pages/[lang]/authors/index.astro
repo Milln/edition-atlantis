@@ -28,35 +28,71 @@ authors.sort((a, b) => a.data.name.localeCompare(b.data.name));
 
   <div class="container mx-auto px-4 py-12">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {authors.map((author) => (
-        <div id={author.id} class="bg-white p-6 rounded-sm shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col items-center text-center">
-          {author.data.photo ? (
-            <img 
-              src={getPath(author.data.photo)}
-              alt={author.data.name} 
-              class="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-50"
-              onError={`this.onerror=null;this.src='${getPath("/images/placeholder-author.png")}';`}
-            />
-          ) : (
-            <img 
-              src={getPath("/images/placeholder-author.png")}
-              alt={author.data.name} 
-              class="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-50 bg-gray-100"
-            />
-          )}
+      {authors.map((author) => {
+        const bioData = author.data.bio;
+        let displayBio = '';
+        let isMachineTranslated = false;
+
+        if (typeof bioData === 'string') {
+          displayBio = bioData;
+        } else if (bioData) {
+          const langPriority = [lang, 'de', 'en', 'fr'].filter((l, i, arr) => arr.indexOf(l) === i) as ('de' | 'en' | 'fr')[];
+          const originalLang = (['de', 'en', 'fr'] as const).find(l => bioData[l]?.original === true);
           
-          <h3 class="font-serif text-xl font-bold text-gray-900 mb-2">{author.data.name}</h3>
-          
-          {/* Bio snippet or full bio if short */}
-          <div class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4" title={author.data.bio}>
-             {author.data.bio}
+          let selectedLang: 'de' | 'en' | 'fr' | undefined;
+          for (const l of langPriority) {
+            if (bioData[l]?.text) {
+              selectedLang = l;
+              break;
+            }
+          }
+
+          if (selectedLang && bioData[selectedLang]) {
+            displayBio = bioData[selectedLang]!.text;
+            if (originalLang && selectedLang !== originalLang) {
+              isMachineTranslated = true;
+            }
+          }
+        }
+
+        return (
+          <div id={author.id} class="bg-white p-6 rounded-sm shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col items-center text-center">
+            {author.data.photo ? (
+              <img 
+                src={getPath(author.data.photo)}
+                alt={author.data.name} 
+                class="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-50"
+                onError={`this.onerror=null;this.src='${getPath("/images/placeholder-author.png")}';`}
+              />
+            ) : (
+              <img 
+                src={getPath("/images/placeholder-author.png")}
+                alt={author.data.name} 
+                class="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-50 bg-gray-100"
+              />
+            )}
+            
+            <h3 class="font-serif text-xl font-bold text-gray-900 mb-2">{author.data.name}</h3>
+            
+            <div class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4" title={displayBio}>
+               {displayBio}
+            </div>
+
+            {isMachineTranslated && (
+              <div class="mb-4 flex items-start gap-2 px-3 py-2 rounded-sm border border-amber-100 bg-amber-50/50 text-amber-800 text-[10px] text-left leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 mt-0.5 shrink-0 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20A10 10 0 0012 2z" />
+                </svg>
+                <span>{t('publication.machine_translation_hint')}</span>
+              </div>
+            )}
+            
+            <a href={getPath(`/${lang}/publications?author=${author.id}`)} class="text-accent hover:text-primary text-sm font-semibold uppercase tracking-wide mt-auto">
+              {t('author.view_publications')}
+            </a>
           </div>
-          
-          <a href={getPath(`/${lang}/publications?author=${author.id}`)} class="text-accent hover:text-primary text-sm font-semibold uppercase tracking-wide mt-auto">
-            {t('author.view_publications')}
-          </a>
-        </div>
-      ))}
+        );
+      })}
     </div>
   </div>
 </Layout>

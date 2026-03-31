@@ -1,5 +1,18 @@
 {
   "name": "Josef Mair",
-  "bio": "",
-  "photo": "/images/authors/default.jpg"
+  "bio": {
+    "de": {
+      "text": "",
+      "original": true
+    },
+    "en": {
+      "text": "",
+      "original": false
+    },
+    "fr": {
+      "text": "",
+      "original": false
+    }
+  },
+  "photo": "/images/placeholder-author.png"
 }

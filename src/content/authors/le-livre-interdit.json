@@ -1,5 +1,18 @@
 {
   "name": "Le Livre interdit",
-  "bio": "",
+  "bio": {
+    "de": {
+      "text": "",
+      "original": true
+    },
+    "en": {
+      "text": "",
+      "original": false
+    },
+    "fr": {
+      "text": "",
+      "original": false
+    }
+  },
   "photo": "/images/authors/le-livre-interdit.jpg"
 }

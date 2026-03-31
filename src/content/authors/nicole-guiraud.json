@@ -1,5 +1,18 @@
 {
   "name": "Nicole Guiraud",
-  "bio": "Nicole Guiraud est née en 1946 dans le Sahel algérois, descendante d’une lignée de pionniers enracinés dans le pays depuis cinq générations. À 10 ans, elle est grièvement blessée dans l’attentat du Milk Bar, le 30 septembre 1956 à Alger. \n\nDans son Journal, elle retrace les violences de la guerre civile entre avril et juin 1962 à Alger qui mènera à l’exode des Français d’Algérie. \n\nArtiste plasticienne, elle témoigne de la mémoire oubliée d’une Algérie plurielle, avec ses moments de bonheur intense et ses déchirements cruels.",
+  "bio": {
+    "de": {
+      "text": "Nicole Guiraud wurde 1946 im Sahel von Algier geboren und entstammt einer Pionierfamilie, die seit fünf Generationen in diesem Land verwurzelt ist. Im Alter von 10 Jahren wurde sie bei dem Attentat auf die Milk-Bar am 30. September 1956 in Algier schwer verletzt. In ihrem Tagebuch schildert sie die Gewalt des Bürgerkriegs zwischen April und Juni 1962 in Algier, die zum Exodus der Algerienfranzosen führte. Als bildende Künstlerin zeugt sie von der vergessenen Erinnerung eines pluralistischen Algeriens mit seinen Momenten intensiven Glücks und grausamen Zerrissenheiten.",
+      "original": false
+    },
+    "en": {
+      "text": "Nicole Guiraud was born in 1946 in the Sahel of Algiers, a descendant of a lineage of pioneers rooted in the country for five generations. At the age of 10, she was seriously wounded in the Milk Bar bombing on September 30, 1956, in Algiers. In her journal, she recounts the violence of the civil war between April and June 1962 in Algiers, which would lead to the exodus of the French from Algeria. A visual artist, she bears witness to the forgotten memory of a pluralistic Algeria, with its moments of intense happiness and cruel heartbreaks.",
+      "original": false
+    },
+    "fr": {
+      "text": "Nicole Guiraud est née en 1946 dans le Sahel algérois, descendante d’une lignée de pionniers enracinés dans le pays depuis cinq générations. À 10 ans, elle est grièvement blessée dans l’attentat du Milk Bar, le 30 septembre 1956 à Alger. Dans son Journal, elle retrace les violences de la guerre civile entre avril et juin 1962 à Alger qui mènera à l’exode des Français d’Algérie. Artiste plasticienne, elle témoigne de la mémoire oubliée d’une Algérie plurielle, avec ses moments de bonheur intense et ses déchirements cruels.",
+      "original": true
+    }
+  },
   "photo": "/images/authors/nicole-guiraud.jpg"
 }

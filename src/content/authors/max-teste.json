@@ -1,5 +1,18 @@
 {
   "name": "Max Teste",
-  "bio": "Max Teste est né le 9 juillet 1941 à Constantine, d'un père ardéchois, arrivé très jeune en Algérie, et d'une mère pied-noir, d'origine maltaise. Peu après, ses parents, qui exploitaient une petite ferme près du Kroubs, s'installèrent d'abord à Alger, puis dans un petit village de la Mitidja.\n\nIl fit ses études secondaires au lycée Duveyrier de Blida, puis com­mença ses études supérieures à l'université d'Alger.\n\nAtteint, comme beaucoup de Pieds-Noirs, dès son arrivée en France, d'une \\\"nostalgérite\\\" incurable, il milita dans de nombreu­ses associations et amicales de rapatriés.",
+  "bio": {
+    "de": {
+      "text": "Max Teste wurde am 9. Juli 1941 in Constantine geboren. Sein Vater stammte aus der Ardèche und war schon in sehr jungen Jahren nach Algerien gekommen, seine Mutter war eine Pied-noir maltesischer Abstammung. Kurz darauf zogen seine Eltern, die eine kleine Farm in der Nähe von El Khroub bewirtschafteten, zunächst nach Algier und dann in ein kleines Dorf in der Mitidja-Ebene. Er besuchte das Lycée Duveyrier in Blida und begann anschließend sein Studium an der Universität Algier. Wie viele andere Pieds-Noirs litt er nach seiner Ankunft in Frankreich an einer unheilbaren \"Nostalgérite\" (Heimweh-Krankheit) und engagierte sich in zahlreichen Verbänden und Vereinigungen von Rückkehrern.",
+      "original": false
+    },
+    "en": {
+      "text": "Max Teste was born on July 9, 1941, in Constantine, to a father from the Ardèche, who arrived in Algeria at a very young age, and a Pied-noir mother of Maltese descent. Shortly after, his parents, who operated a small farm near El Khroub, settled first in Algiers and then in a small village in the Mitidja plain. He completed his secondary education at the Lycée Duveyrier in Blida, then began his higher education at the University of Algiers. Afflicted, like many Pieds-Noirs, upon his arrival in France with an incurable \"nostalgérite\" (nostalgia), he became an active member of numerous associations and friendly societies for repatriates.",
+      "original": false
+    },
+    "fr": {
+      "text": "Max Teste est né le 9 juillet 1941 à Constantine, d'un père ardéchois, arrivé très jeune en Algérie, et d'une mère pied-noir, d'origine maltaise. Peu après, ses parents, qui exploitaient une petite ferme près du Kroubs, s'installèrent d'abord à Alger, puis dans un petit village de la Mitidja. Il fit ses études secondaires au lycée Duveyrier de Blida, puis commença ses études supérieures à l'université d'Alger. Atteint, comme beaucoup de Pieds-Noirs, dès son arrivée en France, d'une \"nostalgérite\" incurable, il milita dans de nombreuses associations et amicales de rapatriés.",
+      "original": true
+    }
+  },
   "photo": "/images/authors/max-teste.jpg"
 }

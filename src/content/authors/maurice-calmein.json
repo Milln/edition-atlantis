@@ -1,5 +1,18 @@
 {
   "name": "Maurice Calmein",
-  "bio": "Maurice Calmein est né en 1947 à Oran. \n\nEn 1960, sa famille s’installe à Toulouse où, dès l’âge de vingt ans, il milite dans des associations de Français d’Algérie. Président de l’Amicale universitaire pied-noir, il rencontre Jean Pomier, l'un des fondateurs du mouvement algérianiste, dont il devient l’ami malgré leurs soixante ans d’écart. Il fondera lui-même le Cercle algérianiste quelques années plus tard et Jean Pomier en sera le président d’honneur. \n\nMaurice Calmein est l’auteur de plusieurs livres sur l’Algérie, dont Exode, Les Français d'Algérie. 1962-2014, Dis, c'était comment à l'époque de l'Algérie française ? et le roman Le Sel des Andalouses. \n\nIl a assuré l’éditorial de la revue l’Algérianiste pendant plus de dix ans.",
+  "bio": {
+    "de": {
+      "text": "Maurice Calmein wurde 1947 in Oran geboren.\n\n1960 zog seine Familie nach Toulouse, wo er sich ab dem zwanzigsten Lebensjahr in Verbänden der Franzosen aus Algerien engagierte. Als Präsident der Amicale universitaire pied-noir lernte er Jean Pomier kennen, einen der Gründer der Algerien-Bewegung, mit dem ihn trotz eines Altersunterschieds von sechzig Jahren eine Freundschaft verband. Einige Jahre später gründete er selbst den Cercle algérianiste, dessen Ehrenpräsident Jean Pomier wurde.\n\nMaurice Calmein ist der Autor mehrerer Bücher über Algerien, darunter *Exode*, *Les Français d'Algérie. 1962-2014*, *Dis, c'était comment à l'époque de l'Algérie française ?* sowie den Roman *Le Sel des Andalouses*.\n\nEr war mehr als zehn Jahre lang als Redakteur der Zeitschrift *l’Algérianiste* tätig.",
+      "original": false
+    },
+    "en": {
+      "text": "Maurice Calmein was born in 1947 in Oran.\n\nIn 1960, his family moved to Toulouse where, from the age of twenty, he campaigned in associations for French people from Algeria. As president of the Amicale universitaire pied-noir, he met Jean Pomier, one of the founders of the Algerianist movement, who became his friend despite their sixty-year age gap. He would go on to found the Cercle algérianiste a few years later, with Jean Pomier serving as honorary president.\n\nMaurice Calmein is the author of several books on Algeria, including *Exode*, *Les Français d'Algérie. 1962-2014*, *Dis, c'était comment à l'époque de l'Algérie française ?*, and the novel *Le Sel des Andalouses*.\n\nHe served as editor of the journal *l’Algérianiste* for over ten years.",
+      "original": false
+    },
+    "fr": {
+      "text": "Maurice Calmein est né en 1947 à Oran.\n\nEn 1960, sa famille s’installe à Toulouse où, dès l’âge de vingt ans, il milite dans des associations de Français d’Algérie. Président de l’Amicale universitaire pied-noir, il rencontre Jean Pomier, l'un des fondateurs du mouvement algérianiste, dont il devient l’ami malgré leurs soixante ans d’écart. Il fondera lui-même le Cercle algérianiste quelques années plus tard et Jean Pomier en sera le président d’honneur.\n\nMaurice Calmein est l’auteur de plusieurs livres sur l’Algérie, dont *Exode*, *Les Français d'Algérie. 1962-2014*, *Dis, c'était comment à l'époque de l'Algérie française ?* et le roman *Le Sel des Andalouses*.\n\nIl a assuré l’éditorial de la revue *l’Algérianiste* pendant plus de dix ans.",
+      "original": true
+    }
+  },
   "photo": "/images/authors/maurice-calmein.jpg"
 }

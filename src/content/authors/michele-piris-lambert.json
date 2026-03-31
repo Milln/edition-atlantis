@@ -1,5 +1,18 @@
 {
   "name": "Michèle Piris-Lambert",
-  "bio": "",
+  "bio": {
+    "de": {
+      "text": "",
+      "original": true
+    },
+    "en": {
+      "text": "",
+      "original": false
+    },
+    "fr": {
+      "text": "",
+      "original": false
+    }
+  },
   "photo": "/images/authors/michele-piris-lambert.jpg"
 }

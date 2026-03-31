@@ -1,5 +1,18 @@
 {
   "name": "Danielle Deliot-Libmann",
-  "bio": "",
+  "bio": {
+    "de": {
+      "text": "",
+      "original": true
+    },
+    "en": {
+      "text": "",
+      "original": false
+    },
+    "fr": {
+      "text": "",
+      "original": false
+    }
+  },
   "photo": "/images/authors/danielle-deliot-libmann.jpg"
 }
