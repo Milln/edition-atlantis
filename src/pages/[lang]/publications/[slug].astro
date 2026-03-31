@@ -319,7 +319,7 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
                      </div>
                      <div>
                        <span class="block text-[10px] uppercase font-bold text-gray-400 leading-none mb-1">{t('publication.author')}</span>
-                       <div class="text-sm font-medium text-gray-900">
+                       <div class="flex flex-wrap text-sm font-medium text-gray-900">
                          <a href={getPath(`/${pageLang}/publications?author=${author.id}`)} class="text-primary hover:underline transition-colors">{author.data.name}</a>
                          {coAuthors.length > 0 && (
                            <span class="text-gray-500">
