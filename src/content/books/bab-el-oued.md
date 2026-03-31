@@ -4,132 +4,242 @@ category: Collection France-Algérie
 author: jean-brune
 publicationDate: 2015-01-01T00:00:00.000Z
 isbn: 978-3-932711-43-5
-description: >
-  Bab-el-Oued raconté à Toinet (1955). Alger – Bab-el-Oued (1956). Avec des
-  extraits de : Cette haine qui ressemble à l'amour (1961) – Journal d'exil
-  (1963) – Interdit aux chiens et aux Français (1966)
+description:
+  de:
+    text: >-
+      Bab-el-Oued raconté à Toinet (1955). Alger – Bab-el-Oued (1956). Mit
+      Auszügen aus: Cette haine qui ressemble à l'amour (1961) – Journal d'exil
+      (1963) – Interdit aux chiens et aux Français (1966)
 
 
+      Wenn Camus Belcourt besungen hat, so hat sich Brune dem Viertel von
+      Cagayous, Bab-el-Oued, diesem faszinierenden Schmelztiegel, gewidmet.
 
 
-  Si Camus a chanté Belcourt, Brune s’est penché sur le quartier de Cagayous,
-  Bab-el-Oued, ce melting pot fascinant.
+      In seinem Roman Cette haine qui ressemble à l'amour (1961) und seinem
+      Journal d'exil (1963) hat Brune ausführlich seine Liebe zu diesem Vorort
+      von Algier erklärt. In Interdit aux chiens et aux Français (1966)
+      beschrieb er seinen Leidensweg, der auch der Leidensweg des gesamten
+      Französisch-Algeriens war.
 
 
-  Dans son roman Cette haine qui ressemble à l'amour (1961) et son Journal
-  d'exil (1963), Brune a longuement déclaré son amour pour ce faubourg d'Alger.
-  Dans Interdit aux chiens et aux Français (1966), il a décrit son calvaire qui
-  était celui de toute l'Algérie française.
+      Doch bereits 1955, in einer Artikelserie für La Dépêche quotidienne,
+      erzählte Brune voller Zärtlichkeit und Humor „Bab-el-Oued an Toinet“ und
+      fügte etwa fünfzig treffende Karikaturen hinzu.
 
 
-  Mais déjà en 1955, dans une série d'articles pour La Dépêche quotidienne,
-  c’est plein de tendresse et d’humour que Brune a \"raconté Bab-el-Oued à
-  Toinet\" en y ajoutant une cinquantaine de caricatures pertinentes.
+      Alle diese Schriften sind in dieser neuen Ausgabe vereint.
 
 
-  Tous ces écrits se trouvent réunis dans cette nouvelle édition.
+      Hören wir Jean Brune zu:
 
 
+      „Bab-el-Oued?
 
 
-  Écoutons Jean Brune :
+      Es ist keine spanische, weder eine italienische noch eine französische
+      Stadt. Es ist eine neue Stadt... eine Stadt, wie es sie nirgendwo sonst
+      gibt.
 
 
+      Es ist eine Synthese-Stadt.
 
 
-  \"Bab-el-Oued ?
+      Sie ist aus der Vermischung all jener Abenteuerpilger entstanden, die das
+      Mittelmeer zählt, deren Augen daran gewöhnt sind, jenseits des
+      Meereshorizonts nach unerreichbaren Eldorados zu suchen.
 
 
-  Ce n'est pas une ville espagnole, ni italienne, ni française. C'est une ville
-  nouvelle… une ville comme il n'en existe nulle part ailleurs.
+      Es waren stolze Neapolitaner, subtile Malteser, Korsen, stolz wie
+      Kondottieri, gleichgültige Andalusier, sture Kalabrier, tragische
+      Katalanen... und Franzosen, die skeptischer waren als alle Völker der
+      Welt, da sie sogar über die Wunder lachen können, die sie vollbringen.
 
 
-  C'est une ville-synthèse.
+      Sie brachten einen erstaunlichen Arbeitseifer und all die lateinischen
+      Traditionen mit, die zu den prächtigsten der Welt zählen.
 
 
-  Elle est née du brassage de tout ce que la Méditerranée compte de pèlerins de
-  l'aventure, dont les yeux sont accoutumés à chercher au-delà de l'horizon de
-  la mer d'insaisissables eldorados.
+      Aber vor allem brachten sie die Heiterkeit und Jugend von Rassen mit, die
+      durch den Austausch regeneriert wurden... eine Lebendigkeit, die gefrorene
+      und verklemmte Bourgeois als vulgär bezeichnen, die aber nur ein Ausdruck
+      der Spontaneität aufrichtiger und einfacher Menschen ist... die vertraute
+      Herzlichkeit von Völkern, die zu sehr gelitten haben, um nicht die
+      Tugenden der Nachsicht erlernt zu haben... und die wissen, wie man
+      tägliche Sorgen hinter Witzen und Gelächter verbirgt, die die
+      Schamhaftigkeit der armen Leute sind.
 
 
-  C'étaient des Napolitains orgueilleux, des Maltais subtils, des Corses fiers
-  comme des condottières, des Andalous nonchalants, des Calabrais têtus, des
-  Catalans tragiques… et des Français plus sceptiques que toutes les races du
-  monde puisqu'ils sont capables de rire même des miracles qu'ils accomplissent.
+      Das ist Bab-el-Oued.“ (Jean Brune)
 
 
-  Ils ont importé un prodigieux acharnement au travail et toutes les traditions
-  latines qui comptent parmi les plus somptueuses du monde.
+      Mit 50 Illustrationen und Karikaturen von Jean Brune.
 
 
-  Mais ils ont surtout apporté la gaieté et la jeunesse des races régénérées par
-  les échanges… une vivacité que les bourgeois glacés et pincés jugent vulgaire
-  mais qui n'est qu'une manifestation de la spontanéité des gens sincères et
-  simples… la bonhommie familière des peuples qui ont trop souffert pour ne pas
-  avoir appris les vertus de l'indulgence… et qui savent dissimuler les soucis
-  quotidiens derrière des plaisanteries et des rires qui sont la pudeur des gens
-  pauvres.
+      Sammlung France-Algérie 43
 
 
-  Voilà Bab-el-Oued.\" (Jean Brune)
+      Großformat: 20 x 30 cm
 
 
+      88 Seiten / 350 g
+    original: false
+  en:
+    text: >-
+      Bab-el-Oued raconté à Toinet (1955). Alger – Bab-el-Oued (1956). With
+      excerpts from: Cette haine qui ressemble à l'amour (1961) – Journal d'exil
+      (1963) – Interdit aux chiens et aux Français (1966)
 
 
-  Avec 50 illustrations et caricatures de Jean Brune.
+      If Camus sang of Belcourt, Brune focused on the district of Cagayous,
+      Bab-el-Oued, that fascinating melting pot.
 
 
+      In his novel Cette haine qui ressemble à l'amour (1961) and his Journal
+      d'exil (1963), Brune declared his love for this suburb of Algiers at
+      length. In Interdit aux chiens et aux Français (1966), he described his
+      ordeal, which was that of all French Algeria.
 
 
-  Collection France-Algérie 43
+      But as early as 1955, in a series of articles for La Dépêche quotidienne,
+      it was with great tenderness and humor that Brune "told Bab-el-Oued to
+      Toinet," adding about fifty relevant caricatures.
 
 
+      All these writings are gathered in this new edition.
 
 
-  Grand format : 20 x 30 cm
+      Let us listen to Jean Brune:
 
 
+      "Bab-el-Oued?
 
 
-  88 pages / 350g
+      It is not a Spanish city, nor Italian, nor French. It is a new city... a
+      city like nowhere else exists.
+
+
+      It is a synthesis city.
+
+
+      It was born from the blending of everyone the Mediterranean counts as
+      pilgrims of adventure, whose eyes are accustomed to searching beyond the
+      horizon of the sea for elusive Eldorados.
+
+
+      They were proud Neapolitans, subtle Maltese, Corsicans as proud as
+      condottieri, nonchalant Andalusians, stubborn Calabrians, tragic
+      Catalans... and French people more skeptical than any race in the world,
+      since they are capable of laughing even at the miracles they perform.
+
+
+      They imported a prodigious relentlessness for work and all the Latin
+      traditions that count among the most sumptuous in the world.
+
+
+      But above all, they brought the gaiety and youth of races regenerated by
+      exchange... a liveliness that cold and pinched bourgeois judge as vulgar,
+      but which is only a manifestation of the spontaneity of sincere and simple
+      people... the familiar good-naturedness of peoples who have suffered too
+      much not to have learned the virtues of indulgence... and who know how to
+      hide daily worries behind jokes and laughter, which are the modesty of the
+      poor.
+
+
+      That is Bab-el-Oued." (Jean Brune)
+
+
+      With 50 illustrations and caricatures by Jean Brune.
+
+
+      Collection France-Algérie 43
+
+
+      Large format: 20 x 30 cm
+
+
+      88 pages / 350g
+    original: false
+  fr:
+    text: >-
+      Bab-el-Oued raconté à Toinet (1955). Alger – Bab-el-Oued (1956). Avec des
+      extraits de : Cette haine qui ressemble à l'amour (1961) – Journal d'exil
+      (1963) – Interdit aux chiens et aux Français (1966)
+
+
+      Si Camus a chanté Belcourt, Brune s’est penché sur le quartier de
+      Cagayous, Bab-el-Oued, ce melting-pot fascinant.
+
+
+      Dans son roman Cette haine qui ressemble à l'amour (1961) et son Journal
+      d'exil (1963), Brune a longuement déclaré son amour pour ce faubourg
+      d'Alger. Dans Interdit aux chiens et aux Français (1966), il a décrit son
+      calvaire qui était celui de toute l'Algérie française.
+
+
+      Mais déjà en 1955, dans une série d'articles pour La Dépêche quotidienne,
+      c’est plein de tendresse et d’humour que Brune a "raconté Bab-el-Oued à
+      Toinet" en y ajoutant une cinquantaine de caricatures pertinentes.
+
+
+      Tous ces écrits se trouvent réunis dans cette nouvelle édition.
+
+
+      Écoutons Jean Brune :
+
+
+      "Bab-el-Oued ?
+
+
+      Ce n'est pas une ville espagnole, ni italienne, ni française. C'est une
+      ville nouvelle… une ville comme il n'en existe nulle part ailleurs.
+
+
+      C'est une ville-synthèse.
+
+
+      Elle est née du brassage de tout ce que la Méditerranée compte de pèlerins
+      de l'aventure, dont les yeux sont accoutumés à chercher au-delà de
+      l'horizon de la mer d'insaisissables eldorados.
+
+
+      C'étaient des Napolitains orgueilleux, des Maltais subtils, des Corses
+      fiers comme des condottières, des Andalous nonchalants, des Calabrais
+      têtus, des Catalans tragiques… et des Français plus sceptiques que toutes
+      les races du monde puisqu'ils sont capables de rire même des miracles
+      qu'ils accomplissent.
+
+
+      Ils ont importé un prodigieux acharnement au travail et toutes les
+      traditions latines qui comptent parmi les plus somptueuses du monde.
+
+
+      Mais ils ont surtout apporté la gaieté et la jeunesse des races régénérées
+      par les échanges… une vivacité que les bourgeois glacés et pincés jugent
+      vulgaire mais qui n'est qu'une manifestation de la spontanéité des gens
+      sincères et simples… la bonhommie familière des peuples qui ont trop
+      souffert pour ne pas avoir appris les vertus de l'indulgence… et qui
+      savent dissimuler les soucis quotidiens derrière des plaisanteries et des
+      rires qui sont la pudeur des gens pauvres.
+
+
+      Voilà Bab-el-Oued." (Jean Brune)
+
+
+      Avec 50 illustrations et caricatures de Jean Brune.
+
+
+      Collection France-Algérie 43
+
+
+      Grand format : 20 x 30 cm
+
+
+      88 pages / 350g
+    original: true
 cover: /images/books/bab-el-oued.jpg
 language: fr
 price: 7.6
 back: /images/books/bab-el-oued_back.jpg
 ---
 
-***Bab-el-Oued raconté à Toinet* (1955). *Alger – Bab-el-Oued* (1956). Avec des extraits de : *Cette haine qui ressemble à l'amour* (1961) – *Journal d'exil* (1963) – *Interdit aux chiens et aux Français* (1966)**
-
-Si Camus a chanté Belcourt, Brune s’est penché sur le quartier de Cagayous, Bab-el-Oued, ce melting pot fascinant.
-
-Dans son roman *Cette haine qui ressemble à l'amour* (1961) et son *Journal d'exil* (1963), Brune a longuement déclaré son amour pour ce faubourg d'Alger. Dans *Interdit aux chiens et aux Français* (1966), il a décrit son calvaire qui était celui de toute l'Algérie française.
-
-Mais déjà en 1955, dans une série d'articles pour *La Dépêche quotidienne*, c’est plein de tendresse et d’humour que Brune a \"raconté Bab-el-Oued à Toinet\" en y ajoutant une cinquantaine de caricatures pertinentes.
-
-**Tous ces écrits se trouvent réunis dans cette nouvelle édition.**
-
-**Écoutons Jean Brune :**
-
-*\"Bab-el-Oued ?*
-
-*Ce n'est pas une ville espagnole, ni italienne, ni française. C'est une ville nouvelle… une ville comme il n'en existe nulle part ailleurs.*
-
-*C'est une ville-synthèse.*
-
-*Elle est née du brassage de tout ce que la Méditerranée compte de pèlerins de l'aventure, dont les yeux sont accoutumés à chercher au-delà de l'horizon de la mer d'insaisissables eldorados.*
-
-*C'étaient des Napolitains orgueilleux, des Maltais subtils, des Corses fiers comme des condottières, des Andalous nonchalants, des Calabrais têtus, des Catalans tragiques… et des Français plus sceptiques que toutes les races du monde puisqu'ils sont capables de rire même des miracles qu'ils accomplissent.*
-
-*Ils ont importé un prodigieux acharnement au travail et toutes les traditions latines qui comptent parmi les plus somptueuses du monde.*
-
-*Mais ils ont surtout apporté la gaieté et la jeunesse des races régénérées par les échanges… une vivacité que les bourgeois glacés et pincés jugent vulgaire mais qui n'est qu'une manifestation de la spontanéité des gens sincères et simples… la bonhommie familière des peuples qui ont trop souffert pour ne pas avoir appris les vertus de l'indulgence… et qui savent dissimuler les soucis quotidiens derrière des plaisanteries et des rires qui sont la pudeur des gens pauvres.*
-
-*Voilà Bab-el-Oued.\"* (Jean Brune)
-
-Avec 50 illustrations et caricatures de Jean Brune.
-
-Collection France-Algérie 43
-
-**Grand format : 20 x 30 cm**
-
-88 pages / 350g

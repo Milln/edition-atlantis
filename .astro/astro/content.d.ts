@@ -687,13 +687,6 @@ declare module 'astro:content' {
   collection: "books";
   data: InferEntrySchema<"books">
 } & { render(): Render[".md"] };
-"nouveau-blason-pied-noir.md": {
-	id: "nouveau-blason-pied-noir.md";
-  slug: "nouveau-blason-pied-noir";
-  body: string;
-  collection: "books";
-  data: InferEntrySchema<"books">
-} & { render(): Render[".md"] };
 "oran-1961-1962-journal-dun-pretre-en-algerie.md": {
 	id: "oran-1961-1962-journal-dun-pretre-en-algerie.md";
   slug: "oran-1961-1962-journal-dun-pretre-en-algerie";
@@ -711,13 +704,6 @@ declare module 'astro:content' {
 "peter-heel-der-vornehme-bildhauer-von-pfronten-169.md": {
 	id: "peter-heel-der-vornehme-bildhauer-von-pfronten-169.md";
   slug: "peter-heel-der-vornehme-bildhauer-von-pfronten-169";
-  body: string;
-  collection: "books";
-  data: InferEntrySchema<"books">
-} & { render(): Render[".md"] };
-"pour-moi-wernher-von-braun-est-un-criminel-de-guer.md": {
-	id: "pour-moi-wernher-von-braun-est-un-criminel-de-guer.md";
-  slug: "pour-moi-wernher-von-braun-est-un-criminel-de-guer";
   body: string;
   collection: "books";
   data: InferEntrySchema<"books">
@@ -764,24 +750,12 @@ declare module 'astro:content' {
   collection: "books";
   data: InferEntrySchema<"books">
 } & { render(): Render[".md"] };
-"wie-kann-man-nur-eine-deutsche-schule-nach-wernher.md": {
-	id: "wie-kann-man-nur-eine-deutsche-schule-nach-wernher.md";
-  slug: "wie-kann-man-nur-eine-deutsche-schule-nach-wernher";
-  body: string;
-  collection: "books";
-  data: InferEntrySchema<"books">
-} & { render(): Render[".md"] };
 };
 
 	};
 
 	type DataEntryMap = {
 		"authors": {
-"andre-laroche": {
-	id: "andre-laroche";
-  collection: "authors";
-  data: InferEntrySchema<"authors">
-};
 "andree-montero": {
 	id: "andree-montero";
   collection: "authors";

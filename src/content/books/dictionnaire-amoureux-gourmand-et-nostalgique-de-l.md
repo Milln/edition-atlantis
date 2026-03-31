@@ -3,53 +3,77 @@ title: 'Dictionnaire amoureux, gourmand et nostalgique de l''Algérie française
 author: max-teste
 publicationDate: 2015-01-01T00:00:00.000Z
 isbn: 978-3-932711-47-3
-description: >
-  Invitation au voyage…
+description:
+  de:
+    text: >-
+      Einladung zur Reise...
 
 
+      Ich lade Sie ein, diese Mounas zu teilen, die gerade aus dem Ofen kommen.
+      Ihr unvergleichlicher Duft wird Sie auf einem Spaziergang durch das
+      französische Algerien begleiten, durch ein Labyrinth aus Wörtern
+      französischen, spanischen, italienischen, maltesischen und arabischen
+      Ursprungs.
 
 
-  Je vous invite à partager ces mounas qui sortent du four. Leur parfum
-  incomparable vous accompagnera dans une bala­de en Algérie française, à
-  travers un dédale de mots d'origine française, espagnole, italienne, maltaise,
-  arabe…
+      Sie werden dann die fleischlichen Bande wiederfinden oder entdecken, die
+      die Pieds-Noirs mit diesem Algerien verbanden, dem sie so viel gegeben
+      haben und das ihnen so viel zurückgegeben hat.
 
 
+      Dieses Algerien, das trotz des Leids der Trennung und des Exils für immer
+      in ihrem Herzen geblieben ist.
 
 
-  Vous pourrez alors retrouver – ou découvrir – les liens charnels qui
-  unissaient les Pieds-Noirs à cette Algérie, à laquelle ils ont tant apporté et
-  qui leur a tant donné en retour.
+      368 Seiten - 30 Illustrationen - 660 g
+    original: false
+  en:
+    text: >-
+      Invitation to travel...
 
 
+      I invite you to share these mounas straight out of the oven. Their
+      incomparable scent will accompany you on a walk through French Algeria,
+      through a labyrinth of words of French, Spanish, Italian, Maltese, and
+      Arabic origin.
 
 
-  Cette Algérie qui est restée à jamais dans leur cœur, malgré les souffrances
-  de la rupture et de l'exil.
+      You will then be able to rediscover or discover the carnal bonds that
+      united the Pieds-Noirs to this Algeria, to which they contributed so much
+      and which gave them so much in return.
 
 
+      This Algeria that has remained forever in their hearts, despite the
+      suffering of the rupture and exile.
 
 
-  368 pages - 30 illustrations - 660g
+      368 pages - 30 illustrations - 660g
+    original: false
+  fr:
+    text: >-
+      Invitation au voyage...
 
 
+      Je vous invite à partager ces mounas qui sortent du four. Leur parfum
+      incomparable vous accompagnera dans une balade en Algérie française, à
+      travers un dédale de mots d'origine française, espagnole, italienne,
+      maltaise, arabe...
 
 
-  Paru le 23 octobre 2015.
+      Vous pourrez alors retrouver ou découvrir les liens charnels qui
+      unissaient les Pieds-Noirs à cette Algérie, à laquelle ils ont tant
+      apporté et qui leur a tant donné en retour.
+
+
+      Cette Algérie qui est restée à jamais dans leur cœur, malgré les
+      souffrances de la rupture et de l'exil.
+
+
+      368 pages - 30 illustrations - 660g
+    original: true
 cover: /images/books/dictionnaire-amoureux-gourmand-et-nostalgique-de-l.jpg
 language: fr
 price: 25
 back: /images/books/dictionnaire-amoureux-gourmand-et-nostalgique-de-l_back.jpg
 ---
 
-**Invitation au voyage…**
-
-Je vous invite à partager ces *mounas* qui sortent du four. Leur parfum incomparable vous accompagnera dans une bala­de en Algérie française, à travers un dédale de mots d'origine française, espagnole, italienne, maltaise, arabe…
-
-Vous pourrez alors retrouver – ou découvrir – les liens charnels qui unissaient les Pieds-Noirs à cette Algérie, à laquelle ils ont tant apporté et qui leur a tant donné en retour.
-
-Cette Algérie qui est restée à jamais dans leur cœur, malgré les souffrances de la rupture et de l'exil.
-
-368 pages - 30 illustrations - 660g
-
-Paru le 23 octobre 2015.

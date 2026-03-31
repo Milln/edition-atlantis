@@ -10,9 +10,18 @@ const booksCollection = defineCollection({
         description: z.union([
             z.string(),
             z.object({
-                de: z.string().optional(),
-                en: z.string().optional(),
-                fr: z.string().optional(),
+                de: z.object({
+                    text: z.string(),
+                    original: z.boolean().optional(),
+                }).optional(),
+                en: z.object({
+                    text: z.string(),
+                    original: z.boolean().optional(),
+                }).optional(),
+                fr: z.object({
+                    text: z.string(),
+                    original: z.boolean().optional(),
+                }).optional(),
             })
         ]),
         cover: z.string(),

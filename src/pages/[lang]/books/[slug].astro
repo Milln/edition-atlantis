@@ -40,17 +40,39 @@ if (book.data.coAuthors) {
 }
 
 // Resolve description based on page language
-let metaDescription = '';
+let fullDescription = '';
+let isMachineTranslated = false;
+
 if (typeof book.data.description === 'string') {
-  metaDescription = book.data.description;
-} else {
-  // It's an object with localized keys
-  // @ts-ignore
-  metaDescription = book.data.description[pageLang] || book.data.description['en'] || book.data.description['de'] || '';
+  fullDescription = book.data.description;
+} else if (book.data.description) {
+  const desc = book.data.description;
+  // Priority: current page lang → en → de → fr
+  const langPriority = [pageLang, 'en', 'de', 'fr'].filter((l, i, arr) => arr.indexOf(l) === i) as ('de' | 'en' | 'fr')[];
+  
+  // Find the original language entry
+  const originalLang = (['de', 'en', 'fr'] as const).find(l => desc[l]?.original === true);
+  
+  // Pick the best available text
+  let selectedLang: 'de' | 'en' | 'fr' | undefined;
+  for (const l of langPriority) {
+    if (desc[l]?.text) {
+      selectedLang = l;
+      break;
+    }
+  }
+
+  if (selectedLang && desc[selectedLang]) {
+    fullDescription = desc[selectedLang]!.text;
+    // Show hint if we know there's an original and the selected lang is not it
+    if (originalLang && selectedLang !== originalLang) {
+      isMachineTranslated = true;
+    }
+  }
 }
 
-// Truncate for meta tag if needed
-metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 160 ? '...' : '');
+// Truncate for meta tag
+const metaDescription = fullDescription.substring(0, 160) + (fullDescription.length > 160 ? '...' : '');
 
 ---
 
@@ -131,8 +153,16 @@ metaDescription = metaDescription.substring(0, 160) + (metaDescription.length > 
             </div>
         )}
 
-        <div class="prose prose-lg prose-headings:font-serif prose-headings:text-primary prose-a:text-accent max-w-none mb-12">
-          <Content />
+        {isMachineTranslated && (
+          <div class="flex items-start gap-3 mb-6 px-4 py-3 rounded-sm border border-amber-200 bg-amber-50 text-amber-800 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 shrink-0 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20A10 10 0 0012 2z" />
+            </svg>
+            <span>{t('book.machine_translation_hint')}</span>
+          </div>
+        )}
+        <div class="prose prose-lg prose-headings:font-serif prose-headings:text-primary prose-a:text-accent max-w-none mb-12 whitespace-pre-wrap">
+          {fullDescription}
         </div>
 
         <div class="bg-gray-50 p-6 rounded-sm border border-gray-200">
