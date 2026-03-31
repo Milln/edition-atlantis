@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import { useTranslations, getPath } from '../../../i18n/utils';
 import { languages } from '../../../i18n/ui';
 import { parseMarkdown } from '../../../utils/markdown';
+import { Icon } from 'astro-icon/components';
 
 export function getStaticPaths() {
   return [
@@ -97,18 +98,14 @@ authors.sort((a, b) => a.data.name.localeCompare(b.data.name));
 
             {isMachineTranslated && (
               <div class="mb-6 flex items-start gap-2 px-3 py-2 rounded-sm border border-amber-100 bg-amber-50/50 text-amber-800 text-[10px] text-left leading-tight">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 mt-0.5 shrink-0 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20A10 10 0 0012 2z" />
-                </svg>
+                <Icon name="lucide:info" class="h-3 w-3 mt-0.5 shrink-0 text-amber-500" />
                 <span>{t('publication.machine_translation_hint')}</span>
               </div>
             )}
             
             <a href={getPath(`/${lang}/publications?author=${author.id}`)} class="inline-flex items-center text-accent hover:text-primary text-sm font-semibold uppercase tracking-widest mt-auto border-b-2 border-transparent hover:border-accent transition-all pb-1">
               {t('author.view_publications')}
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
+              <Icon name="lucide:arrow-right" class="h-4 w-4 ml-2" />
             </a>
           </div>
         );

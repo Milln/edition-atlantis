@@ -2,6 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import { useTranslations } from '../../../i18n/utils';
 import { languages } from '../../../i18n/ui';
+import { Icon } from 'astro-icon/components';
 
 export function getStaticPaths() {
   return [
@@ -29,23 +30,43 @@ const isFrench = lang === 'fr';
     <div class="max-w-4xl mx-auto">
       
       <!-- Contact Sections -->
-      <h2 id="impressum" class="font-serif text-3xl font-bold text-primary mb-10">{t('footer.imprint')}</h2>
+      <h2 id="impressum" class="font-serif text-3xl font-bold text-primary mb-10 flex items-center gap-3">
+        <Icon name="lucide:info" class="h-8 w-8 text-accent" />
+        {t('footer.imprint')}
+      </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-16 mb-20">
         <!-- Germany -->
         <section>
           <h2 class="font-serif text-2xl font-bold text-primary mb-6 border-b border-gray-100 pb-3">{t('about.contact_de')}</h2>
-          <div class="space-y-4 text-gray-700 leading-relaxed">
-            <div>
-              <p class="font-bold text-gray-900 tracking-tight">Edition Atlantis</p>
-              <p>Dr. Wolf Albes</p>
-              <p>Geltendorfer Straße 17</p>
-              <p>86316 Friedberg</p>
+          <div class="space-y-6 text-gray-700 leading-relaxed">
+            <div class="flex items-start gap-4">
+              <div class="mt-1 bg-gray-50 p-2 rounded-sm text-primary">
+                <Icon name="lucide:map-pin" class="h-5 w-5" />
+              </div>
+              <div>
+                <p class="font-bold text-gray-900 tracking-tight">Edition Atlantis</p>
+                <p>Dr. Wolf Albes</p>
+                <p>Geltendorfer Straße 17</p>
+                <p>86316 Friedberg</p>
+              </div>
             </div>
             
-            <div class="space-y-1 text-sm">
-              <p><span class="font-semibold text-gray-900 w-12 inline-block">Tel:</span> 00 49 821 267 98 31</p>
-              <p><span class="font-semibold text-gray-900 w-12 inline-block">Fax:</span> 00 49 821 267 99 31</p>
-              <p><span class="font-semibold text-gray-900 w-12 inline-block">Email:</span> <a href="mailto:contact@editionatlantis.de" class="text-accent hover:text-primary transition-colors underline decoration-accent/30 underline-offset-4">contact@editionatlantis.de</a></p>
+            <div class="space-y-2 text-sm pl-11">
+              <p class="flex items-center gap-3">
+                <Icon name="lucide:phone" class="h-4 w-4 text-gray-400" />
+                <span class="font-semibold text-gray-900 w-12 inline-block">Tel:</span> 
+                <span>00 49 821 267 98 31</span>
+              </p>
+              <p class="flex items-center gap-3">
+                <Icon name="lucide:printer" class="h-4 w-4 text-gray-400" />
+                <span class="font-semibold text-gray-900 w-12 inline-block">Fax:</span> 
+                <span>00 49 821 267 99 31</span>
+              </p>
+              <p class="flex items-center gap-3">
+                <Icon name="lucide:mail" class="h-4 w-4 text-gray-400" />
+                <span class="font-semibold text-gray-900 w-12 inline-block">Email:</span> 
+                <a href="mailto:contact@editionatlantis.de" class="text-accent hover:text-primary transition-colors underline decoration-accent/30 underline-offset-4">contact@editionatlantis.de</a>
+              </p>
             </div>
           </div>
         </section>
@@ -53,18 +74,35 @@ const isFrench = lang === 'fr';
         <!-- France -->
         <section>
           <h2 class="font-serif text-2xl font-bold text-primary mb-6 border-b border-gray-100 pb-3">{t('about.contact_fr')}</h2>
-          <div class="space-y-4 text-gray-700 leading-relaxed">
-            <div>
-              <p class="font-bold text-gray-900 tracking-tight">Éditions Atlantis</p>
-              <p>M. Wolf Albes (PDG)</p>
-              <p>3, rue des Syrah</p>
-              <p>26790 Bouchet</p>
+          <div class="space-y-6 text-gray-700 leading-relaxed">
+            <div class="flex items-start gap-4">
+              <div class="mt-1 bg-gray-50 p-2 rounded-sm text-primary">
+                <Icon name="lucide:map-pin" class="h-5 w-5" />
+              </div>
+              <div>
+                <p class="font-bold text-gray-900 tracking-tight">Éditions Atlantis</p>
+                <p>M. Wolf Albes (PDG)</p>
+                <p>3, rue des Syrah</p>
+                <p>26790 Bouchet</p>
+              </div>
             </div>
             
-            <div class="space-y-1 text-sm">
-              <p><span class="font-semibold text-gray-900 w-12 inline-block">Tél:</span> 04 75 92 37 51</p>
-              <p><span class="font-semibold text-gray-900 w-12 inline-block">Port:</span> 06 31 05 70 83</p>
-              <p><span class="font-semibold text-gray-900 w-12 inline-block">Email:</span> <a href="mailto:editions.atlantis@orange.fr" class="text-accent hover:text-primary transition-colors underline decoration-accent/30 underline-offset-4">editions.atlantis@orange.fr</a></p>
+            <div class="space-y-2 text-sm pl-11">
+              <p class="flex items-center gap-3">
+                <Icon name="lucide:phone" class="h-4 w-4 text-gray-400" />
+                <span class="font-semibold text-gray-900 w-12 inline-block">Tél:</span> 
+                <span>04 75 92 37 51</span>
+              </p>
+              <p class="flex items-center gap-3">
+                <Icon name="lucide:smartphone" class="h-4 w-4 text-gray-400" />
+                <span class="font-semibold text-gray-900 w-12 inline-block">Port:</span> 
+                <span>06 31 05 70 83</span>
+              </p>
+              <p class="flex items-center gap-3">
+                <Icon name="lucide:mail" class="h-4 w-4 text-gray-400" />
+                <span class="font-semibold text-gray-900 w-12 inline-block">Email:</span> 
+                <a href="mailto:editions.atlantis@orange.fr" class="text-accent hover:text-primary transition-colors underline decoration-accent/30 underline-offset-4">editions.atlantis@orange.fr</a>
+              </p>
             </div>
           </div>
         </section>
@@ -74,12 +112,18 @@ const isFrench = lang === 'fr';
 
       <!-- Payment Section -->
       <section id="payment">
-        <h2 class="font-serif text-3xl font-bold text-primary mb-10">{t('about.payment_info')}</h2>
+        <h2 class="font-serif text-3xl font-bold text-primary mb-10 flex items-center gap-3">
+          <Icon name="lucide:credit-card" class="h-8 w-8 text-accent" />
+          {t('about.payment_info')}
+        </h2>
         
         <div class="space-y-12">
           <!-- PayPal -->
-          <div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">{t('about.payment_paypal')}</h3>
+          <div class="bg-white border border-gray-100 p-8 rounded-sm shadow-sm">
+              <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <Icon name="lucide:wallet" class="h-6 w-6 text-primary" />
+                {t('about.payment_paypal')}
+              </h3>
               <p class="text-gray-600 mb-4">{t('about.payment_paypal_text')}</p>
               <div class="inline-block bg-gray-50 border border-gray-200 px-4 py-2 rounded font-mono text-sm text-primary">
                 wolf.albes@kabelmail.de
@@ -88,8 +132,11 @@ const isFrench = lang === 'fr';
           </div>
 
           <!-- Bank Transfer -->
-          <div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">{t('about.payment_bank')}</h3>
+          <div class="bg-white border border-gray-100 p-8 rounded-sm shadow-sm">
+              <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <Icon name="lucide:landmark" class="h-6 w-6 text-primary" />
+                {t('about.payment_bank')}
+              </h3>
               <p class="text-gray-600 mb-6">{t('about.payment_bank_text')}</p>
               
               <div class="bg-white border border-gray-200 rounded-sm overflow-hidden max-w-lg">
@@ -113,8 +160,11 @@ const isFrench = lang === 'fr';
 
           <!-- Cheque (FR ONLY) -->
           {isFrench && (
-            <div>
-                <h3 class="text-xl font-bold text-gray-900 mb-2">{t('about.payment_cheque')}</h3>
+            <div class="bg-white border border-gray-100 p-8 rounded-sm shadow-sm">
+                <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <Icon name="lucide:send" class="h-6 w-6 text-primary" />
+                  {t('about.payment_cheque')}
+                </h3>
                 <p class="text-gray-600 mb-6">{t('about.payment_cheque_text')}</p>
                 <div class="bg-gray-50 border border-dashed border-gray-300 p-6 rounded-sm text-gray-800 italic max-w-sm mb-4">
                   <p>Wolf ALBES</p>
@@ -131,7 +181,10 @@ const isFrench = lang === 'fr';
       <!-- Privacy Policy Section -->
       <hr class="border-gray-100 my-16" />
       <section id="privacy">
-        <h2 class="font-serif text-3xl font-bold text-primary mb-6">{t('footer.privacy')}</h2>
+        <h2 class="font-serif text-3xl font-bold text-primary mb-6 flex items-center gap-3">
+          <Icon name="lucide:shield-check" class="h-8 w-8 text-accent" />
+          {t('footer.privacy')}
+        </h2>
         <div class="space-y-4 text-gray-700 leading-relaxed max-w-3xl">
           <p>{t('about.privacy_text1')}</p>
           <p>{t('about.privacy_text2')}</p>

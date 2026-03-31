@@ -2,6 +2,7 @@
 import Search from './Search.astro';
 import { getLangFromUrl, useTranslations, getPath } from '../i18n/utils';
 import LanguagePicker from './LanguagePicker.astro';
+import { Icon } from 'astro-icon/components';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -73,9 +74,7 @@ const isActive = (path: string) => {
       
       <!-- Mobile Menu Button (Hamburger) -->
       <button id="mobile-menu-btn" class="md:hidden text-primary focus:outline-none p-2" aria-label="Toggle menu">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
+        <Icon name="lucide:menu" class="h-6 w-6" />
       </button>
     </div>
     </div>

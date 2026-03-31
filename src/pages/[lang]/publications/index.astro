@@ -4,6 +4,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import { useTranslations, getPath } from '../../../i18n/utils';
 import { languages } from '../../../i18n/ui';
 import PublicationCard from '../../../components/PublicationCard.astro';
+import { Icon } from 'astro-icon/components';
 
 export function getStaticPaths() {
   return [
@@ -53,9 +54,7 @@ function getAuthorName(authorRef: { id: string }) {
 
       <button id="filterToggle" class="md:hidden w-full flex items-center justify-between bg-white border border-gray-200 px-4 py-3 rounded-sm text-primary font-bold shadow-sm mb-4">
         <span id="filterToggleText" data-show={t('filter.show')} data-hide={t('filter.hide')}>{t('filter.show')}</span>
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-        </svg>
+        <Icon name="lucide:chevron-down" class="h-5 w-5 transition-transform duration-300" />
       </button>
 
       <div id="filters" class="hidden md:block">

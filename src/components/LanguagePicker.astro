@@ -1,6 +1,7 @@
 ---
 import { languages } from '../i18n/ui';
 import { getLangFromUrl, getPath } from '../i18n/utils';
+import { Icon } from 'astro-icon/components';
 
 const lang = getLangFromUrl(Astro.url);
 
@@ -20,9 +21,7 @@ currentPath = currentPath.replace(new RegExp(`^/${lang}`), '') || '/';
 <div class="relative group">
   <button class="flex items-center space-x-1 text-primary hover:text-accent font-medium uppercase">
     <span>{lang}</span>
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-    </svg>
+    <Icon name="lucide:chevron-down" class="h-4 w-4" />
   </button>
   <div class="absolute right-0 top-full pt-2 w-24 hidden group-hover:block z-50">
     <div class="bg-white border border-gray-100 shadow-lg rounded-md overflow-hidden">

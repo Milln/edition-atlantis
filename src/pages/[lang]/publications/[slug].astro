@@ -130,27 +130,41 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
           {publication.data.title}
         </h1>
 
-        <div class="flex flex-wrap items-center mb-8 pb-8 border-b border-gray-100 gap-4">
-           {author && (
-            <a href={getPath(`/${pageLang}/publications?author=${author.id}`)} class="flex items-center group">
-               {author.data.photo && (
-                 <img src={getPath(author.data.photo)} alt={author.data.name} class="w-10 h-10 rounded-full object-cover mr-3 bg-gray-200" onError="this.style.display='none'"/>
-               )}
-               <span class="text-lg font-medium text-gray-700 group-hover:text-primary transition-colors">
-                 {author.data.name}
-               </span>
-            </a>
-           )}
-           {coAuthors.map(ca => (
-               <a href={getPath(`/${pageLang}/publications?author=${ca.id}`)} class="flex items-center group">
-                   {ca.data.photo && (
-                     <img src={getPath(ca.data.photo)} alt={ca.data.name} class="w-8 h-8 rounded-full object-cover mr-2 bg-gray-200" onError="this.style.display='none'"/>
-                   )}
-                   <span class="text-lg font-medium text-gray-700 group-hover:text-primary transition-colors">
-                     {ca.data.name}
+        <div class="flex flex-wrap items-center gap-y-6 gap-x-8 mb-10 pb-10 border-b border-gray-100 relative">
+             {author && author.data && (
+              <a href={getPath(`/${pageLang}/publications?author=${author.id}`)} class="flex items-center group transition-all">
+                 {author.data.photo && (
+                   <div class="w-10 h-10 rounded-full overflow-hidden mr-3 ring-2 ring-gray-100 ring-offset-2 transition-all group-hover:ring-primary/20 shrink-0 bg-gray-50">
+                     <img src={getPath(author.data.photo)} alt={author.data.name} class="w-full h-full object-cover transition-transform group-hover:scale-110" onError="this.parentElement.style.display='none'"/>
+                   </div>
+                 )}
+                 <div class="flex flex-col">
+                   <span class="text-[10px] text-gray-400 uppercase font-bold tracking-widest leading-none mb-1">
+                     {t('publication.author')}
                    </span>
-               </a>
-           ))}
+                   <span class="text-base font-serif font-bold text-gray-900 group-hover:text-primary transition-colors">
+                     {author.data.name}
+                   </span>
+                 </div>
+              </a>
+             )}
+             {coAuthors.map(ca => ca && ca.data ? (
+                 <a href={getPath(`/${pageLang}/publications?author=${ca.id}`)} class="flex items-center group transition-all">
+                     {ca.data.photo && (
+                       <div class="w-8 h-8 rounded-full overflow-hidden mr-3 ring-2 ring-gray-100 ring-offset-2 transition-all group-hover:ring-primary/20 shrink-0 bg-gray-50">
+                         <img src={getPath(ca.data.photo)} alt={ca.data.name} class="w-full h-full object-cover transition-transform group-hover:scale-110" onError="this.parentElement.style.display='none'"/>
+                       </div>
+                     )}
+                     <div class="flex flex-col">
+                       <span class="text-[10px] text-gray-400 uppercase font-bold tracking-widest leading-none mb-1">
+                         {t('publication.coauthor')}
+                       </span>
+                       <span class="text-base font-serif font-bold text-gray-900 group-hover:text-primary transition-colors">
+                         {ca.data.name}
+                       </span>
+                     </div>
+                 </a>
+             ) : null)}
         </div>
 
         {publication.data.price && (
@@ -290,25 +304,34 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
                    </div>
                  </li>
                  {author && (
-                   <li class="flex items-start gap-3">
-                     <div class="mt-1 bg-white p-1.5 rounded-sm border border-gray-100 shadow-sm text-primary">
-                        <Icon name="lucide:user" class="h-3.5 w-3.5" />
-                     </div>
-                     <div>
-                       <span class="block text-[10px] uppercase font-bold text-gray-400 leading-none mb-1">{t('publication.author')}</span>
-                       <div class="flex flex-wrap text-sm font-medium text-gray-900">
-                         <a href={getPath(`/${pageLang}/publications?author=${author.id}`)} class="text-primary hover:underline transition-colors">{author.data.name}</a>
-                         {coAuthors.length > 0 && (
-                           <span class="text-gray-500">
-                             {coAuthors.map(ca => (
-                               <>, <a href={getPath(`/${pageLang}/publications?author=${ca.id}`)} class="text-primary hover:underline transition-colors">{ca.data.name}</a></>
-                             ))}
-                           </span>
-                         )}
-                       </div>
-                     </div>
-                   </li>
-                 )}
+                    <li class="flex items-start gap-3">
+                      <div class="mt-1 bg-white p-1.5 rounded-sm border border-gray-100 shadow-sm text-primary">
+                         <Icon name="lucide:user" class="h-3.5 w-3.5" />
+                      </div>
+                      <div>
+                        <span class="block text-[10px] uppercase font-bold text-gray-400 leading-none mb-1">{t('publication.author')}</span>
+                        <a href={getPath(`/${pageLang}/publications?author=${author.id}`)} class="text-sm font-medium text-primary hover:underline transition-colors">{author.data.name}</a>
+                      </div>
+                    </li>
+                  )}
+                  {coAuthors.length > 0 && (
+                    <li class="flex items-start gap-3">
+                      <div class="mt-1 bg-white p-1.5 rounded-sm border border-gray-100 shadow-sm text-primary">
+                         <Icon name="lucide:users" class="h-3.5 w-3.5" />
+                      </div>
+                      <div>
+                        <span class="block text-[10px] uppercase font-bold text-gray-400 leading-none mb-1">{coAuthors.length > 1 ? t('publication.authors') : t('publication.coauthor')}</span>
+                        <div class="flex flex-wrap gap-x-2 text-sm font-medium text-gray-900">
+                          {coAuthors.map((ca, idx) => (
+                            <>
+                              <a href={getPath(`/${pageLang}/publications?author=${ca.id}`)} class="text-primary hover:underline transition-colors">{ca.data.name}</a>
+                              {idx < coAuthors.length - 1 && <span class="text-gray-400">,</span>}
+                            </>
+                          ))}
+                        </div>
+                      </div>
+                    </li>
+                  )}
                </ul>
              </div>
            </div>

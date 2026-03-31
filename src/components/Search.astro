@@ -1,5 +1,6 @@
 ---
 import { useTranslations, getLangFromUrl, getPath } from '../i18n/utils';
+import { Icon } from 'astro-icon/components';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -14,9 +15,7 @@ const { placeholder = "Search..." } = Astro.props;
       class="search-input w-full bg-gray-50 border border-gray-200 text-gray-900 text-base rounded-sm focus:ring-primary focus:border-primary block p-3 pl-10 pr-10 outline-none transition-all"
     />
     <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-        </svg>
+        <Icon name="lucide:search" class="w-4 h-4 text-gray-400" />
     </div>
     <div class="search-spinner absolute inset-y-0 right-0 flex items-center pr-3 hidden">
         <svg class="animate-spin h-4 w-4 text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
