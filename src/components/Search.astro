@@ -6,7 +6,7 @@ const t = useTranslations(lang);
 const { placeholder = "Search..." } = Astro.props;
 ---
 
-<div class="search-wrapper relative w-full max-w-md" data-no-results={t('search.no_results')} data-base-url={import.meta.env.BASE_URL}>
+<div class="search-wrapper relative w-full max-w-full md:max-w-md" data-no-results={t('search.no_results')} data-base-url={import.meta.env.BASE_URL}>
   <div class="relative">
     <input 
       type="text" 

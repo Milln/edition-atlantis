@@ -1,6 +1,12 @@
 ---
-import { getPath } from '../i18n/utils';
+import Layout from '../layouts/Layout.astro';
+import Home from '../components/Home.astro';
+import { useTranslations } from '../i18n/utils';
 
-// Redirect root to German books page
-return Astro.redirect(getPath('/de/books'));
+const lang = 'de';
+const t = useTranslations(lang);
 ---
+
+<Layout title={t('nav.home')}>
+  <Home lang={lang} />
+</Layout>

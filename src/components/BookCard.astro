@@ -1,0 +1,70 @@
+---
+import { getPath } from '../i18n/utils';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  book: CollectionEntry<'books'>;
+  lang: string;
+  authorName: string;
+  coAuthorNames?: string;
+  showFilters?: boolean;
+}
+
+const { book, lang, authorName, coAuthorNames, showFilters = false } = Astro.props;
+
+const authorId = book.data.author.id;
+const coAuthorIds = book.data.coAuthors ? book.data.coAuthors.map(a => a.id).join(' ') : '';
+const allAuthorIds = `${authorId} ${coAuthorIds}`;
+const allAuthorNames = `${authorName}${coAuthorNames ? ' ' + coAuthorNames : ''}`;
+
+// For translations of date
+const publicationYear = book.data.publicationDate ? book.data.publicationDate.getFullYear() : 'unknown';
+---
+
+<a 
+    href={getPath(`/${lang}/books/${book.slug}`)} 
+    class:list={[
+        "book-item group block bg-white border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1",
+        showFilters ? "filtered-item" : ""
+    ]}
+    data-lang={showFilters ? book.data.language : undefined}
+    data-author={showFilters ? allAuthorIds : undefined}
+    data-author-names={showFilters ? allAuthorNames : undefined}
+    data-year={showFilters ? publicationYear : undefined}
+    data-category={showFilters ? (book.data.category || '') : undefined}
+    data-title={showFilters ? book.data.title.toLowerCase() : undefined}
+    data-isbn={showFilters ? (book.data.isbn || '') : undefined}
+>
+  <div class="aspect-[2/3] overflow-hidden bg-gray-100 relative">
+    <img 
+      src={getPath(book.data.cover)}
+      alt={book.data.title}
+      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+      loading="lazy"
+      decoding="async"
+      onError={`this.onerror=null;this.src='${getPath("/images/placeholder-book.png")}';`}
+    />
+    <div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300"></div>
+    {book.data.price && (
+        <div class="absolute bottom-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded">
+            {Number(book.data.price).toFixed(2)} €
+        </div>
+    )}
+  </div>
+  <div class="p-4">
+    <h3 class="font-serif text-lg font-bold text-gray-900 group-hover:text-primary line-clamp-2 leading-tight mb-1" title={book.data.title}>
+      {book.data.title}
+    </h3>
+    <p class="text-sm text-accent font-medium mb-1">
+        {authorName}{coAuthorNames && (
+            <span>, {coAuthorNames}</span>
+        )}
+    </p>
+    <div class="flex justify-between items-center mt-2">
+         <p class="text-xs text-gray-400">
+          {book.data.publicationDate ? book.data.publicationDate.getFullYear() : 'Unknown'}
+        </p>
+        <span class="text-xs font-bold uppercase text-gray-300 bg-gray-50 px-1 rounded">{book.data.language}</span>
+    </div>
+  </div>
+</a>

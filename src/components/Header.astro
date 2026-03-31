@@ -31,12 +31,18 @@ const isActive = (path: string) => {
   <div class="container mx-auto px-4">
     <div class="h-20 flex items-center justify-between">
       <!-- Logo -->
-    <a href={getPath(`/${lang}/books`)} class="flex items-center group">
+    <a href={getPath(`/${lang}/`)} class="flex items-center group">
       <img src={getPath("/images/logo.jpg")} alt="Edition Atlantis" class="h-12 w-auto object-contain" />
     </a>
 
     <!-- Desktop Navigation -->
     <nav class="hidden md:flex items-center space-x-8">
+      <a href={getPath(`/${lang}/`)} class:list={[
+        "text-base font-medium transition-colors tracking-wide border-b-2 py-1",
+        isActive(`/${lang}/`) ? "text-accent border-accent" : "text-gray-700 hover:text-accent border-transparent"
+      ]}>
+        {t('nav.home')}
+      </a>
       <a href={getPath(`/${lang}/books`)} class:list={[
         "text-base font-medium transition-colors tracking-wide border-b-2 py-1",
         isActive(`/${lang}/books`) ? "text-accent border-accent" : "text-gray-700 hover:text-accent border-transparent"
@@ -82,6 +88,12 @@ const isActive = (path: string) => {
   <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100 absolute w-full bg-white shadow-lg">
     <div class="container mx-auto px-4 py-4 space-y-4">
         <nav class="flex flex-col space-y-3">
+          <a href={getPath(`/${lang}/`)} class:list={[
+            "text-base font-medium transition-colors",
+            isActive(`/${lang}/`) ? "text-accent" : "text-gray-700 hover:text-accent"
+          ]}>
+            {t('nav.home')}
+          </a>
           <a href={getPath(`/${lang}/books`)} class:list={[
             "text-base font-medium transition-colors",
             isActive(`/${lang}/books`) ? "text-accent" : "text-gray-700 hover:text-accent"

@@ -1,6 +1,8 @@
 ---
+import Layout from '../../layouts/Layout.astro';
+import Home from '../../components/Home.astro';
 import { languages } from '../../i18n/ui';
-import { getPath } from '../../i18n/utils';
+import { useTranslations } from '../../i18n/utils';
 
 export function getStaticPaths() {
   return [
@@ -11,7 +13,9 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.params;
-
-// Redirect to books page for this language
-return Astro.redirect(getPath(`/${lang}/books`));
+const t = useTranslations(lang as keyof typeof languages);
 ---
+
+<Layout title={t('nav.home')}>
+  <Home lang={lang as keyof typeof languages} />
+</Layout>
