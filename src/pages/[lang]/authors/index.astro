@@ -56,30 +56,46 @@ authors.sort((a, b) => a.data.name.localeCompare(b.data.name));
         }
 
         return (
-          <div id={author.id} class="bg-white p-6 rounded-sm shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col items-center text-center">
+          <div id={author.id} class="group bg-white p-8 rounded-sm shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 flex flex-col items-center text-center">
             {author.data.photo ? (
-              <img 
-                src={getPath(author.data.photo)}
-                alt={author.data.name} 
-                class="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-50"
-                onError={`this.onerror=null;this.src='${getPath("/images/placeholder-author.png")}';`}
-              />
+              <div class="relative mb-6">
+                <img 
+                  src={getPath(author.data.photo)}
+                  alt={author.data.name} 
+                  class="w-32 h-32 rounded-full object-cover border-4 border-gray-50 shadow-sm group-hover:scale-105 transition-transform duration-300"
+                  onError={`this.onerror=null;this.src='${getPath("/images/placeholder-author.png")}';`}
+                />
+              </div>
             ) : (
-              <img 
-                src={getPath("/images/placeholder-author.png")}
-                alt={author.data.name} 
-                class="w-32 h-32 rounded-full object-cover mb-4 border-4 border-gray-50 bg-gray-100"
-              />
+              <div class="relative mb-6">
+                <img 
+                  src={getPath("/images/placeholder-author.png")}
+                  alt={author.data.name} 
+                  class="w-32 h-32 rounded-full object-cover border-4 border-gray-50 bg-gray-100 shadow-sm group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             )}
             
-            <h3 class="font-serif text-xl font-bold text-gray-900 mb-2">{author.data.name}</h3>
+            <h3 class="font-serif text-2xl font-bold text-gray-900 mb-3 group-hover:text-primary transition-colors">{author.data.name}</h3>
             
-            <div class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4" title={displayBio}>
+            <div 
+              id={`bio-${author.id.replace(/\//g, '-')}`} 
+              class="bio-content text-gray-600 text-sm leading-relaxed mb-2 line-clamp-4 transition-all duration-300"
+            >
                {displayBio}
             </div>
 
+            <button 
+              class="read-more-btn text-accent hover:text-primary text-xs font-bold mb-4 opacity-0 pointer-events-none transition-opacity" 
+              data-target={`bio-${author.id.replace(/\//g, '-')}`}
+              data-more={t('author.read_more')}
+              data-less={t('author.read_less')}
+            >
+              {t('author.read_more')}
+            </button>
+
             {isMachineTranslated && (
-              <div class="mb-4 flex items-start gap-2 px-3 py-2 rounded-sm border border-amber-100 bg-amber-50/50 text-amber-800 text-[10px] text-left leading-tight">
+              <div class="mb-6 flex items-start gap-2 px-3 py-2 rounded-sm border border-amber-100 bg-amber-50/50 text-amber-800 text-[10px] text-left leading-tight">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 mt-0.5 shrink-0 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20A10 10 0 0012 2z" />
                 </svg>
@@ -87,12 +103,60 @@ authors.sort((a, b) => a.data.name.localeCompare(b.data.name));
               </div>
             )}
             
-            <a href={getPath(`/${lang}/publications?author=${author.id}`)} class="text-accent hover:text-primary text-sm font-semibold uppercase tracking-wide mt-auto">
+            <a href={getPath(`/${lang}/publications?author=${author.id}`)} class="inline-flex items-center text-accent hover:text-primary text-sm font-semibold uppercase tracking-widest mt-auto border-b-2 border-transparent hover:border-accent transition-all pb-1">
               {t('author.view_publications')}
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
             </a>
           </div>
         );
       })}
     </div>
   </div>
+
+  <script is:inline>
+    function initBioToggles() {
+      const bios = document.querySelectorAll('.bio-content');
+      bios.forEach(bio => {
+        const btn = bio.nextElementSibling;
+        if (btn && btn.classList.contains('read-more-btn')) {
+          // Check if truncation is actually happening
+          const isTruncated = bio.scrollHeight > bio.clientHeight;
+          
+          if (isTruncated) {
+            btn.classList.remove('opacity-0', 'pointer-events-none');
+          }
+
+          btn.addEventListener('click', () => {
+            const isCollapsing = !bio.classList.contains('line-clamp-4');
+            
+            if (isCollapsing) {
+              bio.classList.add('line-clamp-4');
+              btn.textContent = btn.dataset.more;
+              // Smooth scroll back to author image if expanding card pushed it too far down
+              const card = bio.closest('.group');
+              if (card) {
+                const rect = card.getBoundingClientRect();
+                if (rect.top < 0) {
+                  window.scrollTo({
+                    top: window.scrollY + rect.top - 20,
+                    behavior: 'smooth'
+                  });
+                }
+              }
+            } else {
+              bio.classList.remove('line-clamp-4');
+              btn.textContent = btn.dataset.less;
+            }
+          });
+        }
+      });
+    }
+
+    // Run on load and potential content updates
+    window.addEventListener('load', initBioToggles);
+    // Also run if we support view transitions or similar
+    document.addEventListener('astro:page-load', initBioToggles);
+  </script>
 </Layout>
