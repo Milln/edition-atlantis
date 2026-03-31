@@ -3,11 +3,19 @@ title: >-
   Grand-Père a tué deux \"colons\". 8 mai 1945 en Algérie : l'insurrection
   commence avec le massacre des innocents. Avec une analyse de \"Hors-la-loi\"
 author: jean-pierre-lledo
+coAuthors: null
+language: fr
+category: null
 publicationDate: '2011-01-01'
 isbn10: '3932711343'
 isbn13: '9783932711343'
 pageCount: 230
+binding: null
+price: 29
 amazonLink: 'https://www.amazon.fr/dp/3932711343'
+cover: /images/publications/grand-pere-a-tue-deux-colons-8-mai-1945-en-algerie.jpg
+back: >-
+  /images/publications/grand-pere-a-tue-deux-colons-8-mai-1945-en-algerie_back.jpg
 description:
   de:
     text: >-
@@ -175,10 +183,6 @@ description:
 
       Collection France-Algérie 34
     original: true
-cover: /images/publications/grand-pere-a-tue-deux-colons-8-mai-1945-en-algerie.jpg
-language: fr
-price: 29
-back: >-
-  /images/publications/grand-pere-a-tue-deux-colons-8-mai-1945-en-algerie_back.jpg
+downloads: null
 ---
 

@@ -1,12 +1,19 @@
 ---
 title: Le soleil colonial. Au Royaume des cailloux
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - maia-alonso
+language: fr
+category: Collection France-Algérie
 publicationDate: '2014-01-01'
 isbn10: '3932711408'
 isbn13: '9783932711404'
 pageCount: 248
+binding: null
+price: 22
 amazonLink: 'https://www.amazon.fr/dp/3932711408'
+cover: /images/publications/le-soleil-colonial-au-royaume-des-cailloux.jpg
+back: /images/publications/le-soleil-colonial-au-royaume-des-cailloux_back.jpg
 description:
   de:
     text: >-
@@ -264,11 +271,6 @@ description:
 
       http://www.ladepeche.fr/article/2014/06/16/1901354-l-algerie-le-terroir-du-soleil-colonial-de-maia-alonso.html
     original: true
-cover: /images/publications/le-soleil-colonial-au-royaume-des-cailloux.jpg
-language: fr
-price: 22
-coAuthors:
-  - maia-alonso
-back: /images/publications/le-soleil-colonial-au-royaume-des-cailloux_back.jpg
+downloads: null
 ---
 

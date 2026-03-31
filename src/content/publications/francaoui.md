@@ -1,12 +1,19 @@
 ---
 title: Francaoui
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - jerome-tanon
+language: fr
+category: Collection France-Algérie
 publicationDate: '2015-01-01'
 isbn10: '3932711424'
 isbn13: '9783932711428'
 pageCount: 310
+binding: null
+price: 24
 amazonLink: 'https://www.amazon.fr/dp/3932711424'
+cover: /images/publications/francaoui.jpg
+back: /images/publications/francaoui_back.jpg
 description:
   de:
     text: >-
@@ -148,11 +155,6 @@ description:
 
       310 pages
     original: true
-cover: /images/publications/francaoui.jpg
-language: fr
-price: 24
-coAuthors:
-  - jerome-tanon
-back: /images/publications/francaoui_back.jpg
+downloads: null
 ---
 

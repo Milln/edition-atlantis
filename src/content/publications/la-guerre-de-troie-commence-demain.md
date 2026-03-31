@@ -1,12 +1,18 @@
 ---
 title: La guerre de Troie commence demain
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1997-01-01'
 isbn10: '3932711025'
 isbn13: '9783932711022'
 pageCount: 106
+binding: null
+price: 9.9
 amazonLink: 'https://www.amazon.fr/dp/3932711025'
+cover: /images/publications/la-guerre-de-troie-commence-demain.jpg
+back: /images/publications/la-guerre-de-troie-commence-demain_back.jpg
 description:
   de:
     text: >-
@@ -204,9 +210,6 @@ description:
 
       Non ! J'étais nue.
     original: true
-cover: /images/publications/la-guerre-de-troie-commence-demain.jpg
-language: fr
-price: 9.9
-back: /images/publications/la-guerre-de-troie-commence-demain_back.jpg
+downloads: null
 ---
 

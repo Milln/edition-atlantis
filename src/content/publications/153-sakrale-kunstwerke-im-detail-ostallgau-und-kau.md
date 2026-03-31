@@ -1,10 +1,19 @@
 ---
 title: 153 Sakrale Kunstwerke im Detail. Ostallgäu und Kaufbeuren
 author: herbert-wittmann
+coAuthors: null
+language: de
+category: null
 publicationDate: '2018-01-01'
 isbn10: '3932711629'
 isbn13: '9783932711626'
+pageCount: null
+binding: null
+price: 34.9
 amazonLink: 'https://www.amazon.fr/dp/3932711629'
+cover: /images/publications/153-sakrale-kunstwerke-im-detail-ostallgau-und-kau.jpg
+back: >-
+  /images/publications/153-sakrale-kunstwerke-im-detail-ostallgau-und-kau_back.jpg
 description:
   de:
     text: >-
@@ -106,10 +115,6 @@ description:
       donnent des impulsions et invitent l'observateur à s'arrêter et à
       réfléchir, ainsi qu'à se faire sa propre "image de l'image".
     original: false
-cover: /images/publications/153-sakrale-kunstwerke-im-detail-ostallgau-und-kau.jpg
-language: de
-price: 34.9
-back: >-
-  /images/publications/153-sakrale-kunstwerke-im-detail-ostallgau-und-kau_back.jpg
+downloads: null
 ---
 

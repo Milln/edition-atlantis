@@ -3,11 +3,19 @@ title: >-
   Jean Brune et Albert Camus. Deux écrivains pieds-noirs face au drame de
   l’Algérie  française
 author: wolf-albes
+coAuthors: null
+language: fr
+category: null
 publicationDate: '1999-01-01'
 isbn10: '3932711122'
 isbn13: '9783932711121'
 pageCount: 102
+binding: null
+price: 14
 amazonLink: 'https://www.amazon.fr/dp/3932711122'
+cover: /images/publications/jean-brune-et-albert-camus-deux-ecrivains-pieds-no.jpg
+back: >-
+  /images/publications/jean-brune-et-albert-camus-deux-ecrivains-pieds-no_back.jpg
 description:
   de:
     text: >-
@@ -66,10 +74,6 @@ description:
 
       Nouvelle édition revue et corrigée de 2010.
     original: true
-cover: /images/publications/jean-brune-et-albert-camus-deux-ecrivains-pieds-no.jpg
-language: fr
-price: 14
-back: >-
-  /images/publications/jean-brune-et-albert-camus-deux-ecrivains-pieds-no_back.jpg
+downloads: null
 ---
 

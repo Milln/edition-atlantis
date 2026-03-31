@@ -2,12 +2,20 @@
 title: >-
   Le Troisième Rubicon.  Forces françaises libres. 13 mai 1958. OAS Oran. Récit
   historique romancé
-category: Collection France-Algérie
 author: daniel-pouilly
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2020-01-01'
 isbn10: '3932711769'
 isbn13: '9783932711763'
+pageCount: null
+binding: null
+price: 25
 amazonLink: 'https://www.amazon.fr/dp/3932711769'
+cover: /images/publications/le-troisieme-rubicon-forces-francaises-libres-13-m.jpg
+back: >-
+  /images/publications/le-troisieme-rubicon-forces-francaises-libres-13-m_back.jpg
 description:
   de:
     text: >-
@@ -183,11 +191,6 @@ description:
 
       Avant-propos de Wolf Albes
     original: true
-cover: /images/publications/le-troisieme-rubicon-forces-francaises-libres-13-m.jpg
-language: fr
-price: 25
-back: >-
-  /images/publications/le-troisieme-rubicon-forces-francaises-libres-13-m_back.jpg
 downloads:
   - label: Pouilly - Troisième Rubicon - Avant-propos éditeur.jpg
     file: /downloads/Pouilly---Troisime-Rubicon---Avant-propos-diteur.jpg

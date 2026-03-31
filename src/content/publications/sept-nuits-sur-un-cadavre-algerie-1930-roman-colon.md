@@ -1,11 +1,19 @@
 ---
 title: Sept Nuits sur un cadavre. Algérie 1930. Roman colonial
-category: Collection France-Algérie
 author: charles-courtin
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2020-01-01'
 isbn10: '3932711750'
 isbn13: '9783932711756'
+pageCount: null
+binding: null
+price: 19
 amazonLink: 'https://www.amazon.fr/dp/3932711750'
+cover: /images/publications/sept-nuits-sur-un-cadavre-algerie-1930-roman-colon.jpg
+back: >-
+  /images/publications/sept-nuits-sur-un-cadavre-algerie-1930-roman-colon_back.jpg
 description:
   de:
     text: >-
@@ -144,10 +152,6 @@ description:
 
       (Editions Française de Librairie, Alger)
     original: true
-cover: /images/publications/sept-nuits-sur-un-cadavre-algerie-1930-roman-colon.jpg
-language: fr
-price: 19
-back: >-
-  /images/publications/sept-nuits-sur-un-cadavre-algerie-1930-roman-colon_back.jpg
+downloads: null
 ---
 

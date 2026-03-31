@@ -1,12 +1,18 @@
 ---
 title: L’Autre Rivage
-category: Collection France-Algérie
 author: andree-montero
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2001-01-01'
 isbn10: '3932711238'
 isbn13: '9783932711237'
 pageCount: 106
+binding: null
+price: 15
 amazonLink: 'https://www.amazon.fr/dp/3932711238'
+cover: /images/publications/lautre-rivage.jpg
+back: null
 description:
   de:
     text: >-
@@ -83,8 +89,6 @@ description:
 
       Nouvelle édition entièrement revue et corrigée.
     original: true
-cover: /images/publications/lautre-rivage.jpg
-language: fr
-price: 15
+downloads: null
 ---
 

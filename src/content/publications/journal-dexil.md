@@ -1,12 +1,18 @@
 ---
 title: Journal d’exil
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1998-01-01'
 isbn10: '3932711092'
 isbn13: '9783932711091'
 pageCount: 138
+binding: null
+price: 13
 amazonLink: 'https://www.amazon.fr/dp/3932711092'
+cover: /images/publications/journal-dexil.jpg
+back: /images/publications/journal-dexil_back.jpg
 description:
   de:
     text: >-
@@ -161,9 +167,6 @@ description:
 
       de l'enfance.
     original: true
-cover: /images/publications/journal-dexil.jpg
-language: fr
-price: 13
-back: /images/publications/journal-dexil_back.jpg
+downloads: null
 ---
 

@@ -1,12 +1,19 @@
 ---
 title: 'Algérie 1960 : la victoire trahie. Guerre psychologique en Algérie'
-category: Collection France-Algérie
 author: nicolas-kayanakis
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2000-01-01'
 isbn10: '3932711165'
 isbn13: '9783932711169'
 pageCount: 292
+binding: null
+price: 22
 amazonLink: 'https://www.amazon.fr/dp/3932711165'
+cover: /images/publications/algerie-1960-la-victoire-trahie-guerre-psychologiq.jpg
+back: >-
+  /images/publications/algerie-1960-la-victoire-trahie-guerre-psychologiq_back.jpg
 description:
   de:
     text: >-
@@ -152,10 +159,6 @@ description:
 
       - cent mille combattants livrés à l'ennemi par le Chef des Armées.
     original: true
-cover: /images/publications/algerie-1960-la-victoire-trahie-guerre-psychologiq.jpg
-language: fr
-price: 22
-back: >-
-  /images/publications/algerie-1960-la-victoire-trahie-guerre-psychologiq_back.jpg
+downloads: null
 ---
 

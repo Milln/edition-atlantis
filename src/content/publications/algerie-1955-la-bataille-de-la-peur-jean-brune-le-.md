@@ -1,12 +1,18 @@
 ---
 title: 'Algérie 1955. La bataille de la peur. Jean Brune, le journaliste (2)'
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1999-01-01'
 isbn10: '3932711149'
 isbn13: '9783932711145'
 pageCount: 80
+binding: null
+price: 12
 amazonLink: 'https://www.amazon.fr/dp/3932711149'
+cover: /images/publications/algerie-1955-la-bataille-de-la-peur-jean-brune-le-.jpg
+back: null
 description:
   de:
     text: >-
@@ -181,8 +187,6 @@ description:
 
       Avec dix croquis inédits.
     original: true
-cover: /images/publications/algerie-1955-la-bataille-de-la-peur-jean-brune-le-.jpg
-language: fr
-price: 12
+downloads: null
 ---
 

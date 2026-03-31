@@ -3,11 +3,19 @@ title: >-
   Orientalisme et Lauréats de la Villa Abd-el-Tif Catalogue de l'exposition du
   18 au 28 avril 2024. Espace Saint-Michel à Condom
 author: roger-vetillard
+coAuthors: null
+language: fr
+category: null
 publicationDate: '2024-01-01'
 isbn10: '3932711858'
 isbn13: '9783932711855'
 pageCount: 82
+binding: null
+price: 23
 amazonLink: 'https://www.amazon.fr/dp/3932711858'
+cover: /images/publications/orientalisme-et-laureats-de-la-villa-abd-el-tif-ca.jpg
+back: >-
+  /images/publications/orientalisme-et-laureats-de-la-villa-abd-el-tif-ca_back.jpg
 description:
   de:
     text: >-
@@ -279,10 +287,6 @@ description:
 
       Les œuvres (classées par auteur - ordre alphabétique) 23
     original: true
-cover: /images/publications/orientalisme-et-laureats-de-la-villa-abd-el-tif-ca.jpg
-language: fr
-price: 23
-back: >-
-  /images/publications/orientalisme-et-laureats-de-la-villa-abd-el-tif-ca_back.jpg
+downloads: null
 ---
 

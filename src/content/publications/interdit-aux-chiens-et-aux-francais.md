@@ -1,12 +1,18 @@
 ---
 title: Interdit aux chiens et aux Français
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1998-01-01'
-isbn10: '393271105X'
+isbn10: 393271105X
 isbn13: '9783932711053'
 pageCount: 168
+binding: null
+price: 18.5
 amazonLink: 'https://www.amazon.fr/dp/393271105X'
+cover: /images/publications/interdit-aux-chiens-et-aux-francais.jpg
+back: /images/publications/interdit-aux-chiens-et-aux-francais_back.jpg
 description:
   de:
     text: >-
@@ -76,9 +82,6 @@ description:
       verve, d humour, de colères, de lyrisme et de larmes. Nouvelle édition
       revue et corrigée de 2008.
     original: true
-cover: /images/publications/interdit-aux-chiens-et-aux-francais.jpg
-language: fr
-price: 18.5
-back: /images/publications/interdit-aux-chiens-et-aux-francais_back.jpg
+downloads: null
 ---
 

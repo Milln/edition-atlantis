@@ -1,10 +1,19 @@
 ---
 title: C'était l'Algérie heureuse. 1915-1965. Nouvelle édition
 author: fernand-destaing
+coAuthors: null
+language: fr
+category: null
 publicationDate: '2015-01-01'
 isbn10: '3932711440'
 isbn13: '9783932711442'
+pageCount: null
+binding: null
+price: 20.4
 amazonLink: 'https://www.amazon.fr/dp/3932711440'
+cover: /images/publications/cetait-lalgerie-heureuse-1915-1965-nouvelle-editio.jpg
+back: >-
+  /images/publications/cetait-lalgerie-heureuse-1915-1965-nouvelle-editio_back.jpg
 description:
   fr:
     text: >-
@@ -129,10 +138,6 @@ description:
 
       - Le Crépuscule des Princes (Buchet-Chastel, 1995)
     original: false
-cover: /images/publications/cetait-lalgerie-heureuse-1915-1965-nouvelle-editio.jpg
-language: fr
-price: 20.4
-back: >-
-  /images/publications/cetait-lalgerie-heureuse-1915-1965-nouvelle-editio_back.jpg
+downloads: null
 ---
 

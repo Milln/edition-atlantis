@@ -3,9 +3,18 @@ title: >-
   La guerre d'Algérie vue par six anciens combattants allemands de la Légion
   étrangère
 author: wolf-albes
+coAuthors: null
+language: fr
 category: Other
 publicationDate: 2020-01-01T00:00:00.000Z
-isbn: null
+isbn10: null
+isbn13: null
+pageCount: null
+binding: null
+price: null
+amazonLink: null
+cover: /images/publications/la-guerre-dalgerie-vue-par-six-anciens-combattants.jpg
+back: null
 description:
   de:
     text: >-
@@ -58,8 +67,6 @@ description:
       en Algérie: 1959-1964, Kehl am Rhein [Epee Edition] 2013 (déjà traduit et
       édité en français).
     original: true
-cover: /images/publications/la-guerre-dalgerie-vue-par-six-anciens-combattants.jpg
-language: fr
 downloads:
   - label: >-
       Wolf Albes - La guerre dAlgérie vue par six anciens combattants allemands

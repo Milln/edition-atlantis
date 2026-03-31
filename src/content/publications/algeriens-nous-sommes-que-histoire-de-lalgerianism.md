@@ -1,11 +1,19 @@
 ---
 title: Algériens nous sommes... qué! Histoire de l'Algérianisme
 author: jean-brune
+coAuthors:
+  - maurice-calmein
+language: fr
+category: null
 publicationDate: '2011-01-01'
 isbn10: '3932711300'
 isbn13: '9783932711305'
 pageCount: 72
+binding: null
+price: 13
 amazonLink: 'https://www.amazon.fr/dp/3932711300'
+cover: /images/publications/algeriens-nous-sommes-que-histoire-de-lalgerianism.jpg
+back: null
 description:
   de:
     text: >-
@@ -122,11 +130,6 @@ description:
 
       Collection France-Algérie 30.
     original: true
-cover: /images/publications/algeriens-nous-sommes-que-histoire-de-lalgerianism.jpg
-language: fr
-price: 13
-coAuthors:
-  - maurice-calmein
 downloads:
   - label: L’avant-propos de l’éditeur
     file: /downloads/CA-Avantpropos-editeur-Internet.pdf

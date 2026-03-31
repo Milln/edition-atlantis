@@ -1,10 +1,19 @@
 ---
 title: Exode
-category: Other
 author: jean-brune
-pageCount: 8
+coAuthors:
+  - maurice-calmein
+language: fr
+category: Other
 publicationDate: 2012-01-01T00:00:00.000Z
-isbn: null
+isbn10: null
+isbn13: null
+pageCount: 8
+binding: null
+price: 3
+amazonLink: null
+cover: /images/publications/exode.jpg
+back: null
 description:
   de:
     text: >-
@@ -45,11 +54,6 @@ description:
       encore d'autres livres sur le site, l'envoi d'Exode est, bien entendu,
       gratuit.
     original: true
-cover: /images/publications/exode.jpg
-language: fr
-price: 3
-coAuthors:
-  - maurice-calmein
 downloads:
   - label: Découvrez la dernière page d’<i>Exode</i> en cliquant ici
     file: /downloads/Exode7.jpg

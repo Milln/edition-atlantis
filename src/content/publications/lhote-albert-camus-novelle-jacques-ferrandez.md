@@ -1,11 +1,19 @@
 ---
 title: 'L''Hôte. Albert Camus'' Novelle. Jacques Ferrandez'' '
 author: wolf-albes
-pageCount: 120
+coAuthors:
+  - eva-albes
+language: de
+category: null
 publicationDate: '2018-01-01'
 isbn10: '3932711718'
 isbn13: '9783932711718'
+pageCount: 120
+binding: null
+price: null
 amazonLink: 'https://www.amazon.fr/dp/3932711718'
+cover: /images/publications/lhote-albert-camus-novelle-jacques-ferrandez.jpg
+back: /images/publications/lhote-albert-camus-novelle-jacques-ferrandez_back.jpg
 description:
   de:
     text: >-
@@ -330,10 +338,6 @@ description:
 
       120 pages.
     original: false
-cover: /images/publications/lhote-albert-camus-novelle-jacques-ferrandez.jpg
-back: /images/publications/lhote-albert-camus-novelle-jacques-ferrandez_back.jpg
-language: de
-coAuthors:
-  - eva-albes
+downloads: null
 ---
 

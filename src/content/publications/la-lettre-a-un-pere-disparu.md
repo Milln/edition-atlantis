@@ -1,12 +1,19 @@
 ---
 title: La lettre à  un père disparu
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - maurice-calmein
+language: fr
+category: Collection France-Algérie
 publicationDate: '2009-01-01'
 isbn10: '3932711548'
 isbn13: '9783932711541'
 pageCount: 10
+binding: null
+price: 6
 amazonLink: 'https://www.amazon.fr/dp/3932711548'
+cover: /images/publications/la-lettre-a-un-pere-disparu.jpg
+back: null
 description:
   de:
     text: >-
@@ -60,10 +67,6 @@ description:
       sentiments qui ont pu traverser l'esprit d'un enfant confronté au drame de
       la disparition d'un père à la fin de la guerre d'Algérie.
     original: true
-cover: /images/publications/la-lettre-a-un-pere-disparu.jpg
-language: fr
-price: 6
-coAuthors:
-  - maurice-calmein
+downloads: null
 ---
 

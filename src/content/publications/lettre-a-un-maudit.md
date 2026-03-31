@@ -1,12 +1,18 @@
 ---
 title: Lettre à  un maudit
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1998-01-01'
 isbn10: '3932711076'
 isbn13: '9783932711077'
 pageCount: 34
+binding: null
+price: 4.6
 amazonLink: 'https://www.amazon.fr/dp/3932711076'
+cover: /images/publications/lettre-a-un-maudit.jpg
+back: null
 description:
   de:
     text: >-
@@ -84,8 +90,6 @@ description:
 
       Le reve recommence. (Jean Brune, 1963)
     original: true
-cover: /images/publications/lettre-a-un-maudit.jpg
-language: fr
-price: 4.6
+downloads: null
 ---
 

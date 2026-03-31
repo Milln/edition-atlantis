@@ -2,13 +2,22 @@
 title: >-
   Mon paradis perdu. Une enfance algérienne. Oran 1954 - 1962. Préface de
   Maurice Calmein
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - monique-clavaud
+  - maurice-calmein
+language: fr
+category: Collection France-Algérie
 publicationDate: '2012-01-01'
 isbn10: '3932711351'
 isbn13: '9783932711350'
 pageCount: 97
+binding: null
+price: 17
 amazonLink: 'https://www.amazon.fr/dp/3932711351'
+cover: /images/publications/mon-paradis-perdu-une-enfance-algerienne-oran-1954.jpg
+back: >-
+  /images/publications/mon-paradis-perdu-une-enfance-algerienne-oran-1954_back.jpg
 description:
   de:
     text: >-
@@ -226,13 +235,6 @@ description:
 
       100 pages - avec 8 photos
     original: true
-cover: /images/publications/mon-paradis-perdu-une-enfance-algerienne-oran-1954.jpg
-language: fr
-price: 17
-coAuthors:
-  - monique-clavaud
-  - maurice-calmein
-back: >-
-  /images/publications/mon-paradis-perdu-une-enfance-algerienne-oran-1954_back.jpg
+downloads: null
 ---
 

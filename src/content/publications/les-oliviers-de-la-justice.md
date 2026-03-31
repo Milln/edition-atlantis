@@ -1,12 +1,18 @@
 ---
 title: Les Oliviers de la Justice
-category: Collection France-Algérie
 author: jean-pelegri
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1999-01-01'
 isbn10: '3932711114'
 isbn13: '9783932711114'
 pageCount: 150
+binding: null
+price: 17
 amazonLink: 'https://www.amazon.fr/dp/3932711114'
+cover: /images/publications/les-oliviers-de-la-justice.jpg
+back: null
 description:
   fr:
     text: >-
@@ -103,8 +109,6 @@ description:
       as well as photos from the film and of the Pélégri farm (taken in April
       1990)
     original: false
-cover: /images/publications/les-oliviers-de-la-justice.jpg
-language: fr
-price: 17
+downloads: null
 ---
 

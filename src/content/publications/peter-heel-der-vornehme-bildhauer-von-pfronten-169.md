@@ -1,11 +1,19 @@
 ---
 title: Peter Heel. Der vornehme Bildhauer von Pfronten (1696-1767)
 author: herbert-wittmann
+coAuthors: null
+language: de
+category: null
 publicationDate: '2017-01-01'
 isbn10: '3932711572'
 isbn13: '9783932711572'
 pageCount: 168
+binding: null
+price: 32.9
 amazonLink: 'https://www.amazon.fr/dp/3932711572'
+cover: /images/publications/peter-heel-der-vornehme-bildhauer-von-pfronten-169.jpg
+back: >-
+  /images/publications/peter-heel-der-vornehme-bildhauer-von-pfronten-169_back.jpg
 description:
   de:
     text: >-
@@ -151,10 +159,6 @@ description:
 
       170 pages - nombreuses illustrations - publié le 29 avril 2017.
     original: false
-cover: /images/publications/peter-heel-der-vornehme-bildhauer-von-pfronten-169.jpg
-language: de
-price: 32.9
-back: >-
-  /images/publications/peter-heel-der-vornehme-bildhauer-von-pfronten-169_back.jpg
+downloads: null
 ---
 

@@ -1,12 +1,18 @@
 ---
 title: 'Bab-el-Oued raconté à  Toinet. Jean Brune, le journaliste (1)'
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1999-01-01'
 isbn10: '3932711130'
 isbn13: '9783932711138'
 pageCount: 69
+binding: null
+price: 11
 amazonLink: 'https://www.amazon.fr/dp/3932711130'
+cover: /images/publications/bab-el-oued-raconte-a-toinet-jean-brune-le-journal.jpg
+back: null
 description:
   de:
     text: >-
@@ -65,8 +71,6 @@ description:
 
       AVEC 54 CROQUIS INÉDITS DE JEAN BRUNE.
     original: true
-cover: /images/publications/bab-el-oued-raconte-a-toinet-jean-brune-le-journal.jpg
-language: fr
-price: 11
+downloads: null
 ---
 

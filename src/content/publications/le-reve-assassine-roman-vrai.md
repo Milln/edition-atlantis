@@ -1,12 +1,18 @@
 ---
 title: Le rêve assassiné. Roman vrai
-category: Collection France-Algérie
 author: maia-alonso
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2017-01-01'
 isbn10: '3932711483'
 isbn13: '9783932711480'
 pageCount: 254
+binding: null
+price: 22
 amazonLink: 'https://www.amazon.fr/dp/3932711483'
+cover: /images/publications/le-reve-assassine-roman-vrai.jpg
+back: /images/publications/le-reve-assassine-roman-vrai_back.jpg
 description:
   de:
     text: >-
@@ -147,10 +153,6 @@ description:
 
       254 pages - avec une documentation et une cinquantaine d'illustrations.
     original: true
-cover: /images/publications/le-reve-assassine-roman-vrai.jpg
-language: fr
-price: 22
-back: /images/publications/le-reve-assassine-roman-vrai_back.jpg
 downloads:
   - label: Rêve assassiné - 1 - Table des matières.pdf
     file: /downloads/Rve-assassin---1---Table-des-matires.pdf

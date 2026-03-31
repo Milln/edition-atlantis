@@ -1,12 +1,19 @@
 ---
 title: Oran 1961-1962. Journal d’un prêtre en Algérie
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - michel-de-laparre
+language: fr
+category: Collection France-Algérie
 publicationDate: '2013-01-01'
 isbn10: '3932711378'
 isbn13: '9783932711374'
 pageCount: 211
+binding: null
+price: 22
 amazonLink: 'https://www.amazon.fr/dp/3932711378'
+cover: /images/publications/oran-1961-1962-journal-dun-pretre-en-algerie.jpg
+back: /images/publications/oran-1961-1962-journal-dun-pretre-en-algerie_back.jpg
 description:
   de:
     text: >-
@@ -77,11 +84,6 @@ description:
       idée des atrocités commises par le FLN contre les civils européens et
       musulmans.
     original: true
-cover: /images/publications/oran-1961-1962-journal-dun-pretre-en-algerie.jpg
-language: fr
-price: 22
-coAuthors:
-  - michel-de-laparre
-back: /images/publications/oran-1961-1962-journal-dun-pretre-en-algerie_back.jpg
+downloads: null
 ---
 

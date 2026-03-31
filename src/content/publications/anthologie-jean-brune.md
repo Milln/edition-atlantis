@@ -1,12 +1,18 @@
 ---
 title: Anthologie Jean Brune
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1998-01-01'
 isbn10: '3932711084'
 isbn13: '9783932711084'
 pageCount: 208
+binding: null
+price: 17
 amazonLink: 'https://www.amazon.fr/dp/3932711084'
+cover: /images/publications/anthologie-jean-brune.jpg
+back: null
 description:
   de:
     text: >-
@@ -95,8 +101,6 @@ description:
 
       Photos
     original: true
-cover: /images/publications/anthologie-jean-brune.jpg
-language: fr
-price: 17
+downloads: null
 ---
 

@@ -1,11 +1,18 @@
 ---
 title: La France et la Tierce Allemagne à  l’exemple de la Saxe entre 1814 et 1886
 author: olivier-podevins
+coAuthors: null
+language: fr
+category: null
 publicationDate: '2001-01-01'
-isbn10: '393271153X'
+isbn10: 393271153X
 isbn13: '9783932711534'
 pageCount: 396
+binding: null
+price: 25.15
 amazonLink: 'https://www.amazon.fr/dp/393271153X'
+cover: /images/publications/la-france-et-la-tierce-allemagne-a-lexemple-de-la-.jpg
+back: null
 description:
   de:
     text: >-
@@ -90,8 +97,6 @@ description:
       Ce travail de doctorat fut réalisé à l'université technique de Dresde au
       sein de la chaire d'Études sur la France et la Francophonie.
     original: true
-cover: /images/publications/la-france-et-la-tierce-allemagne-a-lexemple-de-la-.jpg
-language: fr
-price: 25.15
+downloads: null
 ---
 

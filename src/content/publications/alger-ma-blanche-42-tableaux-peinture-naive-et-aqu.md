@@ -1,11 +1,20 @@
 ---
 title: Alger ma Blanche. 42 tableaux. Peinture naïve et aquarelles
-category: Collection France-Algérie
 author: jean-taousson
-pageCount: 90
+coAuthors:
+  - danielle-deliot-libmann
+language: fr
+category: Collection France-Algérie
 publicationDate: '2019-01-01'
+isbn10: '3932711653'
 isbn13: '9783932711657'
+pageCount: 90
+binding: null
+price: 23
 amazonLink: 'https://www.amazon.fr/dp/3932711653'
+cover: /images/publications/alger-ma-blanche-42-tableaux-peinture-naive-et-aqu.jpg
+back: >-
+  /images/publications/alger-ma-blanche-42-tableaux-peinture-naive-et-aqu_back.jpg
 description:
   de:
     text: >-
@@ -98,13 +107,6 @@ description:
 
       À paraître fin septembre 2019
     original: true
-cover: /images/publications/alger-ma-blanche-42-tableaux-peinture-naive-et-aqu.jpg
-language: fr
-price: 23
-coAuthors:
-  - danielle-deliot-libmann
-back: >-
-  /images/publications/alger-ma-blanche-42-tableaux-peinture-naive-et-aqu_back.jpg
-isbn10: '3932711653'
+downloads: null
 ---
 

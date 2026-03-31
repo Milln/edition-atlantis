@@ -1,10 +1,18 @@
 ---
 title: Die frühe Geschichte der Stadt Füssen
 author: peter-alfred-bletschacher
+coAuthors: null
+language: de
+category: null
 publicationDate: '2017-01-01'
 isbn10: '3932711580'
 isbn13: '9783932711589'
+pageCount: null
+binding: null
+price: 32.9
 amazonLink: 'https://www.amazon.fr/dp/3932711580'
+cover: /images/publications/die-fruhe-geschichte-der-stadt-fussen.jpg
+back: /images/publications/die-fruhe-geschichte-der-stadt-fussen_back.jpg
 description:
   de:
     text: >-
@@ -137,9 +145,6 @@ description:
       Enfin, l'auteur démontre comment la lutherie est née à Füssen – et comment
       elle ne pouvait naître qu'ici.
     original: false
-cover: /images/publications/die-fruhe-geschichte-der-stadt-fussen.jpg
-language: de
-price: 32.9
-back: /images/publications/die-fruhe-geschichte-der-stadt-fussen_back.jpg
+downloads: null
 ---
 

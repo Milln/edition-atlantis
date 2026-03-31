@@ -1,10 +1,18 @@
 ---
 title: Cette haine qui ressemble à  l’amour
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1998-01-01'
+isbn10: '3932711041'
 isbn13: '9783932711046'
+pageCount: 446
+binding: null
+price: 36
 amazonLink: 'https://www.amazon.fr/dp/3932711041'
+cover: /images/publications/cette-haine-qui-ressemble-a-lamour.jpg
+back: /images/publications/cette-haine-qui-ressemble-a-lamour_back.jpg
 description:
   de:
     text: >-
@@ -100,16 +108,10 @@ description:
       1954 à 1962, mais également celui de la terrible guerre civile à partir de
       1990.
     original: true
-cover: /images/publications/cette-haine-qui-ressemble-a-lamour.jpg
-language: fr
-price: 36
-back: /images/publications/cette-haine-qui-ressemble-a-lamour_back.jpg
 downloads:
   - label: 'Les méthodes du FLN : la terreur et la torture'
     file: /downloads/Extraits-Haine-Torture.pdf
   - label: « Pourquoi sommes nous maudits à »
     file: /downloads/Extraits-Haine-Durrieu.pdf
-isbn10: '3932711041'
-pageCount: 446
 ---
 

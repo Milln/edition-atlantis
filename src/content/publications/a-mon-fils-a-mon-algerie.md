@@ -1,12 +1,18 @@
 ---
 title: 'A mon fils, à mon Algérie'
-category: Collection France-Algérie
 author: henry-guey
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2001-01-01'
 isbn10: '3932711246'
 isbn13: '9783932711244'
 pageCount: 141
+binding: null
+price: 19
 amazonLink: 'https://www.amazon.fr/dp/3932711246'
+cover: /images/publications/a-mon-fils-a-mon-algerie.jpg
+back: /images/publications/a-mon-fils-a-mon-algerie_back.jpg
 description:
   de:
     text: >-
@@ -76,9 +82,6 @@ description:
       ton père à Alger, pour que tu connaisses un peu mieux tes origines, que tu
       les perpétues, pour que tu en sois fier.
     original: true
-cover: /images/publications/a-mon-fils-a-mon-algerie.jpg
-language: fr
-price: 19
-back: /images/publications/a-mon-fils-a-mon-algerie_back.jpg
+downloads: null
 ---
 

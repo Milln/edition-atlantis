@@ -1,12 +1,19 @@
 ---
 title: Les Français d'Algérie. De 1962 à  2014
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - maurice-calmein
+language: fr
+category: Collection France-Algérie
 publicationDate: '2014-01-01'
 isbn10: '3932711386'
 isbn13: '9783932711381'
 pageCount: 431
+binding: null
+price: 25
 amazonLink: 'https://www.amazon.fr/dp/3932711386'
+cover: /images/publications/les-francais-dalgerie-de-1962-a-2014.jpg
+back: /images/publications/les-francais-dalgerie-de-1962-a-2014_back.jpg
 description:
   de:
     text: >-
@@ -215,12 +222,6 @@ description:
 
       Collection France-Algérie 38
     original: true
-cover: /images/publications/les-francais-dalgerie-de-1962-a-2014.jpg
-language: fr
-price: 25
-coAuthors:
-  - maurice-calmein
-back: /images/publications/les-francais-dalgerie-de-1962-a-2014_back.jpg
 downloads:
   - label: Table des matières
     file: /downloads/Calmein-50-Table-Internet.pdf

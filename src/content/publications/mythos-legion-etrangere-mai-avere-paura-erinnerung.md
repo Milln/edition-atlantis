@@ -3,9 +3,19 @@ title: >-
   Mythos Légion étrangère. Mai avere paura. Erinnerungen eines italienischen
   Legionärs
 author: danilo-pagliaro
+coAuthors: null
+language: de
+category: null
 publicationDate: '2022-01-01'
+isbn10: '3932711785'
 isbn13: '9783932711787'
+pageCount: null
+binding: null
+price: 20
 amazonLink: 'https://www.amazon.fr/dp/3932711785'
+cover: /images/publications/mythos-legion-etrangere-mai-avere-paura-erinnerung.jpg
+back: >-
+  /images/publications/mythos-legion-etrangere-mai-avere-paura-erinnerung_back.jpg
 description:
   de:
     text: >-
@@ -130,11 +140,6 @@ description:
       remplissions une mission si importante, qui m'ont finalement preserve des
       traumatismes."
     original: false
-cover: /images/publications/mythos-legion-etrangere-mai-avere-paura-erinnerung.jpg
-language: de
-price: 20
-back: >-
-  /images/publications/mythos-legion-etrangere-mai-avere-paura-erinnerung_back.jpg
-isbn10: '3932711785'
+downloads: null
 ---
 

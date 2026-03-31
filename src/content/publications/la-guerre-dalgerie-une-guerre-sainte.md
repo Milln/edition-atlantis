@@ -1,12 +1,18 @@
 ---
 title: 'La guerre d''Algérie, une guerre sainte ?'
 author: roger-vetillard
+coAuthors: null
+language: fr
+category: null
 publicationDate: '2020-01-01'
 isbn10: '3932711688'
 isbn13: '9783932711688'
 pageCount: 302
-amazonLink: 'https://www.amazon.fr/dp/3932711688'
+binding: null
 price: 24
+amazonLink: 'https://www.amazon.fr/dp/3932711688'
+cover: /images/publications/la-guerre-dalgerie-une-guerre-sainte.jpg
+back: /images/publications/la-guerre-dalgerie-une-guerre-sainte_back.jpg
 description:
   de:
     text: >-
@@ -134,9 +140,6 @@ description:
       guerre d'Algérie vue par six anciens combattants allemands de la Légion
       étrangère
     original: true
-cover: /images/publications/la-guerre-dalgerie-une-guerre-sainte.jpg
-back: /images/publications/la-guerre-dalgerie-une-guerre-sainte_back.jpg
-language: fr
 downloads:
   - label: >-
       Wolf Albes - La guerre dAlgérie vue par six anciens combattants allemands

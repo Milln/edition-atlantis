@@ -1,12 +1,19 @@
 ---
 title: 'Livre blanc. Alger, le 26 mars 1962 : la fusillade de la rue d’Isly'
-category: Collection France-Algérie
 author: le-livre-interdit
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2000-01-01'
 isbn10: '3932711203'
 isbn13: '9783932711206'
 pageCount: 98
+binding: null
+price: 16
 amazonLink: 'https://www.amazon.fr/dp/3932711203'
+cover: /images/publications/livre-blanc-alger-le-26-mars-1962-la-fusillade-de-.jpg
+back: >-
+  /images/publications/livre-blanc-alger-le-26-mars-1962-la-fusillade-de-_back.jpg
 description:
   de:
     text: >-
@@ -81,10 +88,6 @@ description:
       tout au contraire, ce défilé s’amorçait dans le calme et la dignité. Je le
       jure sur l’honneur. (Mme Albert MARGAILLAN)
     original: true
-cover: /images/publications/livre-blanc-alger-le-26-mars-1962-la-fusillade-de-.jpg
-language: fr
-price: 16
-back: >-
-  /images/publications/livre-blanc-alger-le-26-mars-1962-la-fusillade-de-_back.jpg
+downloads: null
 ---
 

@@ -1,12 +1,19 @@
 ---
 title: Le sel des Andalouses
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - maurice-calmein
+language: fr
+category: Collection France-Algérie
 publicationDate: '2009-01-01'
 isbn10: '3932711289'
 isbn13: '9783932711282'
 pageCount: 213
+binding: null
+price: 20
 amazonLink: 'https://www.amazon.fr/dp/3932711289'
+cover: /images/publications/le-sel-des-andalouses.jpg
+back: /images/publications/le-sel-des-andalouses_back.jpg
 description:
   de:
     text: >-
@@ -76,11 +83,6 @@ description:
       ceux qui la déchirèrent hier, ce roman offre un regard nouveau et
       fascinant sur ce pays et tous ceux qui y vécurent et continuent à y vivre.
     original: true
-cover: /images/publications/le-sel-des-andalouses.jpg
-language: fr
-price: 20
-coAuthors:
-  - maurice-calmein
-back: /images/publications/le-sel-des-andalouses_back.jpg
+downloads: null
 ---
 

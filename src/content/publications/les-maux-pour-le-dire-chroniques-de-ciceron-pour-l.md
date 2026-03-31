@@ -1,12 +1,20 @@
 ---
 title: 'Les maux pour le dire. Chroniques de Cicéron pour la défense du français. '
-category: Langue française
 author: jean-brune
+coAuthors:
+  - maurice-calmein
+language: fr
+category: Langue française
 publicationDate: '2012-01-01'
 isbn10: '3932711602'
 isbn13: '9783932711602'
 pageCount: 186
+binding: null
+price: 12
 amazonLink: 'https://www.amazon.fr/dp/3932711602'
+cover: /images/publications/les-maux-pour-le-dire-chroniques-de-ciceron-pour-l.jpg
+back: >-
+  /images/publications/les-maux-pour-le-dire-chroniques-de-ciceron-pour-l_back.jpg
 description:
   de:
     text: >-
@@ -46,13 +54,6 @@ description:
       Le succes remporte par cette chronique aupres des lecteurs du journal a
       fait naitre l'idee de regrouper 90 de ces billets dans le present recueil.
     original: true
-cover: /images/publications/les-maux-pour-le-dire-chroniques-de-ciceron-pour-l.jpg
-language: fr
-price: 12
-coAuthors:
-  - maurice-calmein
-back: >-
-  /images/publications/les-maux-pour-le-dire-chroniques-de-ciceron-pour-l_back.jpg
 downloads:
   - label: 'Pour lire le billet N° 4 : "Et voilà " veuillez cliquer ici'
     file: /downloads/Internet-Auszug-No-4.pdf

@@ -1,11 +1,18 @@
 ---
 title: Un combat tranquille. Une fille de Harki se souvient. Récit autobiographique
-category: Collection France-Algérie
 author: hafida-chabi
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2022-01-01'
 isbn10: '3932711793'
 isbn13: '9783932711794'
+pageCount: null
+binding: null
+price: 16
 amazonLink: 'https://www.amazon.fr/dp/3932711793'
+cover: /images/publications/un-combat-tranquille-une-fille-de-harki-se-souvien.jpg
+back: null
 description:
   de:
     text: >-
@@ -116,8 +123,6 @@ description:
       fondamentales de la République parce qu'ils souhaitaient avant tout que
       leurs enfants se fondent dans la société française. (Hafida Chabi)
     original: true
-cover: /images/publications/un-combat-tranquille-une-fille-de-harki-se-souvien.jpg
-language: fr
-price: 16
+downloads: null
 ---
 

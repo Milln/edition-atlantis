@@ -1,12 +1,18 @@
 ---
 title: Alger – Marseille. Journal d’une rapatriée
-category: Collection France-Algérie
 author: suzon-pulicani-varnier
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2002-01-01'
 isbn10: '3932711262'
 isbn13: '9783932711268'
 pageCount: 144
+binding: null
+price: 18.5
 amazonLink: 'https://www.amazon.fr/dp/3932711262'
+cover: /images/publications/alger-marseille-journal-dune-rapatriee.jpg
+back: /images/publications/alger-marseille-journal-dune-rapatriee_back.jpg
 description:
   de:
     text: >-
@@ -100,9 +106,6 @@ description:
       poste de secrétaire du Professeur Jean Sutter, chef de la Clinique
       universitaire de Psychiatrie à la Timone de Marseille.
     original: true
-cover: /images/publications/alger-marseille-journal-dune-rapatriee.jpg
-language: fr
-price: 18.5
-back: /images/publications/alger-marseille-journal-dune-rapatriee_back.jpg
+downloads: null
 ---
 

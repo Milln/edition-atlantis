@@ -1,11 +1,19 @@
 ---
 title: 'Jean Brune, Français d''Algérie. Biographie'
 author: jean-brune
+coAuthors:
+  - francine-dessaigne
+language: fr
+category: null
 publicationDate: '1998-01-01'
 isbn10: '2907862421'
 isbn13: '9782907862424'
 pageCount: 270
+binding: null
+price: 17
 amazonLink: 'https://www.amazon.fr/dp/2907862421'
+cover: /images/publications/jean-brune-francais-dalgerie-biographie.jpg
+back: null
 description:
   de:
     text: >-
@@ -102,10 +110,6 @@ description:
       (Francine Dessaigne) - édité aux éditions Confrérie Castille
       (Ivry-sur-Seine) en 1998 - 270 pages, plusieurs croquis
     original: true
-cover: /images/publications/jean-brune-francais-dalgerie-biographie.jpg
-language: fr
-price: 17
-coAuthors:
-  - francine-dessaigne
+downloads: null
 ---
 

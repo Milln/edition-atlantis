@@ -1,12 +1,18 @@
 ---
 title: Alger – Bab-el-Oued
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1999-01-01'
 isbn10: '3932711033'
 isbn13: 978-3-932711-03-9
 pageCount: 68
+binding: null
+price: 7.6
 amazonLink: 'https://www.amazon.fr/dp/3932711033'
+cover: /images/publications/alger-bab-el-oued.jpg
+back: /images/publications/alger-bab-el-oued_back.jpg
 description:
   de:
     text: >-
@@ -74,9 +80,6 @@ description:
       écrits de Jean Brune sur Bab-el-Oued qu’il considérait comme sa "patrie
       selon le cœur" bien qu’il n’y soit pas né.
     original: true
-cover: /images/publications/alger-bab-el-oued.jpg
-language: fr
-price: 7.6
-back: /images/publications/alger-bab-el-oued_back.jpg
+downloads: null
 ---
 

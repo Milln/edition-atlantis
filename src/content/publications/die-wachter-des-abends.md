@@ -1,12 +1,18 @@
 ---
 title: Die Wächter des Abends
-category: Deutsche Übersetzungen
 author: helie-de-saint-marc
+coAuthors: null
+language: de
+category: Deutsche Übersetzungen
 publicationDate: '2000-01-01'
 isbn10: '3932711513'
 isbn13: '9783932711510'
 pageCount: 184
+binding: null
+price: 16
 amazonLink: 'https://www.amazon.fr/dp/3932711513'
+cover: /images/publications/die-wachter-des-abends.jpg
+back: /images/publications/die-wachter-des-abends_back.jpg
 description:
   de:
     text: >-
@@ -142,10 +148,6 @@ description:
       Il a vécu jusqu'à sa mort, le 26 août 2013, à Lyon et près de La Garde
       Adhémar (Les Borias, Drôme provençale), où il est également enterré.
     original: false
-cover: /images/publications/die-wachter-des-abends.jpg
-language: de
-price: 16
-back: /images/publications/die-wachter-des-abends_back.jpg
 downloads:
   - label: Die Rechtfertigung und die Größe des Soldatentums - Weinstein
     file: /downloads/Rezension-Weinstein-Wchter-des-Abends.jpg

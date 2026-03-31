@@ -1,12 +1,18 @@
 ---
 title: Acacia ou un Arbre sous la dune
-category: Collection France-Algérie
 author: michele-piris-lambert
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1999-01-01'
 isbn10: '3932711157'
 isbn13: '9783932711152'
 pageCount: 150
+binding: null
+price: 16
 amazonLink: 'https://www.amazon.fr/dp/3932711157'
+cover: /images/publications/acacia-ou-un-arbre-sous-la-dune.jpg
+back: /images/publications/acacia-ou-un-arbre-sous-la-dune_back.jpg
 description:
   de:
     text: >-
@@ -134,9 +140,6 @@ description:
       ... à travers des personnages, des paysages, des odeurs, des souvenirs
       anecdotiques et émouvants.
     original: true
-cover: /images/publications/acacia-ou-un-arbre-sous-la-dune.jpg
-language: fr
-price: 16
-back: /images/publications/acacia-ou-un-arbre-sous-la-dune_back.jpg
+downloads: null
 ---
 

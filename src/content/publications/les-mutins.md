@@ -1,12 +1,18 @@
 ---
 title: Les Mutins
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1997-01-01'
 isbn10: '3932711017'
 isbn13: '9783932711015'
 pageCount: 108
+binding: null
+price: 10
 amazonLink: 'https://www.amazon.fr/dp/3932711017'
+cover: /images/publications/les-mutins.jpg
+back: null
 description:
   de:
     text: >-
@@ -172,8 +178,6 @@ description:
       Libre donc au lecteur de peser les arguments, de juger par lui-même, et de
       choisir sa propre fin...
     original: true
-cover: /images/publications/les-mutins.jpg
-language: fr
-price: 10
+downloads: null
 ---
 

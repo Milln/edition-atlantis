@@ -1,12 +1,18 @@
 ---
 title: Aventures prodigieuses de Georges Untel en Algérie algérienne
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1998-01-01'
 isbn10: '3932711068'
 isbn13: '9783932711060'
 pageCount: 30
+binding: null
+price: 4.6
 amazonLink: 'https://www.amazon.fr/dp/3932711068'
+cover: /images/publications/aventures-prodigieuses-de-georges-untel-en-algerie.jpg
+back: null
 description:
   de:
     text: >-
@@ -71,8 +77,6 @@ description:
       Georges Untel va bientôt découvrir que la vie n'est pas facile en "Algérie
       algérienne".
     original: true
-cover: /images/publications/aventures-prodigieuses-de-georges-untel-en-algerie.jpg
-language: fr
-price: 4.6
+downloads: null
 ---
 

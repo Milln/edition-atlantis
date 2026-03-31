@@ -1,10 +1,18 @@
 ---
 title: Kirchenführer Ostallgäu und Kaufbeuren
 author: herbert-wittmann
+coAuthors: null
+language: de
+category: null
 publicationDate: '2016-01-01'
 isbn10: '3932711556'
 isbn13: '9783932711558'
+pageCount: null
+binding: null
+price: 34.9
 amazonLink: 'https://www.amazon.fr/dp/9783932711558'
+cover: /images/publications/kirchenfuhrer-ostallgau-und-kaufbeuren.jpg
+back: /images/publications/kirchenfuhrer-ostallgau-und-kaufbeuren_back.jpg
 description:
   de:
     text: >-
@@ -103,9 +111,6 @@ description:
       Voir également ses deux autres ouvrages, également parus aux éditions de
       notre maison.
     original: false
-cover: /images/publications/kirchenfuhrer-ostallgau-und-kaufbeuren.jpg
-language: de
-price: 34.9
-back: /images/publications/kirchenfuhrer-ostallgau-und-kaufbeuren_back.jpg
+downloads: null
 ---
 

@@ -1,12 +1,25 @@
 ---
 title: Une histoire souterraine. Pieds-Noirs et Musulmans en Algérie
-category: Collection France-Algérie
 author: nicole-guiraud
+coAuthors:
+  - jean-brune
+  - jean-pelegri
+  - michele-piris-lambert
+  - helie-de-saint-marc
+  - anne-marie-lorentz
+  - marie-louise-de-pena
+language: fr
+category: Collection France-Algérie
 publicationDate: '2000-01-01'
 isbn10: '3932711173'
 isbn13: '9783932711176'
 pageCount: 140
+binding: null
+price: 14.5
 amazonLink: 'https://www.amazon.fr/dp/3932711173'
+cover: /images/publications/une-histoire-souterraine-pieds-noirs-et-musulmans-.jpg
+back: >-
+  /images/publications/une-histoire-souterraine-pieds-noirs-et-musulmans-_back.jpg
 description:
   de:
     text: >-
@@ -62,17 +75,6 @@ description:
       témoignage littéraire émouvant et indispensable pour la compréhension de
       cette relation complexe entre les deux communautés.
     original: true
-cover: /images/publications/une-histoire-souterraine-pieds-noirs-et-musulmans-.jpg
-language: fr
-price: 14.5
-coAuthors:
-  - jean-brune
-  - jean-pelegri
-  - michele-piris-lambert
-  - helie-de-saint-marc
-  - anne-marie-lorentz
-  - marie-louise-de-pena
-back: >-
-  /images/publications/une-histoire-souterraine-pieds-noirs-et-musulmans-_back.jpg
+downloads: null
 ---
 

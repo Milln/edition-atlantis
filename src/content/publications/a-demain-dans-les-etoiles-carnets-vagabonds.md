@@ -1,10 +1,18 @@
 ---
 title: À demain dans les étoiles. Carnets vagabonds
 author: maia-alonso
+coAuthors: null
+language: fr
+category: null
 publicationDate: '2023-01-01'
 isbn10: 393271184X
 isbn13: '9783932711848'
+pageCount: null
+binding: null
+price: 15
 amazonLink: 'https://www.amazon.fr/dp/393271184X'
+cover: /images/publications/a-demain-dans-les-etoiles-carnets-vagabonds.jpg
+back: /images/publications/a-demain-dans-les-etoiles-carnets-vagabonds_back.jpg
 description:
   de:
     text: >-
@@ -121,9 +129,6 @@ description:
       Elle a publié depuis sept romans. Correspondante de "La Dépêche du Midi",
       elle allie ses deux passions : l'écriture et les rencontres humaines.
     original: true
-cover: /images/publications/a-demain-dans-les-etoiles-carnets-vagabonds.jpg
-language: fr
-price: 15
-back: /images/publications/a-demain-dans-les-etoiles-carnets-vagabonds_back.jpg
+downloads: null
 ---
 

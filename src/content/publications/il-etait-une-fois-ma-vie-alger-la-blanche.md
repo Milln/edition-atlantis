@@ -1,12 +1,18 @@
 ---
 title: Il était une fois... ma vie. Alger la Blanche
-category: Collection France-Algérie
 author: jocelyne-mas
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2002-01-01'
 isbn10: '3932711270'
 isbn13: '9783932711275'
 pageCount: 105
+binding: null
+price: 15
 amazonLink: 'https://www.amazon.fr/dp/3932711270'
+cover: /images/publications/il-etait-une-fois-ma-vie-alger-la-blanche.jpg
+back: null
 description:
   de:
     text: >-
@@ -70,8 +76,6 @@ description:
       Vous découvrirez leurs peines, leurs souffrances mais aussi leurs joies et
       leur ténacité. Et leur vie reconstruite.
     original: true
-cover: /images/publications/il-etait-une-fois-ma-vie-alger-la-blanche.jpg
-language: fr
-price: 15
+downloads: null
 ---
 

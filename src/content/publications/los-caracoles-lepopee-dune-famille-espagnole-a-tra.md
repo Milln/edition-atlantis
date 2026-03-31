@@ -3,12 +3,19 @@ title: >-
   Los caracoles. L'épopée d'une famille espagnole à travers l'Algérie et le
   Maroc
 author: beatrice-riquelme-olivieri
-publicationDate: '2022-01-01'
+coAuthors: null
+language: fr
 category: Collection France-Algérie
+publicationDate: '2022-01-01'
 isbn10: '3932711831'
 isbn13: '9783932711831'
 pageCount: 140
+binding: null
+price: 19
 amazonLink: 'https://www.amazon.fr/dp/3932711831'
+cover: /images/publications/los-caracoles-lepopee-dune-famille-espagnole-a-tra.jpg
+back: >-
+  /images/publications/los-caracoles-lepopee-dune-famille-espagnole-a-tra_back.jpg
 description:
   de:
     text: >-
@@ -85,10 +92,6 @@ description:
       de la misère, vers l'inconnu, à la recherche du croûton de pain."
       (Jean-Jacques Jordi, Espagnol en Oranie)
     original: true
-cover: /images/publications/los-caracoles-lepopee-dune-famille-espagnole-a-tra.jpg
-language: fr
-price: 19
-back: >-
-  /images/publications/los-caracoles-lepopee-dune-famille-espagnole-a-tra_back.jpg
+downloads: null
 ---
 

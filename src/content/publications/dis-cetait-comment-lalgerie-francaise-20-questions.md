@@ -2,12 +2,20 @@
 title: >-
   Dis, c’était comment, l’Algérie française ? 20 questions et réponses à
   l’intention des jeunes Pieds-Noirs
-category: Collection France-Algérie
 author: maurice-calmein
+coAuthors:
+  - christiane-lacoste-adrover
+language: fr
+category: Collection France-Algérie
 publicationDate: '2002-01-01'
+isbn10: '3932711254'
 isbn13: '9783932711251'
 pageCount: 124
+binding: null
+price: 16
 amazonLink: 'https://www.amazon.fr/dp/3932711254'
+cover: /images/publications/dis-cetait-comment-lalgerie-francaise-20-questions.jpg
+back: null
 description:
   de:
     text: >-
@@ -47,11 +55,6 @@ description:
       communauté et à une page d'histoire trop souvent méconnues, incomprises et
       décriées.
     original: true
-cover: /images/publications/dis-cetait-comment-lalgerie-francaise-20-questions.jpg
-language: fr
-price: 16
-coAuthors:
-  - christiane-lacoste-adrover
-isbn10: '3932711254'
+downloads: null
 ---
 

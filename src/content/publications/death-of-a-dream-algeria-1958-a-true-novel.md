@@ -1,11 +1,18 @@
 ---
 title: Death of a Dream. Algeria 1958. A True Novel
-category: Collection France-Algérie
 author: maia-alonso
+coAuthors: null
+language: en
+category: Collection France-Algérie
 publicationDate: '2021-01-01'
 isbn10: '3932711777'
 isbn13: '9783932711770'
+pageCount: null
+binding: null
+price: 22
 amazonLink: 'https://www.amazon.fr/dp/3932711777'
+cover: /images/publications/death-of-a-dream-algeria-1958-a-true-novel.jpg
+back: /images/publications/death-of-a-dream-algeria-1958-a-true-novel_back.jpg
 description:
   de:
     text: >-
@@ -173,9 +180,6 @@ description:
       traduction du français vers l'anglais à l'Université du Queensland
       (Australie).
     original: false
-cover: /images/publications/death-of-a-dream-algeria-1958-a-true-novel.jpg
-language: en
-price: 22
-back: /images/publications/death-of-a-dream-algeria-1958-a-true-novel_back.jpg
+downloads: null
 ---
 

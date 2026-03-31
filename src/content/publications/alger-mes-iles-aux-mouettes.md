@@ -1,12 +1,18 @@
 ---
 title: Alger. Mes îles aux mouettes
-category: Collection France-Algérie
 author: danielle-deliot-libmann
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2016-01-01'
 isbn10: '3932711467'
 isbn13: '9783932711466'
 pageCount: 82
+binding: null
+price: 24
 amazonLink: 'https://www.amazon.fr/dp/3932711467'
+cover: /images/publications/alger-mes-iles-aux-mouettes.jpg
+back: /images/publications/alger-mes-iles-aux-mouettes_back.jpg
 description:
   de:
     text: >-
@@ -83,9 +89,6 @@ description:
 
       82 pages dont 36 en couleur.
     original: true
-cover: /images/publications/alger-mes-iles-aux-mouettes.jpg
-language: fr
-price: 24
-back: /images/publications/alger-mes-iles-aux-mouettes_back.jpg
+downloads: null
 ---
 

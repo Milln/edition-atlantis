@@ -1,12 +1,19 @@
 ---
 title: La Traversée de Fiora Valencourt
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - janine-montupet
+language: fr
+category: Collection France-Algérie
 publicationDate: '2011-01-01'
 isbn10: '3932711297'
 isbn13: '9783932711299'
 pageCount: 411
+binding: null
+price: 27
 amazonLink: 'https://www.amazon.fr/dp/3932711297'
+cover: /images/publications/la-traversee-de-fiora-valencourt.jpg
+back: /images/publications/la-traversee-de-fiora-valencourt_back.jpg
 description:
   de:
     text: >-
@@ -151,12 +158,6 @@ description:
 
       Collection France-Algérie 29
     original: true
-cover: /images/publications/la-traversee-de-fiora-valencourt.jpg
-language: fr
-price: 27
-coAuthors:
-  - janine-montupet
-back: /images/publications/la-traversee-de-fiora-valencourt_back.jpg
 downloads:
   - label: La Préface de Maurice Calmein
     file: /downloads/Preface-Fiora-Internet.pdf

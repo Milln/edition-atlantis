@@ -309,13 +309,6 @@ declare module 'astro:content' {
   collection: "publications";
   data: InferEntrySchema<"publications">
 } & { render(): Render[".md"] };
-"cool-new-book.md": {
-	id: "cool-new-book.md";
-  slug: "cool-new-book";
-  body: string;
-  collection: "publications";
-  data: InferEntrySchema<"publications">
-} & { render(): Render[".md"] };
 "death-of-a-dream-algeria-1958-a-true-novel.md": {
 	id: "death-of-a-dream-algeria-1958-a-true-novel.md";
   slug: "death-of-a-dream-algeria-1958-a-true-novel";

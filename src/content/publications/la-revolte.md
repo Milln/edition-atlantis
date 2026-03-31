@@ -1,11 +1,18 @@
 ---
 title: La Révolte
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '1999-01-01'
+isbn10: null
 isbn13: '9783932711106'
 pageCount: 348
+binding: null
+price: 20
 amazonLink: 'https://www.amazon.fr/dp/9783932711106'
+cover: /images/publications/la-revolte.jpg
+back: null
 description:
   de:
     text: >-
@@ -105,8 +112,6 @@ description:
       finale de la guerre d'Algérie à Alger où l'OAS, le FLN et l'Armée
       française s'affrontent dans une lutte sans merci.
     original: true
-cover: /images/publications/la-revolte.jpg
-language: fr
-price: 20
+downloads: null
 ---
 

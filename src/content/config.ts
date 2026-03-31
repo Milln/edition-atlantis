@@ -29,15 +29,15 @@ const publicationsCollection = defineCollection({
             })
         ]),
         cover: z.string(),
-        back: z.string().optional(),
-        price: z.number().optional(),
-        coAuthors: z.array(reference('authors')).optional(),
+        back: z.string().nullable().optional(),
+        price: z.number().nullable().optional(),
+        coAuthors: z.array(reference('authors')).nullable().optional(),
         language: z.enum(['de', 'en', 'fr']),
         category: z.string().nullable().optional(),
         downloads: z.array(z.object({
             label: z.string(),
             file: z.string(),
-        })).optional(),
+        })).nullable().optional(),
     }),
 });
 

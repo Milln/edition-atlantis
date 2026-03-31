@@ -1,12 +1,19 @@
 ---
 title: Les oranges amères de Blida
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - henri-mazzarino
+language: fr
+category: Collection France-Algérie
 publicationDate: '2011-01-01'
 isbn10: '3932711327'
 isbn13: '9783932711329'
 pageCount: 102
+binding: null
+price: 17
 amazonLink: 'https://www.amazon.fr/dp/3932711327'
+cover: /images/publications/les-oranges-ameres-de-blida.jpg
+back: /images/publications/les-oranges-ameres-de-blida_back.jpg
 description:
   de:
     text: >-
@@ -132,11 +139,6 @@ description:
 
       Nouvelle édition revue et corrigée de 2014 !
     original: true
-cover: /images/publications/les-oranges-ameres-de-blida.jpg
-language: fr
-price: 17
-coAuthors:
-  - henri-mazzarino
-back: /images/publications/les-oranges-ameres-de-blida_back.jpg
+downloads: null
 ---
 

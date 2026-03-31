@@ -1,12 +1,19 @@
 ---
 title: Les enfants de la Licorne
-category: Collection France-Algérie
 author: jean-brune
+coAuthors:
+  - maia-alonso
+language: fr
+category: Collection France-Algérie
 publicationDate: '2015-01-01'
 isbn10: '3932711807'
 isbn13: '9783932711800'
 pageCount: 250
+binding: null
+price: 22
 amazonLink: 'https://www.amazon.fr/dp/3932711807'
+cover: /images/publications/les-enfants-de-la-licorne.jpg
+back: /images/publications/les-enfants-de-la-licorne_back.jpg
 description:
   de:
     text: >-
@@ -113,11 +120,6 @@ description:
       (L'Harmattan, 2013) et Le soleil colonial - Au Royaume des cailloux
       (Editions Atlantis, 2014; Prix Terre d'Eghriss 2014).
     original: true
-cover: /images/publications/les-enfants-de-la-licorne.jpg
-language: fr
-price: 22
-coAuthors:
-  - maia-alonso
-back: /images/publications/les-enfants-de-la-licorne_back.jpg
+downloads: null
 ---
 

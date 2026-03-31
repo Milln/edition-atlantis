@@ -2,13 +2,20 @@
 title: >-
   Asche und Glut. Erinnerungen. Résistance und KZ Buchenwald – Fallschirmjäger
   der Fremdenlegion – Indochina- und Algerienkrieg – Putsch gegen de Gaulle
-category: Deutsche Übersetzungen
 author: helie-de-saint-marc
+coAuthors: null
+language: de
+category: Deutsche Übersetzungen
 publicationDate: '1998-01-01'
 isbn10: '3932711505'
 isbn13: '9783932711503'
 pageCount: 282
+binding: null
+price: 25.9
 amazonLink: 'https://www.amazon.fr/dp/3932711505'
+cover: /images/publications/asche-und-glut-erinnerungen-resistance-und-kz-buch.jpg
+back: >-
+  /images/publications/asche-und-glut-erinnerungen-resistance-und-kz-buch_back.jpg
 description:
   de:
     text: >-
@@ -151,11 +158,6 @@ description:
       best-seller en France. Ils ont été récompensés à plusieurs reprises,
       notamment par le "Prix Femina" en 1996.
     original: false
-cover: /images/publications/asche-und-glut-erinnerungen-resistance-und-kz-buch.jpg
-language: de
-price: 25.9
-back: >-
-  /images/publications/asche-und-glut-erinnerungen-resistance-und-kz-buch_back.jpg
 downloads:
   - label: >-
       Die Rezension von Rudolph Chimelli <i>Soldat mit vier Leben</i> in der

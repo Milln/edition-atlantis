@@ -1,12 +1,18 @@
 ---
 title: Bab-el-Oued
-category: Collection France-Algérie
 author: jean-brune
+coAuthors: null
+language: fr
+category: Collection France-Algérie
 publicationDate: '2015-01-01'
 isbn10: '3932711432'
 isbn13: '9783932711435'
 pageCount: 88
+binding: null
+price: 7.6
 amazonLink: 'https://www.amazon.fr/dp/3932711432'
+cover: /images/publications/bab-el-oued.jpg
+back: /images/publications/bab-el-oued_back.jpg
 description:
   de:
     text: >-
@@ -240,9 +246,6 @@ description:
 
       88 pages / 350g
     original: true
-cover: /images/publications/bab-el-oued.jpg
-language: fr
-price: 7.6
-back: /images/publications/bab-el-oued_back.jpg
+downloads: null
 ---
 
