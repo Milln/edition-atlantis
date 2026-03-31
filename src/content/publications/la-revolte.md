@@ -2,8 +2,10 @@
 title: La Révolte
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 1999-01-01T00:00:00.000Z
-isbn: 978-3-932711-10-6
+publicationDate: '1999-01-01'
+isbn13: '9783932711106'
+pageCount: 348
+amazonLink: 'https://www.amazon.fr/dp/9783932711106'
 description:
   de:
     text: >-

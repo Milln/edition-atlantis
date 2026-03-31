@@ -4,8 +4,11 @@ title: >-
   der Fremdenlegion – Indochina- und Algerienkrieg – Putsch gegen de Gaulle
 category: Deutsche Übersetzungen
 author: helie-de-saint-marc
-publicationDate: 1998-01-01T00:00:00.000Z
-isbn: 978-3-932711-50-3
+publicationDate: '1998-01-01'
+isbn10: '3932711505'
+isbn13: '9783932711503'
+pageCount: 282
+amazonLink: 'https://www.amazon.fr/dp/3932711505'
 description:
   de:
     text: >-
@@ -151,7 +154,8 @@ description:
 cover: /images/publications/asche-und-glut-erinnerungen-resistance-und-kz-buch.jpg
 language: de
 price: 25.9
-back: /images/publications/asche-und-glut-erinnerungen-resistance-und-kz-buch_back.jpg
+back: >-
+  /images/publications/asche-und-glut-erinnerungen-resistance-und-kz-buch_back.jpg
 downloads:
   - label: >-
       Die Rezension von Rudolph Chimelli <i>Soldat mit vier Leben</i> in der

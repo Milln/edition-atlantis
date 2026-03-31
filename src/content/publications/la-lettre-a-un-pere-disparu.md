@@ -2,8 +2,11 @@
 title: La lettre à  un père disparu
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2009-01-01T00:00:00.000Z
-isbn: 978-3-932711-54-1
+publicationDate: '2009-01-01'
+isbn10: '3932711548'
+isbn13: '9783932711541'
+pageCount: 10
+amazonLink: 'https://www.amazon.fr/dp/3932711548'
 description:
   de:
     text: >-

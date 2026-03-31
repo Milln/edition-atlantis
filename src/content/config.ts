@@ -5,8 +5,12 @@ const publicationsCollection = defineCollection({
     schema: z.object({
         title: z.string(),
         author: reference('authors'),
-        publicationDate: z.date().nullable().optional(),
-        isbn: z.string().nullable().optional(),
+        publicationDate: z.coerce.date().nullable().optional(),
+        isbn10: z.string().nullable().optional(),
+        isbn13: z.string().nullable().optional(),
+        pageCount: z.number().nullable().optional(),
+        binding: z.string().nullable().optional(),
+        amazonLink: z.string().url().nullable().optional(),
         description: z.union([
             z.string(),
             z.object({
@@ -29,7 +33,7 @@ const publicationsCollection = defineCollection({
         price: z.number().optional(),
         coAuthors: z.array(reference('authors')).optional(),
         language: z.enum(['de', 'en', 'fr']),
-        category: z.string().optional(),
+        category: z.string().nullable().optional(),
         downloads: z.array(z.object({
             label: z.string(),
             file: z.string(),

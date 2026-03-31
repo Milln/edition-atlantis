@@ -2,8 +2,11 @@
 title: Francaoui
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2015-01-01T00:00:00.000Z
-isbn: 978-3-932711-42-8
+publicationDate: '2015-01-01'
+isbn10: '3932711424'
+isbn13: '9783932711428'
+pageCount: 310
+amazonLink: 'https://www.amazon.fr/dp/3932711424'
 description:
   de:
     text: >-

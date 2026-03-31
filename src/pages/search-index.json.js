@@ -23,7 +23,8 @@ export async function GET({ params, request }) {
         return {
             title: publication.data.title,
             description: descText,
-            isbn: publication.data.isbn || '',
+            isbn10: publication.data.isbn10 || '',
+            isbn13: publication.data.isbn13 || '',
             author: authorName,
             slug: publication.slug,
             lang: publication.data.language,

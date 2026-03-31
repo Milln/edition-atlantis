@@ -2,8 +2,11 @@
 title: Bab-el-Oued
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2015-01-01T00:00:00.000Z
-isbn: 978-3-932711-43-5
+publicationDate: '2015-01-01'
+isbn10: '3932711432'
+isbn13: '9783932711435'
+pageCount: 88
+amazonLink: 'https://www.amazon.fr/dp/3932711432'
 description:
   de:
     text: >-

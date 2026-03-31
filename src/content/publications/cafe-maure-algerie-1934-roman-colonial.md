@@ -2,8 +2,10 @@
 title: Café maure. Algérie 1934. Roman colonial
 category: Collection France-Algérie
 author: charles-courtin
-publicationDate: 2020-01-01T00:00:00.000Z
-isbn: '9783932711640'
+publicationDate: '2020-01-01'
+isbn10: '3932711645'
+isbn13: '9783932711640'
+amazonLink: 'https://www.amazon.fr/dp/3932711645'
 description:
   de:
     text: >-
@@ -43,9 +45,6 @@ description:
 
 
       Notizen und Kommentare von Wolf Albes.
-
-
-      22 Euro.
     original: false
   en:
     text: >-
@@ -85,9 +84,6 @@ description:
 
 
       Notes and commentary by Wolf Albes.
-
-
-      22 euros.
     original: false
   fr:
     text: >-
@@ -127,9 +123,6 @@ description:
 
 
       Notes et commentaires de Wolf Albes.
-
-
-      22 euros.
     original: true
 cover: /images/publications/cafe-maure-algerie-1934-roman-colonial.jpg
 language: fr

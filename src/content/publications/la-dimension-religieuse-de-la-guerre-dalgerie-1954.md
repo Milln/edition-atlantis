@@ -3,8 +3,11 @@ title: >-
   La dimension religieuse de la guerre d'Algérie (1954-1962).  Prémices et
   conséquences. Préface de Gregor Mathias
 author: roger-vetillard
-publicationDate: 2018-01-01T00:00:00.000Z
-isbn: '9783932711596'
+publicationDate: '2018-01-01'
+isbn10: '3932711599'
+isbn13: '9783932711596'
+pageCount: 190
+amazonLink: 'https://www.amazon.fr/dp/3932711599'
 description:
   de:
     text: >-
@@ -169,7 +172,8 @@ description:
 cover: /images/publications/la-dimension-religieuse-de-la-guerre-dalgerie-1954.jpg
 language: fr
 price: 22
-back: /images/publications/la-dimension-religieuse-de-la-guerre-dalgerie-1954_back.jpg
+back: >-
+  /images/publications/la-dimension-religieuse-de-la-guerre-dalgerie-1954_back.jpg
 downloads:
   - label: Roger-Vétillard-La-dimension-Avant-propos-de-l-auteur.pdf
     file: /downloads/Roger-Vtillard-La-dimension-Avant-propos-de-l-auteur.pdf

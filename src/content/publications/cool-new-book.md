@@ -1,10 +1,10 @@
 ---
-title: 153 Sakrale Kunstwerke im Detail. Ostallgäu und Kaufbeuren
+title: Cool New Book
 author: herbert-wittmann
-publicationDate: '2018-01-01'
-isbn10: '3932711629'
-isbn13: '9783932711626'
-amazonLink: 'https://www.amazon.fr/dp/3932711629'
+publicationDate: '2026-05-03'
+isbn10: '3932711696'
+isbn13: '9783932711695'
+amazonLink: 'https://www.amazon.fr/dp/3932711696'
 description:
   de:
     text: >-

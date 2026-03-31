@@ -2,8 +2,11 @@
 title: Au pays de la paresse. Algérie 1930. Roman colonial
 category: Collection France-Algérie
 author: charles-courtin
-publicationDate: 2020-01-01T00:00:00.000Z
-isbn: 978-3-932711-74-9
+publicationDate: '2020-01-01'
+isbn10: '3932711742'
+isbn13: '9783932711749'
+pageCount: 184
+amazonLink: 'https://www.amazon.fr/dp/3932711742'
 description:
   de:
     text: >-
@@ -170,6 +173,7 @@ description:
 cover: /images/publications/au-pays-de-la-paresse-algerie-1930-roman-colonial.jpg
 language: fr
 price: 22
-back: /images/publications/au-pays-de-la-paresse-algerie-1930-roman-colonial_back.jpg
+back: >-
+  /images/publications/au-pays-de-la-paresse-algerie-1930-roman-colonial_back.jpg
 ---
 

@@ -1,8 +1,12 @@
 ---
 title: Voyage au bout de l'Éden. Conte philosophique. Préface de Norbert Multeau
+category: Collection France-Algérie
+pageCount: 140
 author: jean-taousson
-publicationDate: 2019-01-01T00:00:00.000Z
-isbn: '9783932711633'
+publicationDate: '2019-01-01'
+isbn10: '3932711637'
+isbn13: '9783932711633'
+amazonLink: 'https://www.amazon.fr/dp/3932711637'
 description:
   de:
     text: >-
@@ -37,8 +41,6 @@ description:
       Jean Taousson liefert uns ein philosophisches Märchen, das sowohl an
       Voltaire als auch an die Marx Brothers erinnert. Es ist ein Meisterwerk
       des Humors mit der Unhöflichkeit der Verzweiflung. – Frédéric Musso
-
-      140 Seiten
     original: false
   en:
     text: >-
@@ -71,8 +73,6 @@ description:
       Jean Taousson gives us a philosophical tale that is reminiscent of both
       Voltaire and the Marx Brothers. It is a masterpiece of humor with the
       impoliteness of despair. - Frederic Musso
-
-      140 pages
     original: false
   fr:
     text: >-
@@ -106,14 +106,12 @@ description:
       Jean Taousson nous livre un conte philosophique qui relève à la fois de
       Voltaire et des Marx Brothers. C'est un chef-d’œuvre d’humour avec
       l’impolitesse du désespoir. - Frédéric Musso
-
-      140 pages
     original: true
 cover: /images/publications/voyage-au-bout-de-leden-conte-philosophique-prefac.jpg
 language: fr
-category: Collection France-Algérie
 price: 17
-back: /images/publications/voyage-au-bout-de-leden-conte-philosophique-prefac_back.jpg
+back: >-
+  /images/publications/voyage-au-bout-de-leden-conte-philosophique-prefac_back.jpg
 downloads:
   - label: Préface de Norbert Multeau - La Divine Comédie de Jean Taousson.pdf
     file: >-

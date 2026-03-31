@@ -191,10 +191,28 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
         <div class="bg-gray-50 p-6 rounded-sm border border-gray-200">
            <h3 class="font-serif text-lg font-bold mb-4">{t('publication.details')}</h3>
            <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-4 text-sm">
-             {publication.data.isbn && (
+             {publication.data.isbn10 && (
                <div class="flex flex-col">
-                 <dt class="text-gray-500">{t('publication.isbn')}</dt>
-                 <dd class="font-mono text-gray-900">{publication.data.isbn}</dd>
+                 <dt class="text-gray-500">{t('publication.isbn')} (10)</dt>
+                 <dd class="font-mono text-gray-900">{publication.data.isbn10}</dd>
+               </div>
+             )}
+             {publication.data.isbn13 && (
+               <div class="flex flex-col">
+                 <dt class="text-gray-500">{t('publication.isbn')} (13)</dt>
+                 <dd class="font-mono text-gray-900">{publication.data.isbn13}</dd>
+               </div>
+             )}
+             {publication.data.pageCount && (
+               <div class="flex flex-col">
+                 <dt class="text-gray-500">{t('publication.page_count')}</dt>
+                 <dd class="text-gray-900">{publication.data.pageCount}</dd>
+               </div>
+             )}
+             {publication.data.binding && (
+               <div class="flex flex-col">
+                 <dt class="text-gray-500">{t('publication.binding')}</dt>
+                 <dd class="text-gray-900">{publication.data.binding}</dd>
                </div>
              )}
              <div class="flex flex-col">
@@ -246,10 +264,18 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
               )}
            </dl>
            
-           <div class="mt-8 pt-6 border-t border-gray-200 flex justify-center md:justify-start">
+           <div class="mt-8 pt-6 border-t border-gray-200 flex flex-wrap gap-4 justify-center md:justify-start">
               <a href={`mailto:info@edition-atlantis.de?subject=Request Info: ${publication.data.title}`} class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-sm text-white bg-primary hover:bg-primary/90 transition-colors">
                  {t('publication.request_info')}
               </a>
+              {publication.data.amazonLink && (
+                <a href={publication.data.amazonLink} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 border border-gray-200 text-base font-medium rounded-sm text-gray-700 bg-white hover:bg-gray-50 transition-colors group">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-primary group-hover:text-primary/80" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M15.936 15.229c-2.834 2.407-6.155 3.637-9.759 3.637-3.932 0-7.391-1.39-10.177-3.637-.216-.174-.199-.452.059-.49 2.507-.373 5.095-.558 7.837-.558 2.054 0 4.086.101 6.022.29.336.031.535.317.216.558-.066.05-.133.1-.198.15zM23.161 15.408c-.149-.033-.3-.066-.35-.2-.1-.266-.149-.532-.149-.814 0-.897.433-1.744 1.164-2.327.731-.582 1.63-.848 2.528-.732 1.347.166 2.379.881 2.877 2.011l.249.565c.15.333.3.665.45.998.05.116.1.233.149.349l.1.25-.1.1c-.249.25-.499.499-.748.748l-.2.15c-.2-.05-.4-.1-.599-.149h-.1c-.1-.034-.149-.067-.2-.1l-.1-.1c-.05-.05-.1-.1-.149-.15-.05-.05-.1-.1-.149-.15-.05-.05-.1-.1-.149-.15-.05-.05-.1-.1-.15-.15s-.1-.1-.15-.15c-.05-.05-.1-.1-.149-.15-.05-.05-.1-.1-.149-.15-.05-.05-.1-.1-.149-.15-.05-.05-.1-.1-.15-.15s-.1-.1-.15-.15c-.05-.05-.1-.1-.149-.15-.05-.05-.1-.1-.149-.15s-.1-.1-.149-.15a1.71 1.71 0 00-.3-.3l-.15-.15c-.05-.05-.1-.1-.149-.15s-.1-.1-.149-.149z"/>
+                  </svg>
+                  {t('publication.buy_on_amazon')}
+                </a>
+              )}
            </div>
            {publication.data.downloads && publication.data.downloads.length > 0 && (
             <div class="mt-8 pt-6 border-t border-gray-200">

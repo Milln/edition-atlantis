@@ -1,8 +1,10 @@
 ---
 title: Sonnensprossen. Fünfzehn etwas andere Liebesgeschichten aus der Provence
 author: marc-faber
-publicationDate: 2015-01-01T00:00:00.000Z
-isbn: 978-3-932711-52-7
+publicationDate: '2015-01-01'
+isbn10: '3932711521'
+isbn13: '9783932711527'
+amazonLink: 'https://www.amazon.fr/dp/3932711521'
 description:
   de:
     text: >-
@@ -80,6 +82,7 @@ description:
 cover: /images/publications/sonnensprossen-funfzehn-etwas-andere-liebesgeschic.jpg
 language: de
 price: 22
-back: /images/publications/sonnensprossen-funfzehn-etwas-andere-liebesgeschic_back.jpg
+back: >-
+  /images/publications/sonnensprossen-funfzehn-etwas-andere-liebesgeschic_back.jpg
 ---
 

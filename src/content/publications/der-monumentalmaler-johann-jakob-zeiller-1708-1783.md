@@ -3,8 +3,11 @@ title: >-
   Der Monumentalmaler Johann Jakob Zeiller. 1708-1783. Vorwort von Andreas
   Gamerith
 author: josef-mair
-publicationDate: 2020-01-01T00:00:00.000Z
-isbn: 978-3-932711-72-5
+publicationDate: '2020-01-01'
+pageCount: 60
+isbn10: '3932711726'
+isbn13: '9783932711725'
+amazonLink: 'https://www.amazon.fr/dp/3932711726'
 description:
   de:
     text: >-
@@ -70,6 +73,7 @@ description:
 cover: /images/publications/der-monumentalmaler-johann-jakob-zeiller-1708-1783.jpg
 language: de
 price: 14
-back: /images/publications/der-monumentalmaler-johann-jakob-zeiller-1708-1783_back.jpg
+back: >-
+  /images/publications/der-monumentalmaler-johann-jakob-zeiller-1708-1783_back.jpg
 ---
 

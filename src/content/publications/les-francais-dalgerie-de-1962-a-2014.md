@@ -2,8 +2,11 @@
 title: Les Français d'Algérie. De 1962 à  2014
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2014-01-01T00:00:00.000Z
-isbn: 978-3-932711-38-1
+publicationDate: '2014-01-01'
+isbn10: '3932711386'
+isbn13: '9783932711381'
+pageCount: 431
+amazonLink: 'https://www.amazon.fr/dp/3932711386'
 description:
   de:
     text: >-

@@ -3,8 +3,11 @@ title: >-
   Algérie 1962. Journal de l'Apocalypse / Tagebuch der Apokalypse. Préface de
   Boualem Sansal / Vorwort von Boualem Sansal
 author: jean-brune
-publicationDate: 2013-01-01T00:00:00.000Z
-isbn: 978-3-932711-36-7
+publicationDate: '2013-01-01'
+isbn10: 393271136X
+isbn13: '9783932711367'
+pageCount: 106
+amazonLink: 'https://www.amazon.fr/dp/393271136X'
 description:
   de:
     text: >-
@@ -124,7 +127,8 @@ language: fr
 price: 17
 coAuthors:
   - nicole-guiraud
-back: /images/publications/algerie-1962-journal-de-lapocalypse-tagebuch-der-a_back.jpg
+back: >-
+  /images/publications/algerie-1962-journal-de-lapocalypse-tagebuch-der-a_back.jpg
 downloads:
   - label: Präsentation
     file: /downloads/Prasentation-Nicole-Guiraud-Algerie-1962-DT.pdf

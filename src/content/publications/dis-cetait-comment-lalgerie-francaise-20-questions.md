@@ -4,8 +4,10 @@ title: >-
   l’intention des jeunes Pieds-Noirs
 category: Collection France-Algérie
 author: maurice-calmein
-publicationDate: 2002-01-01T00:00:00.000Z
-isbn: 978-3-932711-25-1
+publicationDate: '2002-01-01'
+isbn13: '9783932711251'
+pageCount: 124
+amazonLink: 'https://www.amazon.fr/dp/3932711254'
 description:
   de:
     text: >-
@@ -50,5 +52,6 @@ language: fr
 price: 16
 coAuthors:
   - christiane-lacoste-adrover
+isbn10: '3932711254'
 ---
 

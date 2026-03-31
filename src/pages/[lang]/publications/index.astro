@@ -195,12 +195,13 @@ function getAuthorName(authorRef: { id: string }) {
                 id: el.dataset.isbn, // Use ISBN as identifier (though not strictly needed)
                 title: el.dataset.title,
                 author: el.dataset.authorNames,
-                isbn: el.dataset.isbn,
+                isbn10: el.dataset.isbn10,
+                isbn13: el.dataset.isbn13,
                 originalEl: el // Keep reference to the element
             }));
 
             fuse = new Fuse(data, {
-                keys: ['title', 'author', 'isbn'],
+                keys: ['title', 'author', 'isbn10', 'isbn13'],
                 threshold: 0.4,
                 ignoreLocation: true,
                 getFn: (obj, path) => {

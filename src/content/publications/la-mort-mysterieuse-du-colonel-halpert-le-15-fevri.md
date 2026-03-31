@@ -3,8 +3,11 @@ title: >-
   La mort mystérieuse du colonel Halpert le 15 février 1946 à Constantine.
   Enquête historique
 author: roger-vetillard
-publicationDate: 2016-01-01T00:00:00.000Z
-isbn: '9783932711565'
+publicationDate: '2016-01-01'
+isbn10: '3932711564'
+isbn13: '9783932711565'
+pageCount: 92
+amazonLink: 'https://www.amazon.fr/dp/3932711564'
 description:
   de:
     text: >-
@@ -27,12 +30,6 @@ description:
       seine Schlussfolgerungen zu präsentieren. Im Zuge dieser echten
       polizeilichen Ermittlung werden zahlreiche Fragen aufgeworfen,
       Gewissheiten kommen zum Vorschein und Zweifel bleiben bestehen.
-
-
-      92 Seiten - 15 Euro
-
-
-      ISBN 9783932711565
     original: false
   en:
     text: >-
@@ -54,12 +51,6 @@ description:
       psychological context, to deliver his conclusions to us. During this true
       police investigation, numerous questions are raised, certainties appear,
       and questions remain.
-
-
-      92 pages - 15 euros
-
-
-      ISBN 9783932711565
     original: false
   fr:
     text: >-
@@ -81,16 +72,11 @@ description:
       et psychologique, pour nous livrer ses conclusions. Lors de cette
       véritable enquête policière, de nombreuses questions sont évoquées, des
       certitudes apparaissent, des interrogations demeurent.
-
-
-      92 pages - 15 €
-
-
-      ISBN 9783932711565
     original: true
 cover: /images/publications/la-mort-mysterieuse-du-colonel-halpert-le-15-fevri.jpg
 language: fr
 price: 15
-back: /images/publications/la-mort-mysterieuse-du-colonel-halpert-le-15-fevri_back.jpg
+back: >-
+  /images/publications/la-mort-mysterieuse-du-colonel-halpert-le-15-fevri_back.jpg
 ---
 

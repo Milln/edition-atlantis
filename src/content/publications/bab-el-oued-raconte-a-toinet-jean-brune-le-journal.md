@@ -2,8 +2,11 @@
 title: 'Bab-el-Oued raconté à  Toinet. Jean Brune, le journaliste (1)'
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 1999-01-01T00:00:00.000Z
-isbn: 978-3-932711-13-8
+publicationDate: '1999-01-01'
+isbn10: '3932711130'
+isbn13: '9783932711138'
+pageCount: 69
+amazonLink: 'https://www.amazon.fr/dp/3932711130'
 description:
   de:
     text: >-

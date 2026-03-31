@@ -2,8 +2,11 @@
 title: Les oranges amères de Blida
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2011-01-01T00:00:00.000Z
-isbn: 978-3-932711-32-9
+publicationDate: '2011-01-01'
+isbn10: '3932711327'
+isbn13: '9783932711329'
+pageCount: 102
+amazonLink: 'https://www.amazon.fr/dp/3932711327'
 description:
   de:
     text: >-

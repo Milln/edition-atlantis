@@ -1,8 +1,11 @@
 ---
 title: Fernand Destaing. Médecin de l'histoire. Biographie
 author: benoit-gaumer
-publicationDate: 2015-01-01T00:00:00.000Z
-isbn: 978-3-932711-45-9
+publicationDate: '2015-01-01'
+isbn10: '3932711459'
+isbn13: '9783932711459'
+pageCount: 130
+amazonLink: 'https://www.amazon.fr/dp/3932711459'
 description:
   de:
     text: >-

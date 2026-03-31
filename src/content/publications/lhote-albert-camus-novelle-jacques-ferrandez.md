@@ -1,8 +1,11 @@
 ---
 title: 'L''Hôte. Albert Camus'' Novelle. Jacques Ferrandez'' '
 author: wolf-albes
-publicationDate: 2018-01-01T00:00:00.000Z
-isbn: '9783932711718'
+pageCount: 120
+publicationDate: '2018-01-01'
+isbn10: '3932711718'
+isbn13: '9783932711718'
+amazonLink: 'https://www.amazon.fr/dp/3932711718'
 description:
   de:
     text: >-

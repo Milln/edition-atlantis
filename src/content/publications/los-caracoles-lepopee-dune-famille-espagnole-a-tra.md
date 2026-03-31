@@ -3,8 +3,12 @@ title: >-
   Los caracoles. L'épopée d'une famille espagnole à travers l'Algérie et le
   Maroc
 author: beatrice-riquelme-olivieri
-publicationDate: 2022-01-01T00:00:00.000Z
-isbn: '9783932711831'
+publicationDate: '2022-01-01'
+category: Collection France-Algérie
+isbn10: '3932711831'
+isbn13: '9783932711831'
+pageCount: 140
+amazonLink: 'https://www.amazon.fr/dp/3932711831'
 description:
   de:
     text: >-
@@ -30,15 +34,6 @@ description:
       Sie zogen so dahin, dunkelhäutig und zerlumpt, niedergedrückt von der Last
       der Armut, in Richtung des Unbekannten, auf der Suche nach dem Stück Brot.
       (Jean-Jacques Jordi, Espagnol en Oranie)
-
-
-      Sammlung France-Algérie 61
-
-      140 Seiten
-
-      19 €
-
-      ISBN 9783932711831
     original: false
   en:
     text: >-
@@ -64,15 +59,6 @@ description:
       They went off like this, sun-tanned and ragged, weighed down by the burden
       of poverty, towards the unknown, in search of a crust of bread."
       (Jean-Jacques Jordi, Espagnol en Oranie)
-
-
-      Collection France-Algérie 61
-
-      140 pages
-
-      19 €
-
-      ISBN 9783932711831
     original: false
   fr:
     text: >-
@@ -98,19 +84,11 @@ description:
       Ils s'en allaient ainsi, basanés et déguenillés, accablés sous le fardeau
       de la misère, vers l'inconnu, à la recherche du croûton de pain."
       (Jean-Jacques Jordi, Espagnol en Oranie)
-
-
-      Collection France-Algérie 61
-
-      140 pages
-
-      19 €
-
-      ISBN 9783932711831
     original: true
 cover: /images/publications/los-caracoles-lepopee-dune-famille-espagnole-a-tra.jpg
 language: fr
 price: 19
-back: /images/publications/los-caracoles-lepopee-dune-famille-espagnole-a-tra_back.jpg
+back: >-
+  /images/publications/los-caracoles-lepopee-dune-famille-espagnole-a-tra_back.jpg
 ---
 

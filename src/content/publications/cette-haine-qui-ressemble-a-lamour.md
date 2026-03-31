@@ -2,8 +2,9 @@
 title: Cette haine qui ressemble à  l’amour
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 1998-01-01T00:00:00.000Z
-isbn: 978-3-932711-04-6
+publicationDate: '1998-01-01'
+isbn13: '9783932711046'
+amazonLink: 'https://www.amazon.fr/dp/3932711041'
 description:
   de:
     text: >-
@@ -108,5 +109,7 @@ downloads:
     file: /downloads/Extraits-Haine-Torture.pdf
   - label: « Pourquoi sommes nous maudits à »
     file: /downloads/Extraits-Haine-Durrieu.pdf
+isbn10: '3932711041'
+pageCount: 446
 ---
 

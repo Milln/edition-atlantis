@@ -3,8 +3,11 @@ title: >-
   Algérie, histoires à ne pas dire... Le film choc interdit en Algérie. Scénario
   - réactions - polémiques
 author: jean-pierre-lledo
-publicationDate: 2011-01-01T00:00:00.000Z
-isbn: 978-3-932711-31-2
+publicationDate: '2011-01-01'
+isbn10: '3932711319'
+isbn13: '9783932711312'
+pageCount: 188
+amazonLink: 'https://www.amazon.fr/dp/3932711319'
 description:
   de:
     text: >-
@@ -149,7 +152,8 @@ description:
 cover: /images/publications/algerie-histoires-a-ne-pas-dire-le-film-choc-inter.jpg
 language: fr
 price: 20
-back: /images/publications/algerie-histoires-a-ne-pas-dire-le-film-choc-inter_back.jpg
+back: >-
+  /images/publications/algerie-histoires-a-ne-pas-dire-le-film-choc-inter_back.jpg
 downloads:
   - label: >-
       Bon de commande spécial Jean Pierre Lledo : <i>Algérie, histoires à  ne

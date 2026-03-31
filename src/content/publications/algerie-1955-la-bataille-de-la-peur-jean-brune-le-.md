@@ -2,8 +2,11 @@
 title: 'Algérie 1955. La bataille de la peur. Jean Brune, le journaliste (2)'
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 1999-01-01T00:00:00.000Z
-isbn: 978-3-932711-14-5
+publicationDate: '1999-01-01'
+isbn10: '3932711149'
+isbn13: '9783932711145'
+pageCount: 80
+amazonLink: 'https://www.amazon.fr/dp/3932711149'
 description:
   de:
     text: >-

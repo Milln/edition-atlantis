@@ -2,8 +2,11 @@
 title: Le soleil colonial. Au Royaume des cailloux
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2014-01-01T00:00:00.000Z
-isbn: 978-3-932711-40-4
+publicationDate: '2014-01-01'
+isbn10: '3932711408'
+isbn13: '9783932711404'
+pageCount: 248
+amazonLink: 'https://www.amazon.fr/dp/3932711408'
 description:
   de:
     text: >-

@@ -2,8 +2,11 @@
 title: Oran 1961-1962. Journal d’un prêtre en Algérie
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2013-01-01T00:00:00.000Z
-isbn: 978-3-932711-37-4
+publicationDate: '2013-01-01'
+isbn10: '3932711378'
+isbn13: '9783932711374'
+pageCount: 211
+amazonLink: 'https://www.amazon.fr/dp/3932711378'
 description:
   de:
     text: >-

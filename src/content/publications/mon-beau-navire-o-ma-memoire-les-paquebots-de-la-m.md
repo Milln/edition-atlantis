@@ -3,8 +3,11 @@ title: >-
   « Mon beau navire, ô ma mémoire... » Les paquebots de la malle d’Algérie
   (1830-1962)
 author: louis-pozzo-di-borgo
-publicationDate: 2001-01-01T00:00:00.000Z
-isbn: 978-3-932711-21-3
+publicationDate: '2001-01-01'
+isbn10: '3932711211'
+isbn13: 978-3-932711-21-3
+pageCount: 148
+amazonLink: 'https://www.amazon.fr/dp/3932711211'
 description:
   de:
     text: >-
@@ -107,6 +110,7 @@ description:
 cover: /images/publications/mon-beau-navire-o-ma-memoire-les-paquebots-de-la-m.jpg
 language: fr
 price: 20
-back: /images/publications/mon-beau-navire-o-ma-memoire-les-paquebots-de-la-m_back.jpg
+back: >-
+  /images/publications/mon-beau-navire-o-ma-memoire-les-paquebots-de-la-m_back.jpg
 ---
 

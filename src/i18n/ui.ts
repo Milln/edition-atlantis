@@ -72,6 +72,9 @@ export const ui = {
         'publication.machine_translation_hint': 'Diese Beschreibung wurde maschinell übersetzt. Sie ist möglicherweise nicht vollständig korrekt.',
         'publication.coming_soon': 'Demnächst',
         'publication.released_on': 'Erscheint am {date}',
+        'publication.page_count': 'Seitenanzahl',
+        'publication.binding': 'Einband',
+        'publication.buy_on_amazon': 'Bei Amazon kaufen',
     },
     en: {
         'nav.home': 'Home',
@@ -138,6 +141,9 @@ export const ui = {
         'publication.machine_translation_hint': 'This description has been machine-translated and may not be fully accurate.',
         'publication.coming_soon': 'Coming Soon',
         'publication.released_on': 'Released on {date}',
+        'publication.page_count': 'Page Count',
+        'publication.binding': 'Binding',
+        'publication.buy_on_amazon': 'Buy on Amazon',
     },
     fr: {
         'nav.home': 'Accueil',
@@ -204,5 +210,8 @@ export const ui = {
         'publication.machine_translation_hint': 'Cette description a été traduite automatiquement et peut ne pas être entièrement exacte.',
         'publication.coming_soon': 'À paraître',
         'publication.released_on': 'Paraîtra le {date}',
+        'publication.page_count': 'Nombre de pages',
+        'publication.binding': 'Reliure',
+        'publication.buy_on_amazon': 'Acheter sur Amazon',
     },
 } as const;

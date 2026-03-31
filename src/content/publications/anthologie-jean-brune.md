@@ -2,8 +2,11 @@
 title: Anthologie Jean Brune
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 1998-01-01T00:00:00.000Z
-isbn: 978-3-932711-08-4
+publicationDate: '1998-01-01'
+isbn10: '3932711084'
+isbn13: '9783932711084'
+pageCount: 208
+amazonLink: 'https://www.amazon.fr/dp/3932711084'
 description:
   de:
     text: >-

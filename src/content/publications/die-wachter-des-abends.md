@@ -2,8 +2,11 @@
 title: Die Wächter des Abends
 category: Deutsche Übersetzungen
 author: helie-de-saint-marc
-publicationDate: 2000-01-01T00:00:00.000Z
-isbn: 978-3-932711-51-0
+publicationDate: '2000-01-01'
+isbn10: '3932711513'
+isbn13: '9783932711510'
+pageCount: 184
+amazonLink: 'https://www.amazon.fr/dp/3932711513'
 description:
   de:
     text: >-
@@ -21,11 +24,11 @@ description:
       sie meine "Wächter des Abends". Sie helfen mir zu leben.
 
 
-      In Vietnam setzen die Bauern stets die Reisschösslinge für die nächste Ernte
-      ein. An jene Menschen dachten Laurent Beccaria und ich, als wir dieses
-      Buch gemeinsam schrieben. Denn diese Seiten haben nur dann einen Sinn,
-      wenn andere Männer und Frauen in ihnen einige Samenkörner finden, die sie
-      an anderer Stelle wieder in den Boden einsetzen.
+      In Vietnam setzen die Bauern stets die Reisschösslinge für die nächste
+      Ernte ein. An jene Menschen dachten Laurent Beccaria und ich, als wir
+      dieses Buch gemeinsam schrieben. Denn diese Seiten haben nur dann einen
+      Sinn, wenn andere Männer und Frauen in ihnen einige Samenkörner finden,
+      die sie an anderer Stelle wieder in den Boden einsetzen.
 
 
       Hélie de Saint Marc erlebte die großen Krisen Frankreichs im 20.

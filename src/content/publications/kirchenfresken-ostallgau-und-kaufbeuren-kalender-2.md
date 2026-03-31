@@ -3,8 +3,9 @@ title: >-
   Kirchenfresken. Ostallgäu und Kaufbeuren. Kalender 2020. Bilder von Herbert
   Wittmann
 author: herbert-wittmann
-publicationDate: 2019-01-01T00:00:00.000Z
-isbn: '9783932711664'
+publicationDate: '2019-01-01'
+isbn13: '9783932711664'
+amazonLink: 'https://www.amazon.fr/dp/3932711661'
 description:
   de:
     text: >-
@@ -49,5 +50,6 @@ description:
 cover: /images/publications/kirchenfresken-ostallgau-und-kaufbeuren-kalender-2.jpg
 language: de
 price: 19
+isbn10: '3932711661'
 ---
 

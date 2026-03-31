@@ -4,8 +4,11 @@ title: >-
   - Jean Brune - Roger Curel - Robert Merle - Janine Montupet - Marcel Moussy -
   Jean Pélégri - Emmanuel Roblès - André Rosfelder - Jules Roy
 author: wolf-albes
-publicationDate: 2012-01-01T00:00:00.000Z
-isbn: 978-3-932711-19-0
+publicationDate: '2012-01-01'
+isbn10: 393271119X
+isbn13: '9783932711190'
+pageCount: 404
+amazonLink: 'https://www.amazon.fr/dp/393271119X'
 description:
   de:
     text: >-
@@ -101,7 +104,8 @@ description:
 cover: /images/publications/les-ecrivains-pieds-noirs-face-a-la-guerre-dalgeri.jpg
 language: fr
 price: 27
-back: /images/publications/les-ecrivains-pieds-noirs-face-a-la-guerre-dalgeri_back.jpg
+back: >-
+  /images/publications/les-ecrivains-pieds-noirs-face-a-la-guerre-dalgeri_back.jpg
 downloads:
   - label: Lire la préface de Maurice Calmein
     file: /downloads/Preface-Ecrivains-PN.pdf

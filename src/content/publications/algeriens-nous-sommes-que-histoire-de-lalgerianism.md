@@ -1,8 +1,11 @@
 ---
 title: Algériens nous sommes... qué! Histoire de l'Algérianisme
 author: jean-brune
-publicationDate: 2011-01-01T00:00:00.000Z
-isbn: 978-3-932711-30-5
+publicationDate: '2011-01-01'
+isbn10: '3932711300'
+isbn13: '9783932711305'
+pageCount: 72
+amazonLink: 'https://www.amazon.fr/dp/3932711300'
 description:
   de:
     text: >-

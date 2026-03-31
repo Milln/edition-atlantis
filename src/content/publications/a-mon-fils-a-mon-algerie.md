@@ -1,8 +1,12 @@
 ---
 title: 'A mon fils, à mon Algérie'
+category: Collection France-Algérie
 author: henry-guey
-publicationDate: 2001-01-01T00:00:00.000Z
-isbn: 978-3-932711-24-4
+publicationDate: '2001-01-01'
+isbn10: '3932711246'
+isbn13: '9783932711244'
+pageCount: 141
+amazonLink: 'https://www.amazon.fr/dp/3932711246'
 description:
   de:
     text: >-
@@ -75,7 +79,6 @@ description:
 cover: /images/publications/a-mon-fils-a-mon-algerie.jpg
 language: fr
 price: 19
-category: Collection France-Algérie
 back: /images/publications/a-mon-fils-a-mon-algerie_back.jpg
 ---
 

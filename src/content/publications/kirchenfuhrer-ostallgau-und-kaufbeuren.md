@@ -1,8 +1,10 @@
 ---
 title: Kirchenführer Ostallgäu und Kaufbeuren
 author: herbert-wittmann
-publicationDate: 2016-01-01T00:00:00.000Z
-isbn: '9783932711558'
+publicationDate: '2016-01-01'
+isbn10: '3932711556'
+isbn13: '9783932711558'
+amazonLink: 'https://www.amazon.fr/dp/9783932711558'
 description:
   de:
     text: >-

@@ -4,8 +4,11 @@ title: >-
   Maurice Calmein
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2012-01-01T00:00:00.000Z
-isbn: 978-3-932711-35-0
+publicationDate: '2012-01-01'
+isbn10: '3932711351'
+isbn13: '9783932711350'
+pageCount: 97
+amazonLink: 'https://www.amazon.fr/dp/3932711351'
 description:
   de:
     text: >-
@@ -77,12 +80,6 @@ description:
       gefangen ist.
 
 
-      Maurice Calmein
-
-
-      Sammlung Frankreich-Algerien 35
-
-
       100 Seiten - mit 8 Fotos
     original: false
   en:
@@ -148,12 +145,6 @@ description:
       expresses in this story of a broken childhood, caught up by the madness of
       the grown-ups, in the story of a family caught in the storm of the exodus
       and a great page of history torn apart.
-
-
-      Maurice Calmein
-
-
-      Collection France-Algeria 35
 
 
       100 pages - with 8 photos
@@ -233,12 +224,6 @@ description:
       déchirée.
 
 
-      Maurice Calmein
-
-
-      Collection France-Algérie 35
-
-
       100 pages - avec 8 photos
     original: true
 cover: /images/publications/mon-paradis-perdu-une-enfance-algerienne-oran-1954.jpg
@@ -246,6 +231,8 @@ language: fr
 price: 17
 coAuthors:
   - monique-clavaud
-back: /images/publications/mon-paradis-perdu-une-enfance-algerienne-oran-1954_back.jpg
+  - maurice-calmein
+back: >-
+  /images/publications/mon-paradis-perdu-une-enfance-algerienne-oran-1954_back.jpg
 ---
 

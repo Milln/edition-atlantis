@@ -3,8 +3,11 @@ title: >-
   L'Hôte. La nouvelle d’Albert Camus et la bande dessinée de Jacques Ferrandez
   dans le contexte colonial
 author: wolf-albes
-publicationDate: 2013-01-01T00:00:00.000Z
-isbn: 978-3-932711-70-1
+publicationDate: '2013-01-01'
+isbn10: '393271170X'
+isbn13: '9783932711701'
+pageCount: 100
+amazonLink: 'https://www.amazon.fr/dp/393271170X'
 description:
   de:
     text: >-
@@ -375,7 +378,8 @@ description:
       port) ou sur amazon.de (frais de port 2 € 99).
     original: true
 cover: /images/publications/lhote-la-nouvelle-dalbert-camus-et-la-bande-dessin.jpg
-back: /images/publications/lhote-la-nouvelle-dalbert-camus-et-la-bande-dessin_back.jpg
+back: >-
+  /images/publications/lhote-la-nouvelle-dalbert-camus-et-la-bande-dessin_back.jpg
 language: fr
 ---
 

@@ -1,8 +1,11 @@
 ---
 title: 'Jean Brune, Français d''Algérie. Biographie'
 author: jean-brune
-publicationDate: 1998-01-01T00:00:00.000Z
-isbn: '2907862421'
+publicationDate: '1998-01-01'
+isbn10: '2907862421'
+isbn13: '9782907862424'
+pageCount: 270
+amazonLink: 'https://www.amazon.fr/dp/2907862421'
 description:
   de:
     text: >-

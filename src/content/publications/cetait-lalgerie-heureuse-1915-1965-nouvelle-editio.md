@@ -1,8 +1,10 @@
 ---
 title: C'était l'Algérie heureuse. 1915-1965. Nouvelle édition
 author: fernand-destaing
-publicationDate: 2015-01-01T00:00:00.000Z
-isbn: 978-3-932711-44-2
+publicationDate: '2015-01-01'
+isbn10: '3932711440'
+isbn13: '9783932711442'
+amazonLink: 'https://www.amazon.fr/dp/3932711440'
 description:
   fr:
     text: >-
@@ -130,6 +132,7 @@ description:
 cover: /images/publications/cetait-lalgerie-heureuse-1915-1965-nouvelle-editio.jpg
 language: fr
 price: 20.4
-back: /images/publications/cetait-lalgerie-heureuse-1915-1965-nouvelle-editio_back.jpg
+back: >-
+  /images/publications/cetait-lalgerie-heureuse-1915-1965-nouvelle-editio_back.jpg
 ---
 

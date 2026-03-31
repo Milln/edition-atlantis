@@ -2,8 +2,11 @@
 title: Il était une fois... ma vie. Alger la Blanche
 category: Collection France-Algérie
 author: jocelyne-mas
-publicationDate: 2002-01-01T00:00:00.000Z
-isbn: 978-3-932711-27-5
+publicationDate: '2002-01-01'
+isbn10: '3932711270'
+isbn13: '9783932711275'
+pageCount: 105
+amazonLink: 'https://www.amazon.fr/dp/3932711270'
 description:
   de:
     text: >-
@@ -25,9 +28,6 @@ description:
 
       Sie werden ihre Leiden, ihre Schmerzen, aber auch ihre Freuden und ihre
       Beharrlichkeit entdecken. Und ihr wiederaufgebautes Leben.
-
-
-      ISBN 978-3-932711-27-5
     original: false
   en:
     text: >-
@@ -49,9 +49,6 @@ description:
 
       You will discover their sorrows, their sufferings, but also their joys and
       their tenacity. And their rebuilt lives.
-
-
-      ISBN 978-3-932711-27-5
     original: false
   fr:
     text: >-
@@ -72,9 +69,6 @@ description:
 
       Vous découvrirez leurs peines, leurs souffrances mais aussi leurs joies et
       leur ténacité. Et leur vie reconstruite.
-
-
-      ISBN 978-3-932711-27-5
     original: true
 cover: /images/publications/il-etait-une-fois-ma-vie-alger-la-blanche.jpg
 language: fr

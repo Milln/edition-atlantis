@@ -2,8 +2,11 @@
 title: Le papillon ensablé. Roman
 category: Collection France-Algérie
 author: maia-alonso
-publicationDate: 2016-01-01T00:00:00.000Z
-isbn: 978-3-932711-49-7
+publicationDate: '2016-01-01'
+isbn10: '3932711491'
+isbn13: '9783932711497'
+pageCount: 230
+amazonLink: 'https://www.amazon.fr/dp/3932711491'
 description:
   de:
     text: >-

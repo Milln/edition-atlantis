@@ -2,8 +2,11 @@
 title: Les Oliviers de la Justice
 category: Collection France-Algérie
 author: jean-pelegri
-publicationDate: 1999-01-01T00:00:00.000Z
-isbn: 978-3-932711-11-4
+publicationDate: '1999-01-01'
+isbn10: '3932711114'
+isbn13: '9783932711114'
+pageCount: 150
+amazonLink: 'https://www.amazon.fr/dp/3932711114'
 description:
   fr:
     text: >-

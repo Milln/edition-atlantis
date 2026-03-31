@@ -2,8 +2,11 @@
 title: Une histoire souterraine. Pieds-Noirs et Musulmans en Algérie
 category: Collection France-Algérie
 author: nicole-guiraud
-publicationDate: 2000-01-01T00:00:00.000Z
-isbn: 978-3-932711-17-6
+publicationDate: '2000-01-01'
+isbn10: '3932711173'
+isbn13: '9783932711176'
+pageCount: 140
+amazonLink: 'https://www.amazon.fr/dp/3932711173'
 description:
   de:
     text: >-
@@ -69,6 +72,7 @@ coAuthors:
   - helie-de-saint-marc
   - anne-marie-lorentz
   - marie-louise-de-pena
-back: /images/publications/une-histoire-souterraine-pieds-noirs-et-musulmans-_back.jpg
+back: >-
+  /images/publications/une-histoire-souterraine-pieds-noirs-et-musulmans-_back.jpg
 ---
 

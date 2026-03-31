@@ -2,6 +2,7 @@
 title: Exode
 category: Other
 author: jean-brune
+pageCount: 8
 publicationDate: 2012-01-01T00:00:00.000Z
 isbn: null
 description:

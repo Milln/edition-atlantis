@@ -1,8 +1,11 @@
 ---
 title: La brousse qui mangea l'homme. Algérie 1914. Roman colonial
 author: charles-courtin
-publicationDate: 2020-01-01T00:00:00.000Z
-isbn: '9783932711695'
+publicationDate: '2020-01-01'
+category: Collection France-Algérie
+isbn10: '3932711696'
+isbn13: '9783932711695'
+amazonLink: 'https://www.amazon.fr/dp/3932711696'
 description:
   de:
     text: >-
@@ -40,12 +43,6 @@ description:
 
 
       Notizen und Kommentare von Wolf Albes
-
-
-      Sammlung France-Algérie 54
-
-
-      Preis: 22 Euro
     original: false
   en:
     text: >-
@@ -83,12 +80,6 @@ description:
 
 
       Notes and comments by Wolf Albes
-
-
-      Collection France-Algerie 54
-
-
-      Price: 22 Euro
     original: false
   fr:
     text: >-
@@ -125,16 +116,11 @@ description:
 
 
       Notes et commentaires de Wolf Albes
-
-
-      Collection France-Algérie 54
-
-
-      Prix : 22 Euro
     original: true
 cover: /images/publications/la-brousse-qui-mangea-lhomme-algerie-1914-roman-co.jpg
 language: fr
 price: 22
-back: /images/publications/la-brousse-qui-mangea-lhomme-algerie-1914-roman-co_back.jpg
+back: >-
+  /images/publications/la-brousse-qui-mangea-lhomme-algerie-1914-roman-co_back.jpg
 ---
 

@@ -2,8 +2,11 @@
 title: Lettre à  un maudit
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 1998-01-01T00:00:00.000Z
-isbn: 978-3-932711-07-7
+publicationDate: '1998-01-01'
+isbn10: '3932711076'
+isbn13: '9783932711077'
+pageCount: 34
+amazonLink: 'https://www.amazon.fr/dp/3932711076'
 description:
   de:
     text: >-

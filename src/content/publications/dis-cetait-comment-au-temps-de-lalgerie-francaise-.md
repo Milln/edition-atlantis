@@ -4,8 +4,11 @@ title: >-
   réponses à  l'intention des jeunes Pieds-Noirs. Avec des illustrations de Jean
   Brune
 author: jean-brune
-publicationDate: 2014-01-01T00:00:00.000Z
-isbn: 978-3-932711-41-1
+publicationDate: '2014-01-01'
+isbn10: '3932711416'
+isbn13: '9783932711411'
+pageCount: 134
+amazonLink: 'https://www.amazon.fr/dp/3932711416'
 description:
   de:
     text: >-
@@ -107,7 +110,8 @@ description:
       61 illustrations dont 17 en couleur.
     original: true
 cover: /images/publications/dis-cetait-comment-au-temps-de-lalgerie-francaise.jpg
-back: /images/publications/dis-cetait-comment-au-temps-de-lalgerie-francaise_back.jpg
+back: >-
+  /images/publications/dis-cetait-comment-au-temps-de-lalgerie-francaise_back.jpg
 language: fr
 ---
 

@@ -1,8 +1,11 @@
 ---
 title: Tradition et révolution. L'armée prussienne en 1870
 author: philippe-lamarque
-publicationDate: 2021-01-01T00:00:00.000Z
-isbn: '9783932711817'
+publicationDate: '2021-01-01'
+isbn10: '3932711815'
+isbn13: '9783932711817'
+pageCount: 140
+amazonLink: 'https://www.amazon.fr/dp/3932711815'
 description:
   de:
     text: >-
@@ -104,6 +107,7 @@ language: fr
 price: 19
 coAuthors:
   - wolf-albes
-back: /images/publications/tradition-et-revolution-larmee-prussienne-en-1870_back.jpg
+back: >-
+  /images/publications/tradition-et-revolution-larmee-prussienne-en-1870_back.jpg
 ---
 

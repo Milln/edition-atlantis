@@ -2,8 +2,11 @@
 title: 'Les Harkis. Drame ou tragédie ? 1955-2025 : un premier bilan'
 category: Collection France-Algérie
 author: wolf-albes
-publicationDate: 2025-01-01T00:00:00.000Z
-isbn: '    978-3-932711-87-9'
+publicationDate: '2025-01-01'
+pageCount: 446
+isbn10: '3932711874'
+isbn13: '9783932711879'
+amazonLink: 'https://www.amazon.fr/dp/3932711874'
 description:
   de:
     text: >-
@@ -59,15 +62,6 @@ description:
       ergänzen, neue Horizonte zu öffnen, um die Geschichte der Harkis, wie sie
       sich in den Lesehinweisen widerspiegelt, besser zu verstehen und zu
       vermitteln.
-
-
-      Collection France-Algérie 61
-
-
-      446 Seiten und 120 Illustrationen
-
-
-      27 Euro
     original: false
   en:
     text: >-
@@ -120,15 +114,6 @@ description:
       while completing the testimony of "Un combat tranquille" (2022), try to
       open new horizons to better understand and transmit the history of the
       Harkis as it is reflected in the reading notes.
-
-
-      Collection France-Algerie 61
-
-
-      446 pages and 120 illustrations
-
-
-      27 euros
     original: false
   fr:
     text: >-
@@ -182,21 +167,13 @@ description:
       essaient d'ouvrir de nouveaux horizons pour mieux comprendre et
       transmettre l'histoire des harkis telle qu'elle se reflete dans les notes
       de lecture.
-
-
-      Collection France-Algerie 61
-
-
-      446 pages et 120 illustrations
-
-
-      27 €
     original: true
 cover: /images/publications/les-harkis-drame-ou-tragedie-1955-2025-un-premier-.jpg
 language: fr
 price: 27
 coAuthors:
   - hafida-chabi
-back: /images/publications/les-harkis-drame-ou-tragedie-1955-2025-un-premier-_back.jpg
+back: >-
+  /images/publications/les-harkis-drame-ou-tragedie-1955-2025-un-premier-_back.jpg
 ---
 

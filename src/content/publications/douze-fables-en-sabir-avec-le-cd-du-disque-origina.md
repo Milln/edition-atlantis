@@ -2,8 +2,11 @@
 title: Douze fables en sabir. Avec le CD du disque original
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2014-01-01T00:00:00.000Z
-isbn: 978-3-932711-39-8
+publicationDate: '2014-01-01'
+isbn10: '3932711394'
+isbn13: '9783932711398'
+pageCount: 60
+amazonLink: 'https://www.amazon.fr/dp/3932711394'
 description:
   de:
     text: >-
@@ -120,6 +123,7 @@ language: fr
 price: 17
 coAuthors:
   - charles-gallea
-back: /images/publications/douze-fables-en-sabir-avec-le-cd-du-disque-origina_back.jpg
+back: >-
+  /images/publications/douze-fables-en-sabir-avec-le-cd-du-disque-origina_back.jpg
 ---
 

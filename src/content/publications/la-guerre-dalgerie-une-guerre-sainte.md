@@ -1,8 +1,12 @@
 ---
 title: 'La guerre d''Algérie, une guerre sainte ?'
 author: roger-vetillard
-publicationDate: 2020-01-01T00:00:00.000Z
-isbn: '9783932711688'
+publicationDate: '2020-01-01'
+isbn10: '3932711688'
+isbn13: '9783932711688'
+pageCount: 302
+amazonLink: 'https://www.amazon.fr/dp/3932711688'
+price: 24
 description:
   de:
     text: >-
@@ -42,7 +46,7 @@ description:
       Algeriens.
 
 
-      302 Seiten - etwa dreißig Abbildungen - 24 Euro
+      302 Seiten - etwa dreißig Abbildungen
 
 
       Siehe auch im Anhang (siehe Seitenende): Wolf Albes - Der Algerienkrieg
@@ -82,7 +86,7 @@ description:
       Algeria.
 
 
-      302 pages - about thirty illustrations - 24 euros
+      302 pages - about thirty illustrations
 
 
       Also consult the attachment (see bottom of page): Wolf Albes - The
@@ -123,7 +127,7 @@ description:
       musulmane.
 
 
-      302 pages - une trentaine d'illustrations - 24 euros
+      302 pages - une trentaine d'illustrations
 
 
       À consulter aussi en pièce jointe (voir en bas de page): Wolf Albes - La

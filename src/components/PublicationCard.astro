@@ -36,7 +36,8 @@ const isFuture = publication.data.publicationDate ? publication.data.publication
     data-year={showFilters ? publicationYear : undefined}
     data-category={showFilters ? (publication.data.category || '') : undefined}
     data-title={showFilters ? publication.data.title.toLowerCase() : undefined}
-    data-isbn={showFilters ? (publication.data.isbn || '') : undefined}
+    data-isbn10={showFilters ? (publication.data.isbn10 || '') : undefined}
+    data-isbn13={showFilters ? (publication.data.isbn13 || '') : undefined}
 >
   <div class="aspect-[2/3] overflow-hidden bg-gray-100 relative">
     <img 

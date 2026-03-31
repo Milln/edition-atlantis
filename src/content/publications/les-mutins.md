@@ -2,8 +2,11 @@
 title: Les Mutins
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 1997-01-01T00:00:00.000Z
-isbn: 978-3-932711-01-5
+publicationDate: '1997-01-01'
+isbn10: '3932711017'
+isbn13: '9783932711015'
+pageCount: 108
+amazonLink: 'https://www.amazon.fr/dp/3932711017'
 description:
   de:
     text: >-

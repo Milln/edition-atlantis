@@ -2,8 +2,11 @@
 title: Les enfants de la Licorne
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2015-01-01T00:00:00.000Z
-isbn: 978-3-932711-80-0
+publicationDate: '2015-01-01'
+isbn10: '3932711807'
+isbn13: '9783932711800'
+pageCount: 250
+amazonLink: 'https://www.amazon.fr/dp/3932711807'
 description:
   de:
     text: >-

@@ -2,8 +2,11 @@
 title: Interdit aux chiens et aux Français
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 1998-01-01T00:00:00.000Z
-isbn: 978-3-932711-05-3
+publicationDate: '1998-01-01'
+isbn10: '393271105X'
+isbn13: '9783932711053'
+pageCount: 168
+amazonLink: 'https://www.amazon.fr/dp/393271105X'
 description:
   de:
     text: >-

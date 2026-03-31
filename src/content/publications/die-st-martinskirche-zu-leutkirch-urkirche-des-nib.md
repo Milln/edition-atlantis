@@ -1,8 +1,9 @@
 ---
 title: Die St. Martinskirche zu Leutkirch. Urkirche des Nibelgaus
 author: erwin-munsch
-publicationDate: 2018-01-01T00:00:00.000Z
-isbn: '9783932711619'
+publicationDate: '2018-01-01'
+isbn13: '9783932711619'
+amazonLink: 'https://www.amazon.fr/dp/3932711610'
 description:
   de:
     text: >-
@@ -272,6 +273,8 @@ description:
 cover: /images/publications/die-st-martinskirche-zu-leutkirch-urkirche-des-nib.jpg
 language: de
 price: 17
-back: /images/publications/die-st-martinskirche-zu-leutkirch-urkirche-des-nib_back.jpg
+back: >-
+  /images/publications/die-st-martinskirche-zu-leutkirch-urkirche-des-nib_back.jpg
+isbn10: '3932711610'
 ---
 

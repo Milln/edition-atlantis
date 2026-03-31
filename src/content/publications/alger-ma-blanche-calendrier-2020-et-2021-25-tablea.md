@@ -2,8 +2,10 @@
 title: Alger ma Blanche. Calendrier 2020 et 2021. 25 tableaux de Jean Taousson
 category: Collection France-Algérie
 author: jean-taousson
-publicationDate: 2019-01-01T00:00:00.000Z
-isbn: '9783932711671'
+publicationDate: '2019-01-01'
+isbn10: '393271167X'
+isbn13: '9783932711671'
+amazonLink: 'https://www.amazon.fr/dp/393271167X'
 description:
   de:
     text: >-

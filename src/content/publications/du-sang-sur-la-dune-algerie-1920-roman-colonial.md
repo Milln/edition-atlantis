@@ -2,8 +2,10 @@
 title: Du Sang sur la dune. Algérie 1920. Roman colonial
 category: Collection France-Algérie
 author: charles-courtin
-publicationDate: 2020-01-01T00:00:00.000Z
-isbn: 978-3-932711-73-2
+publicationDate: '2020-01-01'
+isbn10: '3932711734'
+isbn13: '9783932711732'
+amazonLink: 'https://www.amazon.fr/dp/3932711734'
 description:
   de:
     text: >-
@@ -47,12 +49,6 @@ description:
 
       Neuauflage der Originalausgabe von 1942 (Éditions Baconnier Frères,
       Algier): Du sang sur la dune
-
-
-      Sammlung France-Algérie 56
-
-
-      20 Euro
     original: false
   en:
     text: >-
@@ -95,12 +91,6 @@ description:
 
       Reissue of the original 1942 edition (Editions Baconnier Freres, Algiers):
       Du sang sur la dune
-
-
-      France-Algeria Collection 56
-
-
-      20 Euros
     original: false
   fr:
     text: >-
@@ -143,12 +133,6 @@ description:
 
       Réédition de l'édition originale de 1942 (Éditions Baconnier Frères,
       Alger) : Du sang… sur la dune…
-
-
-      Collection France-Algérie 56
-
-
-      20 €
     original: true
 cover: /images/publications/du-sang-sur-la-dune-algerie-1920-roman-colonial.jpg
 language: fr

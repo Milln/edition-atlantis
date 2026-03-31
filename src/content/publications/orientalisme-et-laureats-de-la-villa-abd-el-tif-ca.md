@@ -3,8 +3,11 @@ title: >-
   Orientalisme et Lauréats de la Villa Abd-el-Tif Catalogue de l'exposition du
   18 au 28 avril 2024. Espace Saint-Michel à Condom
 author: roger-vetillard
-publicationDate: 2024-01-01T00:00:00.000Z
-isbn: '9783932711855'
+publicationDate: '2024-01-01'
+isbn10: '3932711858'
+isbn13: '9783932711855'
+pageCount: 82
+amazonLink: 'https://www.amazon.fr/dp/3932711858'
 description:
   de:
     text: >-
@@ -50,12 +53,6 @@ description:
       Rückkehr in ein glückliches Algerien, da ihnen "das Recht des Menschen,
       nicht aus seinen Kindheitserinnerungen vertrieben zu werden" (Jean Brune)
       genommen wurde.
-
-
-      ISBN: 9783932711855
-
-
-      82 Seiten; Großformat (29 cm x 21 cm); 100 Farbbilder
 
 
       Inhaltsverzeichnis:
@@ -144,12 +141,6 @@ description:
       For many "pieds-noirs" visitors, this exhibition was like a bittersweet
       return to a happy Algeria, since they were denied "the right of men not to
       be driven from their childhood memories" (Jean Brune).
-
-
-      ISBN: 9783932711855
-
-
-      82 pages; large format (29 cm x 21 cm); 100 color paintings
 
 
       Table of contents:
@@ -243,12 +234,6 @@ description:
       Brune).
 
 
-      ISBN : 9783932711855
-
-
-      82 pages ; grand format (29 cm x 21 cm) ; 100 tableaux en couleur
-
-
       Table des matières :
 
 
@@ -297,6 +282,7 @@ description:
 cover: /images/publications/orientalisme-et-laureats-de-la-villa-abd-el-tif-ca.jpg
 language: fr
 price: 23
-back: /images/publications/orientalisme-et-laureats-de-la-villa-abd-el-tif-ca_back.jpg
+back: >-
+  /images/publications/orientalisme-et-laureats-de-la-villa-abd-el-tif-ca_back.jpg
 ---
 

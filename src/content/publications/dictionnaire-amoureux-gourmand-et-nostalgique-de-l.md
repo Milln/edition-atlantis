@@ -1,8 +1,11 @@
 ---
 title: 'Dictionnaire amoureux, gourmand et nostalgique de l''Algérie française'
 author: max-teste
-publicationDate: 2015-01-01T00:00:00.000Z
-isbn: 978-3-932711-47-3
+publicationDate: '2015-01-01'
+isbn10: '3932711475'
+isbn13: '9783932711473'
+pageCount: 368
+amazonLink: 'https://www.amazon.fr/dp/3932711475'
 description:
   de:
     text: >-
@@ -74,6 +77,7 @@ description:
 cover: /images/publications/dictionnaire-amoureux-gourmand-et-nostalgique-de-l.jpg
 language: fr
 price: 25
-back: /images/publications/dictionnaire-amoureux-gourmand-et-nostalgique-de-l_back.jpg
+back: >-
+  /images/publications/dictionnaire-amoureux-gourmand-et-nostalgique-de-l_back.jpg
 ---
 

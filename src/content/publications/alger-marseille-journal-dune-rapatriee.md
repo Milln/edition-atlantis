@@ -2,8 +2,11 @@
 title: Alger – Marseille. Journal d’une rapatriée
 category: Collection France-Algérie
 author: suzon-pulicani-varnier
-publicationDate: 2002-01-01T00:00:00.000Z
-isbn: 978-3-932711-26-8
+publicationDate: '2002-01-01'
+isbn10: '3932711262'
+isbn13: '9783932711268'
+pageCount: 144
+amazonLink: 'https://www.amazon.fr/dp/3932711262'
 description:
   de:
     text: >-

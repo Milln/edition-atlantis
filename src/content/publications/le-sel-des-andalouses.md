@@ -2,8 +2,11 @@
 title: Le sel des Andalouses
 category: Collection France-Algérie
 author: jean-brune
-publicationDate: 2009-01-01T00:00:00.000Z
-isbn: 978-3-932711-28-2
+publicationDate: '2009-01-01'
+isbn10: '3932711289'
+isbn13: '9783932711282'
+pageCount: 213
+amazonLink: 'https://www.amazon.fr/dp/3932711289'
 description:
   de:
     text: >-

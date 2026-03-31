@@ -1,8 +1,10 @@
 ---
 title: Die frühe Geschichte der Stadt Füssen
 author: peter-alfred-bletschacher
-publicationDate: 2017-01-01T00:00:00.000Z
-isbn: '9783932711589'
+publicationDate: '2017-01-01'
+isbn10: '3932711580'
+isbn13: '9783932711589'
+amazonLink: 'https://www.amazon.fr/dp/3932711580'
 description:
   de:
     text: >-

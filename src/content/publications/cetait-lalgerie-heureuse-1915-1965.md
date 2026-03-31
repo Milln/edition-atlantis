@@ -2,8 +2,11 @@
 title: C’était l’Algérie heureuse (1915-1965)
 category: Collection France-Algérie
 author: fernand-destaing
-publicationDate: 2000-01-01T00:00:00.000Z
-isbn: 978-3-932711-18-3
+publicationDate: '2000-01-01'
+isbn10: '3932711181'
+isbn13: '9783932711183'
+pageCount: 249
+amazonLink: 'https://www.amazon.fr/dp/3932711181'
 description:
   de:
     text: >-
