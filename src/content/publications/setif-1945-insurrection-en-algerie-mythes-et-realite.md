@@ -16,7 +16,7 @@ cover: /images/publications/setif-1945-insurrection-en-algerie-mythes-et-realite
 back: /images/publications/setif-1945-insurrection-en-algerie-mythes-et-realite_back.jpg
 description:
   de:
-    text: >-
+    text: |-
       Roger Vétillard unter Mitarbeit von Wolf Albes
 
 
@@ -39,7 +39,7 @@ description:
       - Sonderfall Guelma: Der Fall Guelma, wo die Miliz – die nach Bekanntwerden der Morde von Sétif gegründet wurde – als standrechtliche Justiz auftrat, wird heute als Inbegriff der Repression dargestellt, obwohl er nur die Ausnahme bildete.
     original: false
   en:
-    text: >-
+    text: |-
       Roger Vétillard in collaboration with Wolf Albes
 
 
@@ -62,7 +62,7 @@ description:
       - The Case of Guelma: The situation in Guelma, where the militia—created after the announcement of the Sétif killings—acted as summary executioners, is presented today as the paragon of repression, whereas it was actually the exception.
     original: false
   fr:
-    text: >-
+    text: |-
       Roger Vétillard avec la collaboration de Wolf Albes
 
 

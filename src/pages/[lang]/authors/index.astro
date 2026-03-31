@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, getPath } from '../../../i18n/utils';
 import { languages } from '../../../i18n/ui';
+import { parseMarkdown } from '../../../utils/markdown';
 
 export function getStaticPaths() {
   return [
@@ -80,9 +81,9 @@ authors.sort((a, b) => a.data.name.localeCompare(b.data.name));
             
             <div 
               id={`bio-${author.id.replace(/\//g, '-')}`} 
-              class="bio-content text-gray-600 text-sm leading-relaxed mb-2 line-clamp-4 transition-all duration-300"
+              class="bio-content prose prose-sm text-gray-600 text-sm leading-relaxed mb-2 line-clamp-4 transition-all duration-300"
+              set:html={parseMarkdown(displayBio)}
             >
-               {displayBio}
             </div>
 
             <button 

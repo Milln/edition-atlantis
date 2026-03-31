@@ -3,6 +3,7 @@ import { getCollection, getEntry } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import { useTranslations, getPath } from '../../../i18n/utils';
 import { languages } from '../../../i18n/ui';
+import { parseMarkdown } from '../../../utils/markdown';
 
 export async function getStaticPaths() {
   const publications = await getCollection('publications');
@@ -184,8 +185,7 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
             <span>{t('publication.machine_translation_hint')}</span>
           </div>
         )}
-        <div class="prose prose-lg prose-headings:font-serif prose-headings:text-primary prose-a:text-accent max-w-none mb-12 whitespace-pre-wrap">
-          {fullDescription}
+        <div class="prose prose-lg prose-headings:font-serif prose-headings:text-primary prose-a:text-accent max-w-none mb-12" set:html={parseMarkdown(fullDescription)}>
         </div>
 
         <div class="bg-gray-50 p-8 rounded-sm border border-gray-200 shadow-sm">

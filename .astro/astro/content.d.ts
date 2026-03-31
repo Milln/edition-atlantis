@@ -715,6 +715,13 @@ declare module 'astro:content' {
   collection: "publications";
   data: InferEntrySchema<"publications">
 } & { render(): Render[".md"] };
+"setif-1945-insurrection-en-algerie-mythes-et-realite.md": {
+	id: "setif-1945-insurrection-en-algerie-mythes-et-realite.md";
+  slug: "setif-1945-insurrection-en-algerie-mythes-et-realite";
+  body: string;
+  collection: "publications";
+  data: InferEntrySchema<"publications">
+} & { render(): Render[".md"] };
 "sonnensprossen-funfzehn-etwas-andere-liebesgeschic.md": {
 	id: "sonnensprossen-funfzehn-etwas-andere-liebesgeschic.md";
   slug: "sonnensprossen-funfzehn-etwas-andere-liebesgeschic";
