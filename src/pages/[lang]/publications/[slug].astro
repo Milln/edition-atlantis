@@ -30,6 +30,9 @@ const author = await getEntry(publication.data.author); // Helper to get referen
 const { lang: pageLang } = Astro.params;
 const t = useTranslations(pageLang as keyof typeof languages);
 
+const isFuture = publication.data.publicationDate ? publication.data.publicationDate > new Date() : false;
+const formattedReleaseDate = publication.data.publicationDate ? publication.data.publicationDate.toLocaleDateString(pageLang, { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+
 // Get co-authors if present
 let coAuthors = [];
 if (publication.data.coAuthors) {
@@ -113,8 +116,14 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
 
       <!-- Content -->
       <div class="md:col-span-8 lg:col-span-9">
-        <div class="mb-4 text-sm text-accent font-bold uppercase tracking-wider">
-           {publication.data.language.toUpperCase()} {publication.data.publicationDate ? `• ${publication.data.publicationDate.getFullYear()}` : ''}
+        <div class="mb-4 text-sm text-accent font-bold uppercase tracking-wider flex items-center gap-2">
+           <span>{publication.data.language.toUpperCase()}</span>
+           {publication.data.publicationDate && <span>• {publication.data.publicationDate.getFullYear()}</span>}
+           {isFuture && (
+             <span class="bg-accent text-white text-[10px] px-1.5 py-0.5 rounded-sm coming-soon-tag">
+               {t('publication.coming_soon').toUpperCase()}
+             </span>
+           )}
         </div>
         
         <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-snug md:leading-snug">
@@ -153,6 +162,20 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
             </div>
         )}
 
+        {isFuture && (
+          <div 
+            class="flex items-start gap-3 mb-6 px-4 py-3 rounded-sm border border-primary/20 bg-primary/5 text-primary text-sm coming-soon-notice opacity-0 transition-opacity duration-300" 
+            data-date={publication.data.publicationDate?.toISOString()}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <span>
+              <strong class="font-bold">{t('publication.coming_soon')}</strong> • {t('publication.released_on').replace('{date}', formattedReleaseDate)}
+            </span>
+          </div>
+        )}
+
         {isMachineTranslated && (
           <div class="flex items-start gap-3 mb-6 px-4 py-3 rounded-sm border border-amber-200 bg-amber-50 text-amber-800 text-sm">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 shrink-0 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -176,7 +199,16 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
              )}
              <div class="flex flex-col">
                  <dt class="text-gray-500">{t('publication.published')}</dt>
-                 <dd class="text-gray-900">{publication.data.publicationDate ? publication.data.publicationDate.getFullYear() : t('publication.unknown_date') || 'Unknown'}</dd>
+                 <dd class="text-gray-900">
+                    {publication.data.publicationDate ? (
+                        <span class="flex items-center gap-1">
+                          {publication.data.publicationDate.getFullYear()}
+                          {isFuture && <span class="text-accent text-[10px] uppercase font-bold coming-soon-tag">({t('publication.coming_soon')})</span>}
+                        </span>
+                    ) : (
+                        t('publication.unknown_date') || 'Unknown'
+                    )}
+                 </dd>
              </div>
               {author && (
                 <div class="flex flex-col">
@@ -291,5 +323,24 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') closeLightbox();
     });
+
+    // Handle "Coming Soon" notice visibility
+    function updateComingSoonNotice() {
+        const now = new Date();
+        const notice = document.querySelector('.coming-soon-notice');
+        if (notice instanceof HTMLElement) {
+            const dateStr = notice.dataset.date;
+            if (dateStr) {
+                const pubDate = new Date(dateStr);
+                if (pubDate > now) {
+                    notice.classList.remove('opacity-0');
+                } else {
+                    notice.classList.add('hidden');
+                    document.querySelectorAll('.coming-soon-tag').forEach(tag => tag.classList.add('hidden'));
+                }
+            }
+        }
+    }
+    updateComingSoonNotice();
   </script>
 </Layout>

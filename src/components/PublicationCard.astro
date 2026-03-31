@@ -1,5 +1,5 @@
 ---
-import { getPath } from '../i18n/utils';
+import { getPath, useTranslations } from '../i18n/utils';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -11,6 +11,7 @@ interface Props {
 }
 
 const { publication, lang, authorName, coAuthorNames, showFilters = false } = Astro.props;
+const t = useTranslations(lang as any);
 
 const authorId = publication.data.author.id;
 const coAuthorIds = publication.data.coAuthors ? publication.data.coAuthors.map(a => a.id).join(' ') : '';
@@ -19,6 +20,8 @@ const allAuthorNames = `${authorName}${coAuthorNames ? ' ' + coAuthorNames : ''}
 
 // For translations of date
 const publicationYear = publication.data.publicationDate ? publication.data.publicationDate.getFullYear() : 'unknown';
+
+const isFuture = publication.data.publicationDate ? publication.data.publicationDate > new Date() : false;
 ---
 
 <a 
@@ -45,6 +48,16 @@ const publicationYear = publication.data.publicationDate ? publication.data.publ
       onError={`this.onerror=null;this.src='${getPath("/images/placeholder-publication.png")}';`}
     />
     <div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300"></div>
+    
+    {isFuture && (
+        <div 
+          class="absolute top-2 left-2 bg-accent text-white text-[10px] uppercase font-bold px-2 py-1 rounded-sm shadow-md z-10 coming-soon-badge opacity-0 transition-opacity duration-300" 
+          data-date={publication.data.publicationDate?.toISOString()}
+        >
+            {t('publication.coming_soon')}
+        </div>
+    )}
+
     {publication.data.price && (
         <div class="absolute bottom-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded">
             {Number(publication.data.price).toFixed(2)} €
@@ -68,3 +81,38 @@ const publicationYear = publication.data.publicationDate ? publication.data.publ
     </div>
   </div>
 </a>
+
+<script>
+  // Handle "Coming Soon" badges visibility based on current date
+  function updateComingSoonBadges() {
+    const now = new Date();
+    document.querySelectorAll('.coming-soon-badge').forEach((badge) => {
+      const dateStr = (badge as HTMLElement).dataset.date;
+      if (dateStr) {
+        const pubDate = new Date(dateStr);
+        if (pubDate > now) {
+          badge.classList.remove('opacity-0');
+        } else {
+          badge.classList.add('hidden');
+        }
+      }
+    });
+  }
+
+  // Run on load and after any content updates (like filtering)
+  updateComingSoonBadges();
+  
+  // Re-run when filters might have changed visibility of items
+  // We use a MutationObserver to catch when items are shown/hidden by the search script
+  const observer = new MutationObserver(() => {
+    updateComingSoonBadges();
+  });
+
+  const publicationGrid = document.querySelector('.publications-grid');
+  if (publicationGrid) {
+    observer.observe(publicationGrid, { attributes: true, subtree: true, attributeFilter: ['class', 'style'] });
+  }
+
+  // Also listen for a custom event if the search script triggers one
+  document.addEventListener('filterUpdated', updateComingSoonBadges);
+</script>

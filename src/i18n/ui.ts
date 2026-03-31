@@ -68,6 +68,8 @@ export const ui = {
         'about.privacy_text1': 'Diese Website dient ausschließlich der Bereitstellung von Informationen. Wir verwenden keine Cookies, Analyse-Tools oder Social-Media-Plugins, die personenbezogene Daten nachverfolgen.',
         'about.privacy_text2': 'Bitte beachten Sie, dass diese Website auf Servern Dritter gehostet wird. Bei jedem Aufruf der Website erfasst der Host-Provider automatisch Verbindungsdaten (wie Ihre IP-Adresse und Ihren Browser-Typ), die vorübergehend in Server-Logfiles gespeichert werden. Dies ist technisch erforderlich, um Ihnen unsere Website sicher und zuverlässig anzuzeigen gemäß (Art. 6 Abs. 1 lit. f DSGVO).',
         'publication.machine_translation_hint': 'Diese Beschreibung wurde maschinell übersetzt. Sie ist möglicherweise nicht vollständig korrekt.',
+        'publication.coming_soon': 'Demnächst',
+        'publication.released_on': 'Erscheint am {date}',
     },
     en: {
         'nav.home': 'Home',
@@ -130,6 +132,8 @@ export const ui = {
         'about.privacy_text1': 'This website is solely for informational purposes. We do not use cookies, analytics tools, or social media plugins that track personal data.',
         'about.privacy_text2': 'Please note that this website is hosted on third-party servers. With every visit, the hosting provider automatically logs connection data (such as your IP address and browser type) in temporary server log files. This is technically necessary to display our website securely and reliably.',
         'publication.machine_translation_hint': 'This description has been machine-translated and may not be fully accurate.',
+        'publication.coming_soon': 'Coming Soon',
+        'publication.released_on': 'Released on {date}',
     },
     fr: {
         'nav.home': 'Accueil',
@@ -192,5 +196,7 @@ export const ui = {
         'about.privacy_text1': "Ce site web a uniquement un but informatif. Nous n'utilisons pas de cookies, d'outils d'analyse ou de plugins de réseaux sociaux qui suivent les données personnelles.",
         'about.privacy_text2': "Veuillez noter que ce site est hébergé sur des serveurs tiers. À chaque visite, le fournisseur d'hébergement enregistre automatiquement les données de connexion (telles que votre adresse IP et votre type de navigateur) dans des fichiers de journal de serveur temporaires. Ceci est techniquement nécessaire pour afficher notre site web de manière sécurisée et fiable.",
         'publication.machine_translation_hint': 'Cette description a été traduite automatiquement et peut ne pas être entièrement exacte.',
+        'publication.coming_soon': 'À paraître',
+        'publication.released_on': 'Paraîtra le {date}',
     },
 } as const;
