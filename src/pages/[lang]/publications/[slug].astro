@@ -120,8 +120,8 @@ const metaDescription = fullDescription.substring(0, 160) + (fullDescription.len
            <span>{publication.data.language.toUpperCase()}</span>
            {publication.data.publicationDate && <span>• {publication.data.publicationDate.getFullYear()}</span>}
            {isFuture && (
-             <span class="bg-accent text-white text-[10px] px-1.5 py-0.5 rounded-sm coming-soon-tag">
-               {t('publication.coming_soon').toUpperCase()}
+             <span class="bg-accent text-white text-xs px-2 py-0.5 rounded-sm coming-soon-tag font-bold uppercase">
+               {t('publication.coming_soon')}
              </span>
            )}
         </div>

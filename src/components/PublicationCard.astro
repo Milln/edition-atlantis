@@ -52,7 +52,7 @@ const isFuture = publication.data.publicationDate ? publication.data.publication
     
     {isFuture && (
         <div 
-          class="absolute top-2 left-2 bg-accent text-white text-[10px] uppercase font-bold px-2 py-1 rounded-sm shadow-md z-10 coming-soon-badge opacity-0 transition-opacity duration-300" 
+          class="absolute top-3 left-3 bg-accent text-white text-xs uppercase font-bold px-3 py-1.5 rounded-sm shadow-lg z-10 coming-soon-badge opacity-0 transition-opacity duration-300" 
           data-date={publication.data.publicationDate?.toISOString()}
         >
             {t('publication.coming_soon')}
