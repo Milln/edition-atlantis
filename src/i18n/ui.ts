@@ -77,6 +77,8 @@ export const ui = {
         'publication.page_count': 'Seitenanzahl',
         'publication.binding': 'Einband',
         'publication.buy_on_amazon': 'Bei Amazon kaufen',
+        'publication.request_info_subject': 'Informationsanfrage',
+        'publication.request_info_body': 'Ich möchte gerne Informationen zu folgender Publikation anfordern: {title}. Vielen Dank!',
     },
     en: {
         'nav.home': 'Home',
@@ -148,6 +150,8 @@ export const ui = {
         'publication.page_count': 'Page Count',
         'publication.binding': 'Binding',
         'publication.buy_on_amazon': 'Buy on Amazon',
+        'publication.request_info_subject': 'Request Info',
+        'publication.request_info_body': 'I would like to request information about the following publication: {title}. Thank you!',
     },
     fr: {
         'nav.home': 'Accueil',
@@ -219,5 +223,7 @@ export const ui = {
         'publication.page_count': 'Nombre de pages',
         'publication.binding': 'Reliure',
         'publication.buy_on_amazon': 'Acheter sur Amazon',
+        'publication.request_info_subject': 'Demande d\'informations',
+        'publication.request_info_body': 'Je souhaiterais obtenir des informations sur la publication suivante : {title}. Merci !',
     },
 } as const;

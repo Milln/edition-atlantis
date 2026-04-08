@@ -10,7 +10,7 @@ isbn13: '9783932711244'
 pageCount: 141
 binding: null
 price: 19
-amazonLink: 'https://www.amazon.fr/dp/3932711246'
+amazonLink: null
 cover: /images/publications/a-mon-fils-a-mon-algerie.jpg
 back: /images/publications/a-mon-fils-a-mon-algerie_back.jpg
 description:

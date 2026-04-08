@@ -12,7 +12,7 @@ isbn13: '9783932711787'
 pageCount: null
 binding: null
 price: 20
-amazonLink: 'https://www.amazon.fr/dp/3932711785'
+amazonLink: 'https://www.amazon.de/dp/3932711785'
 cover: /images/publications/mythos-legion-etrangere-mai-avere-paura-erinnerung.jpg
 back: >-
   /images/publications/mythos-legion-etrangere-mai-avere-paura-erinnerung_back.jpg

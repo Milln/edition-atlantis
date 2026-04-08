@@ -12,7 +12,7 @@ isbn13: '9783932711503'
 pageCount: 282
 binding: null
 price: 25.9
-amazonLink: 'https://www.amazon.fr/dp/3932711505'
+amazonLink: 'https://www.amazon.de/dp/3932711505'
 cover: /images/publications/asche-und-glut-erinnerungen-resistance-und-kz-buch.jpg
 back: >-
   /images/publications/asche-und-glut-erinnerungen-resistance-und-kz-buch_back.jpg

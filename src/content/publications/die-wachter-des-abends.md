@@ -10,7 +10,7 @@ isbn13: '9783932711510'
 pageCount: 184
 binding: null
 price: 16
-amazonLink: 'https://www.amazon.fr/dp/3932711513'
+amazonLink: 'https://www.amazon.de/dp/3932711513'
 cover: /images/publications/die-wachter-des-abends.jpg
 back: /images/publications/die-wachter-des-abends_back.jpg
 description:

@@ -10,7 +10,7 @@ isbn13: '9783932711534'
 pageCount: 396
 binding: null
 price: 25.15
-amazonLink: 'https://www.amazon.fr/dp/393271153X'
+amazonLink: 'https://www.amazon.de/dp/393271153X'
 cover: /images/publications/la-france-et-la-tierce-allemagne-a-lexemple-de-la-.jpg
 back: null
 description:

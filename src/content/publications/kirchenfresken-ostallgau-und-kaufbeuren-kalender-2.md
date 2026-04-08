@@ -12,7 +12,7 @@ isbn13: '9783932711664'
 pageCount: null
 binding: null
 price: 19
-amazonLink: 'https://www.amazon.fr/dp/3932711661'
+amazonLink: 'https://www.amazon.de/dp/3932711661'
 cover: /images/publications/kirchenfresken-ostallgau-und-kaufbeuren-kalender-2.jpg
 back: null
 description:

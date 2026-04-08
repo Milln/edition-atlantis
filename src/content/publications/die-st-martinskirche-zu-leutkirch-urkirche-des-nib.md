@@ -10,7 +10,7 @@ isbn13: '9783932711619'
 pageCount: null
 binding: null
 price: 17
-amazonLink: 'https://www.amazon.fr/dp/3932711610'
+amazonLink: 'https://www.amazon.de/dp/3932711610'
 cover: /images/publications/die-st-martinskirche-zu-leutkirch-urkirche-des-nib.jpg
 back: >-
   /images/publications/die-st-martinskirche-zu-leutkirch-urkirche-des-nib_back.jpg

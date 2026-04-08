@@ -11,7 +11,7 @@ isbn13: '9783932711718'
 pageCount: 120
 binding: null
 price: null
-amazonLink: 'https://www.amazon.fr/dp/3932711718'
+amazonLink: 'https://www.amazon.de/dp/3932711718'
 cover: /images/publications/lhote-albert-camus-novelle-jacques-ferrandez.jpg
 back: /images/publications/lhote-albert-camus-novelle-jacques-ferrandez_back.jpg
 description:

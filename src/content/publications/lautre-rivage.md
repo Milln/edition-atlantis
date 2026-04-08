@@ -10,7 +10,7 @@ isbn13: '9783932711237'
 pageCount: 106
 binding: null
 price: 15
-amazonLink: 'https://www.amazon.fr/dp/3932711238'
+amazonLink: 'https://www.amazon.de/dp/3932711238'
 cover: /images/publications/lautre-rivage.jpg
 back: null
 description:

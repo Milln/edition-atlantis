@@ -10,7 +10,7 @@ isbn13: '9783932711626'
 pageCount: null
 binding: null
 price: 34.9
-amazonLink: 'https://www.amazon.fr/dp/3932711629'
+amazonLink: 'https://www.amazon.de/dp/3932711629'
 cover: /images/publications/153-sakrale-kunstwerke-im-detail-ostallgau-und-kau.jpg
 back: >-
   /images/publications/153-sakrale-kunstwerke-im-detail-ostallgau-und-kau_back.jpg

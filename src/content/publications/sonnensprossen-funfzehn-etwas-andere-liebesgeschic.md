@@ -10,7 +10,7 @@ isbn13: '9783932711527'
 pageCount: null
 binding: null
 price: 22
-amazonLink: 'https://www.amazon.fr/dp/3932711521'
+amazonLink: 'https://www.amazon.de/dp/3932711521'
 cover: /images/publications/sonnensprossen-funfzehn-etwas-andere-liebesgeschic.jpg
 back: >-
   /images/publications/sonnensprossen-funfzehn-etwas-andere-liebesgeschic_back.jpg

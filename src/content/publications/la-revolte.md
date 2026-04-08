@@ -5,12 +5,12 @@ coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '1999-01-01'
-isbn10: null
+isbn10: '3932711106'
 isbn13: '9783932711106'
 pageCount: 348
 binding: null
 price: 20
-amazonLink: 'https://www.amazon.fr/dp/9783932711106'
+amazonLink: 'https://www.amazon.de/dp/3932711106'
 cover: /images/publications/la-revolte.jpg
 back: null
 description:

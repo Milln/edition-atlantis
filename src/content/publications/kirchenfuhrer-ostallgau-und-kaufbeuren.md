@@ -10,7 +10,7 @@ isbn13: '9783932711558'
 pageCount: null
 binding: null
 price: 34.9
-amazonLink: 'https://www.amazon.fr/dp/9783932711558'
+amazonLink: 'https://www.amazon.de/dp/3932711556'
 cover: /images/publications/kirchenfuhrer-ostallgau-und-kaufbeuren.jpg
 back: /images/publications/kirchenfuhrer-ostallgau-und-kaufbeuren_back.jpg
 description:

@@ -10,7 +10,7 @@ isbn13: '9783932711589'
 pageCount: null
 binding: null
 price: 32.9
-amazonLink: 'https://www.amazon.fr/dp/3932711580'
+amazonLink: 'https://www.amazon.de/dp/3932711580'
 cover: /images/publications/die-fruhe-geschichte-der-stadt-fussen.jpg
 back: /images/publications/die-fruhe-geschichte-der-stadt-fussen_back.jpg
 description:
