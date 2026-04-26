@@ -77,10 +77,23 @@ jobs:
         with:
           path: ${{ env.BUILD_PATH }}/dist
 
-      - name: Build for Production (ZIP)
+      - name: Build for Production neu.editionatlantis.de (ZIP)
         run: |
           ${{ steps.detect-package-manager.outputs.runner }} astro build \
             --site "https://neu.editionatlantis.de" \
+            --base "/" \
+            --outDir dist-prod-neu
+        working-directory: ${{ env.BUILD_PATH }}
+      - name: Upload Production artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-production-zip-neu
+          path: ${{ env.BUILD_PATH }}/dist-prod-neu
+
+      - name: Build for Production editionatlantis.de (ZIP)
+        run: |
+          ${{ steps.detect-package-manager.outputs.runner }} astro build \
+            --site "https://editionatlantis.de" \
             --base "/" \
             --outDir dist-prod
         working-directory: ${{ env.BUILD_PATH }}
