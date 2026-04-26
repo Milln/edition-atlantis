@@ -16,40 +16,21 @@ back: null
 description:
   de:
     text: >-
-      Der stille Kampf der Tochter eines Harki
+      **Der stille Kampf einer Harki-Tochter**
 
 
-      In diesem autobiografischen Bericht von Hafida Chabi, einem ehemaligen
-      Sektionsmitglied des CESE (Wirtschafts-, Sozial- und Umweltrat), verfolgt
-      der Leser den Blick einer Harki-Tochter, die im Alter von fünf Jahren
-      entwurzelt und mit ihrer gesamten Familie in ein unbekanntes Land
-      geschickt wurde: das französische Mutterland.
+      In dieser autobiografischen Erzählung von Hafida Chabi, einem ehemaligen Sektionsmitglied des CESE (Wirtschafts-, Sozial- und Umweltrat), kann der Leser den Werdegang einer Harki-Tochter aus deren Perspektive mitverfolgen. Sie wurde im Alter von fünf Jahren am Ende des Algerienkriegs entwurzelt und mit ihrer gesamten Familie nach Frankreich, in ein ihr völlig unbekanntes Land, geschickt, um den Massakern der algerischen Befreiungsfront zu entgehen.
 
 
-      Ich habe alle Bruchstücke meiner Erinnerungen gesammelt, um mein eigenes
-      Leben und das meiner Eltern wie bei einem Puzzle wieder zusammenzusetzen:
+      "Ich habe alle Bruchstücke meiner Erinnerungen zusammengesucht, um mein eigenes Leben und das meiner Eltern wie bei einem Puzzle wieder zusammenzusetzen:
+      Youcef, mein Vater, hat sich als Harki in der französischen Armee verpflichtet.
+      Dabhia, meine Mutter, hat sich ihr ganzes Leben lang aufopferungsvoll um ihren Mann und ihre dreizehn Kinder gekümmert.
 
 
-      Youcef, mein Vater, der sich als Harki in der französischen Armee
-      verpflichtete.
+      Ich habe dieses Buch geschrieben, um Spuren zu hinterlassen, damit all diese Leiden niemals verschwinden. Dennoch war der Kampf, den ich mein ganzes Leben lang führen musste, niemals gewalttätig. Er spiegelt denjenigen meiner Eltern wider. Er war bescheiden, demütig und maßvoll: ein stiller Kampf.
 
 
-      Dabhia, meine Mutter, die sich ihr ganzes Leben lang um ihren Mann und
-      ihre dreizehn Kinder kümmerte.
-
-
-      Ich habe dieses Buch geschrieben, um Spuren zu hinterlassen, damit all
-      diese Leiden niemals verschwinden. Dennoch war der Kampf, den ich mein
-      ganzes Leben lang führen musste, niemals gewalttätig. Er spiegelt den
-      meiner Eltern wider: demütig und maßvoll. Ein stiller Kampf.
-
-
-      Meine Eltern kamen völlig mittellos in Frankreich an. Zur materiellen Not
-      kam eine tiefe moralische Not hinzu, da sie das Fehlen der Anerkennung für
-      ihr Opfer für Frankreich nur schwer verkrafteten. Dennoch haben sie nicht
-      aufgehört, uns die Grundwerte der Republik zu vermitteln, weil sie sich
-      vor allem wünschten, dass ihre Kinder sich in die französische
-      Gesellschaft integrieren.
+      Meine Eltern kamen völlig mittellos nach Frankreich. Zur materiellen Not kam eine tiefe Verzweiflung, da sie es nur schwer verkrafteten, dass all ihre Opfer, die sie für Frankreich erbracht hatten, nicht gebührend gewürdigt wurden. Dennoch haben sie uns unbeirrt die Wertvorstellungen der französischen Republik vermittelt, weil sie sich vor allem wünschten, dass ihre Kinder sich in die französische Gesellschaft integrieren."
     original: false
   en:
     text: >-

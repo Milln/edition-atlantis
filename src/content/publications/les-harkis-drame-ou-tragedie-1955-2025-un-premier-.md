@@ -18,58 +18,29 @@ back: >-
 description:
   de:
     text: >-
-      Hafida Chabi und Wolf Albes präsentieren Les Harkis. Drame ou tragédie ?
+      **Wolf Albes und Hafida Chabi präsentieren Les Harkis. Drame ou tragédie ?**
+      
+
+      Hätten die Aufgabe Algeriens, der Exodus und das Massaker an den Harkis wie in einem Drama, bei dem das Ende ja immer ungewiss ist, vermieden werden können? Oder waren diese Vorgänge aufgrund der kolonialen Situation unvermeidlich – wie in einer antiken Tragödie, in der das Schicksal von Anfang an unabwendbar ist: alea jacta est?
+      
+      
+      **"Sind wir nicht doch Kriminelle?" Die französische Presse im Jahr 1962**
+      
+
+      Dieser erste Teil mit der Analyse der Zeitschriften "Libération", "L'Express", "France Observateur" und "Les Temps modernes" einerseits sowie "Le Monde", "Le Figaro", "Paris Match", "L'Aurore" und "Combat", aber auch "La Nation française" und "L'Esprit public" andererseits, ist voller Überraschungen.
+      Wie hat die zeitgenössische französische Presse ihre Leser über die Harkis informiert? Hat sie sich für sie eingesetzt? Oder hat sie alles, was sie betraf, verschwiegen und unter den Teppich gekehrt – obwohl die Journalisten genau wussten, was geschah? Waren sie also für das furchtbare Schicksal der Harkis mitverantwortlich? War dies etwa ein Fall von unterlassener Hilfeleistung?
+      Oder, um den Nobelpreisträger von 1988 Maurice Allais zu zitieren, der sich in "Combat" leidenschaftlich für die Harkis engagierte: "Sind wir nicht doch Kriminelle?"
+      
+      
+      **Etwa einhundert Rezensionen und kritische Analysen**
 
 
-      Maurice Allais: "Serions-nous des criminels ?"
+      Im zweiten Teil findet der Leser knapp einhundert Rezensionen zu Publikationen, seien es Erzählungen, Romane, Augenzeugenberichte, historische und politische Analysen oder auch Analysen zu Comics, Filmen und Theaterstücken, die das Thema "Harkis" behandeln. Diese erste Bilanz in diesem Bereich erhebt natürlich keinen Anspruch auf Vollständigkeit.
 
 
-      Hätten das Verlassen, der Exodus und das Massaker an den Harkis wie in
-      einem Drama vermieden werden können, bei dem das Ende immer ungewiss ist?
-      Oder waren sie aufgrund der kolonialen Situation unvermeidlich, wie in
-      einer antiken Tragödie, in der das Schicksal von Anfang an unabwendbar
-      ist: alea jacta est?
+      **Der "stille Kampf" geht weiter**
 
-
-      "Serions-nous des criminels ?" Die französische Presse im Jahr 1962
-
-
-      Dieser erste Teil mit der Analyse der Zeitschriften "Libération",
-      "L'Express", "France Observateur" und "Les Temps modernes" einerseits
-      sowie "Le Monde", "Le Figaro", "Paris Match", "L'Aurore" und "Combat",
-      aber auch "La Nation française" und "L'Esprit public" andererseits, ist
-      voller Überraschungen.
-
-
-      Wie hat die französische Presse ihre Leser über die Harkis informiert? Hat
-      sie sich für sie eingesetzt? Oder hat sie alles, was sie betraf,
-      verschwiegen – obwohl die Journalisten vollständig darüber informiert
-      waren, was geschah? Waren sie also auch für ihr Unglück verantwortlich,
-      ein Fall von unterlassener Hilfeleistung in Gefahr?
-
-
-      Oder, um Maurice Allais zu zitieren, Nobelpreisträger von 1988 und
-      leidenschaftlicher Verteidiger der Harkis in "Combat": "Serions-nous des
-      criminels ?"
-
-
-      Etwa einhundert Lesehinweise
-
-
-      Im zweiten Teil findet der Leser etwa einhundert Lesehinweise zu
-      Erzählungen, Romanen, Zeugenaussagen, Analysen, aber auch zu Comics,
-      Filmen und Theaterstücken, die eine erste Bilanz in diesem Bereich bilden,
-      die – natürlich – nicht erschöpfend sein kann.
-
-
-      Der "stille Kampf" geht weiter
-
-
-      Im letzten Teil versuchen Hafida Chabi und Wolf Albes in mehreren
-      Interviews, während sie das Zeugnis von "Un combat tranquille" (2022)
-      ergänzen, neue Horizonte zu öffnen, um die Geschichte der Harkis, wie sie
-      sich in den Lesehinweisen widerspiegelt, besser zu verstehen und zu
-      vermitteln.
+      Im letzten Teil versuchen Hafida Chabi und Wolf Albes in mehreren Interviews Hafida Chabis Werk "Un combat tranquille" ("Ein stiller Kampf", 2022) fortzuschreiben, es um zahlreiche Facetten zu ergänzen und neue Horizonte zu eröffnen und damit die Geschichte der Harkis, wie sie sich in den Rezensionen widerspiegelt, besser zu vermitteln.
     original: false
   en:
     text: >-

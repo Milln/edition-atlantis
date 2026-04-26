@@ -21,6 +21,7 @@ description:
 
       Der offiziellen algerischen Geschichtsschreibung zufolge wurde am 8. Mai 1945 eine Demonstration in Sétif, bei der friedlich die Unabhängigkeit Algeriens gefordert wurde, von den Ordnungskräften in Blut ertränkt. Dies habe einen Aufstand im Nord-Constantinois ausgelöst, bei dem angeblich 45.000 Muslime ums Leben kamen. Systematisch verschwiegen werden dabei jedoch sowohl die Gewaltakte der Aufständischen als auch die Rolle der Algerischen Volkspartei (P.P.A.) oder jene von Messali Hadj sowie die arabisch-islamistische Tendenz des Aufstands.
 
+
       **Eine akribische und objektive Richtigstellung**
 
       Auf der Grundlage seiner neuen Forschungsergebnisse dekonstruiert der in Sétif geborene Autor Roger Vétillard die Mythen, die um dieses Drama entstanden sind:
@@ -29,7 +30,7 @@ description:
       - Während Djerbal Daho die vom algerischen Regime behauptete Bilanz von 45.000 Toten als „Fabel“ bezeichnet, werfen andere Historiker Frankreich einen „Genozid“ vor.
       - Entgegen diesen inflationären Vorwürfen schätzt Roger Vétillard die Zahl der Opfer auf weniger als 2.000 in der Region Guelma und auf weniger als 3.000 in den anderen Regionen. Dort, wo es keine Massaker an Europäern gab, fand auch keine brutale Niederschlagung durch die französischen Ordnungskräfte statt.
       - Es gab 125 Todesopfer unter der europäischen Bevölkerung.
-      - Der Fall Guelma, wo die Miliz – die nach Bekanntwerden der Bluttaten von Sétif gegründet wurde – als standrechtliche Justiz auftrat, wird heute als Inbegriff der Niederschlagung dieses
+      - Der Fall Guelma, wo die Miliz – die nach Bekanntwerden der Bluttaten von Sétif gegründet wurde – als standrechtliche Justiz auftrat, wird heute als Inbegriff der Niederschlagung dieses Aufstands dargestellt, obwohl er nur die absolute Ausnahme bildete.
     original: false
   en:
     text: |-
