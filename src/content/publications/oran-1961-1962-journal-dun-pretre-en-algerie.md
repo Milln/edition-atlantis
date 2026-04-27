@@ -1,8 +1,7 @@
 ---
 title: Oran 1961-1962. Journal d’un prêtre en Algérie
-author: jean-brune
-coAuthors:
-  - michel-de-laparre
+author: michel-de-laparre
+coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '2013-01-01'

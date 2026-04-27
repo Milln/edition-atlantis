@@ -1,8 +1,7 @@
 ---
 title: 'Les maux pour le dire. Chroniques de Cicéron pour la défense du français. '
-author: jean-brune
-coAuthors:
-  - maurice-calmein
+author: maurice-calmein
+coAuthors: null
 language: fr
 category: Langue française
 publicationDate: '2012-01-01'

@@ -1,8 +1,7 @@
 ---
 title: Les oranges amères de Blida
-author: jean-brune
-coAuthors:
-  - henri-mazzarino
+author: henri-mazzarino
+coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '2011-01-01'

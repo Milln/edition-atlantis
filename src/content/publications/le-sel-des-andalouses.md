@@ -1,8 +1,7 @@
 ---
 title: Le sel des Andalouses
-author: jean-brune
-coAuthors:
-  - maurice-calmein
+author: maurice-calmein
+coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '2009-01-01'

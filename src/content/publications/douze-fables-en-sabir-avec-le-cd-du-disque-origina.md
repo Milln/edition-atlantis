@@ -1,8 +1,7 @@
 ---
 title: Douze fables en sabir. Avec le CD du disque original
-author: jean-brune
-coAuthors:
-  - charles-gallea
+author: charles-gallea
+coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '2014-01-01'

@@ -1,8 +1,7 @@
 ---
 title: 'Jean Brune, Français d''Algérie. Biographie'
-author: jean-brune
-coAuthors:
-  - francine-dessaigne
+author: francine-dessaigne
+coAuthors: null
 language: fr
 category: null
 publicationDate: '1998-01-01'

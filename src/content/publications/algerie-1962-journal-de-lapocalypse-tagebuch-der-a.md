@@ -2,9 +2,8 @@
 title: >-
   Algérie 1962. Journal de l'Apocalypse / Tagebuch der Apokalypse. Préface de
   Boualem Sansal / Vorwort von Boualem Sansal
-author: jean-brune
-coAuthors:
-  - nicole-guiraud
+author: nicole-guiraud
+coAuthors: null
 language: fr
 category: null
 publicationDate: '2013-01-01'

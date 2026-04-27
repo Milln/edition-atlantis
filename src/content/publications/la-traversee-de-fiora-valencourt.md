@@ -1,8 +1,7 @@
 ---
 title: La Traversée de Fiora Valencourt
-author: jean-brune
-coAuthors:
-  - janine-montupet
+author: janine-montupet
+coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '2011-01-01'
