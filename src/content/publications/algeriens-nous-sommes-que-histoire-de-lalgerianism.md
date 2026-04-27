@@ -1,8 +1,7 @@
 ---
 title: Algériens nous sommes... qué! Histoire de l'Algérianisme
-author: jean-brune
-coAuthors:
-  - maurice-calmein
+author: maurice-calmein
+coAuthors: null
 language: fr
 category: null
 publicationDate: '2011-01-01'

@@ -1,8 +1,7 @@
 ---
 title: Les enfants de la Licorne
-author: jean-brune
-coAuthors:
-  - maia-alonso
+author: maia-alonso
+coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '2015-01-01'

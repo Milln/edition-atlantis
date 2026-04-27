@@ -1,8 +1,7 @@
 ---
 title: Les Français d'Algérie. De 1962 à  2014
-author: jean-brune
-coAuthors:
-  - maurice-calmein
+author: maurice-calmein
+coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '2014-01-01'

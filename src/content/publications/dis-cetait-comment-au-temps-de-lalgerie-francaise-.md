@@ -3,7 +3,7 @@ title: >-
   Dis, c'était comment, au temps de l'Algérie française ? 20 questions et
   réponses à  l'intention des jeunes Pieds-Noirs. Avec des illustrations de Jean
   Brune
-author: jean-brune
+author: maurice-calmein
 coAuthors: null
 language: fr
 category: null

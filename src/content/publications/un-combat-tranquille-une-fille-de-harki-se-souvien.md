@@ -12,7 +12,7 @@ binding: null
 price: 16
 amazonLink: 'https://www.amazon.fr/dp/3932711793'
 cover: /images/publications/un-combat-tranquille-une-fille-de-harki-se-souvien.jpg
-back: null
+back: /images/publications/un-combat-tranquille-une-fille-de-harki-se-souvien_back.jpg
 description:
   de:
     text: >-

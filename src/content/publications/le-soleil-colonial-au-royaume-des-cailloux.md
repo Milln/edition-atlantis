@@ -1,8 +1,7 @@
 ---
 title: Le soleil colonial. Au Royaume des cailloux
-author: jean-brune
-coAuthors:
-  - maia-alonso
+author: maia-alonso
+coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '2014-01-01'

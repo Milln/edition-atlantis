@@ -1,8 +1,7 @@
 ---
 title: Exode
-author: jean-brune
-coAuthors:
-  - maurice-calmein
+author: maurice-calmein
+coAuthors: null
 language: fr
 category: Other
 publicationDate: 2012-01-01T00:00:00.000Z

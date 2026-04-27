@@ -1,8 +1,7 @@
 ---
 title: Francaoui
-author: jean-brune
-coAuthors:
-  - jerome-tanon
+author: jerome-tanon
+coAuthors: null
 language: fr
 category: Collection France-Algérie
 publicationDate: '2015-01-01'

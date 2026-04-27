@@ -1,7 +1,6 @@
 ---
 title: >-
-  L'Hôte. La nouvelle d’Albert Camus et la bande dessinée de Jacques Ferrandez
-  dans le contexte colonial
+  L'Hôte. La nouvelle d’Albert Camus et la bande dessinée de Jacques Ferrandez dans le contexte colonial
 author: wolf-albes
 coAuthors: null
 language: fr
@@ -9,7 +8,7 @@ category: null
 publicationDate: '2013-01-01'
 isbn10: 393271170X
 isbn13: '9783932711701'
-pageCount: 100
+pageCount: 198
 binding: null
 price: null
 amazonLink: 'https://www.amazon.fr/dp/393271170X'
@@ -19,13 +18,6 @@ back: >-
 description:
   de:
     text: >-
-      Kostenloser Versand:
-
-
-      Bei Bestellung auf Rechnung über contact@editionatlantis.de ist der
-      Versand kostenlos.
-
-
       Vorwort von Hubert Ripoll.
 
 
